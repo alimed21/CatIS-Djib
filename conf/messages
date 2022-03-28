@@ -1,0 +1,847 @@
+application.name = CatIS
+home.title = Home
+home.header = The catalogue of interoperable solutions
+
+home.stat.institutions = Institutions
+home.stat.systems = Systems
+home.stat.services = Services
+home.stat.publicservices = Public Services
+home.stat.assets = Assets
+home.intro.p1 = The catalogue of interoperability solutions (CatIS) provides trustworthy assistance and tool for the developers, administrators and users of the state information systems. It can be used to manage an organization's IT assets also.
+home.intro.p2 = CatIS is supplementary instrument for coordination of state information systems, the support systems for the dvelopment of information systems and services, the tool for maintenance intereoperability assets.
+home.footer.html = <small>Catalogue of interoperable solutions<br/>Contact: <a href="http://ega.ee">http://ega.ee</a> e-mail: <a href="mailto:info@ega.ee">info@ega.ee</a></small>
+
+history.created = Created by {0} at {1}
+history.modified = Modified by {0} at {1}
+
+language = Language
+languages = Languages
+languages.default = Default (all languages)
+languages.show = Show {0}
+
+boolean.true = Yes
+boolean.false = No
+
+navbar.profile = Profile
+navbar.institutions = Institutions
+navbar.systems = Systems
+navbar.services = Services
+navbar.publicservices = Public Services
+navbar.assets = Assets
+navbar.admin = Administration
+navbar.admin.forms = Forms
+navbar.admin.views = Views
+navbar.admin.users = Users
+navbar.admin.registrations = Registration requests
+navbar.admin.roles = User Roles
+navbar.admin.workflows = Workflow Definitions
+navbar.admin.processes = Workflow Processes
+navbar.admin.emailtemplates = Email Templates
+navbar.admin.accesslog = Access Log
+navbar.admin.classifiers = Classifiers
+
+classifiers.list.title = Classifiers
+classifier.add = Add a new classifier
+classifier.create = Save
+classifier.edit = Edit
+classifier.delete = Delete
+classifier.delete.confirm = Really delete this classifier?
+classifier.update = Update
+classifier.new = New classifier
+classifier.properties = Classifier properties
+classifier.name = Name
+classifier.comment = Comment
+classifier.active = Active
+classifier.key = Lookup key
+classifier.categories = Categories
+
+classifier.categories.expandall = Expand All
+classifier.categories.collapseall = Collapse All
+classifier.categories.untitled = New category
+classifier.categories.add = Add Category
+
+classifier.header.view = {0}
+classifier.header.active = (active)
+
+forms.fieldgroup.add = Add a new field group
+forms.fieldgroup.remove = Remove this field group
+
+views.filters.filter = Filter
+views.filters.byname = Filter by name...
+views.search = Search
+views.buttons.search = Search
+views.search.empty = No results for query "{0}"
+
+views.header.name = Name
+views.header.title = Title
+views.header.type = Type
+views.header.ident = Identifier
+views.header.status = Status
+views.header.active = Active
+views.header.startedat = Started
+views.header.completedat = Completed
+views.header.target = Related object
+views.header.stepactors = Next role(s)
+views.header.stepdue = Next due
+views.header.comment = Comment
+views.header.responsible = Responsible
+views.header.email = Email
+views.header.phone = Phone
+views.header.roles = Roles
+views.header.institution = Institution
+views.header.system = Information System
+views.empty = Nothing to display
+
+views.pager.previous = Previous
+views.pager.next = Next
+views.pager.total = Displaying {0} to {1} of {2}
+
+views.sidenav.showall = All
+views.topfilter.showall = All
+
+status.submitted = Submitted
+status.accepted = Accepted
+status.rejected = Rejected
+
+formbuilder.form.properties = Form properties
+formbuilder.form.fixedfields = Fixed fields
+formbuilder.section.header = Section
+formbuilder.section.id = Section id
+formbuilder.section.id.placeholder = Section id / name
+formbuilder.section.title = Section title
+formbuilder.section.title.placeholder = Section title / label
+formbuilder.section.info = Help / info
+formbuilder.section.info.placeholder = Section help / info
+
+formbuilder.section.add = Add a new section
+formbuilder.section.insert = Insert new section
+formbuilder.section.remove = Remove this section
+formbuilder.section.up = Move section up
+formbuilder.section.down = Move section down
+
+formbuilder.fieldgroup.header = Field group
+formbuilder.fieldgroup.id = Fieldgroup id
+formbuilder.fieldgroup.id.placeholder = Fieldgroup id / name
+formbuilder.fieldgroup.title = Fieldgroup title
+formbuilder.fieldgroup.title.placeholder = Fieldgroup title / label
+formbuilder.fieldgroup.repeat = Repeat limit
+formbuilder.fieldgroup.repeat.placeholder = Repeat limit
+formbuilder.fieldgroup.layout = Layout
+formbuilder.fieldgroup.info = Help / info
+formbuilder.fieldgroup.info.placeholder = Fieldgroup help / info
+formbuilder.fieldgroup.access.read = Read
+formbuilder.fieldgroup.access.edit = Edit
+formbuilder.fieldgroup.layout.horizontal = Horizontal
+formbuilder.fieldgroup.layout.vertical = Vertical
+formbuilder.fieldgroup.layout.inline = Inline
+formbuilder.fieldgroup.add = Add a new fieldgroup
+formbuilder.fieldgroup.insert = Insert new fieldgroup
+formbuilder.fieldgroup.remove = Remove this fieldgroup
+formbuilder.fieldgroup.up = Move fieldgroup up
+formbuilder.fieldgroup.down = Move fieldgroup down
+
+formbuilder.fields.header = Fields
+formbuilder.field.id = Field id
+formbuilder.field.id.placeholder = Field id / name
+formbuilder.field.title = Field title
+formbuilder.field.title.placeholder = Field title / label
+formbuilder.field.info = Help / info
+formbuilder.field.info.placeholder = Field help / info
+formbuilder.field.type = Type
+formbuilder.field.options = Options
+formbuilder.field.required = Required
+formbuilder.field.access.read = Read
+formbuilder.field.access.edit = Edit
+
+formbuilder.field.choices.type = Choices type
+formbuilder.field.choices.type.entervalues = Enter values (one per line)
+formbuilder.field.choices.type.classifier = Classifier (classifier key)
+formbuilder.field.choices = Choices
+formbuilder.field.choices.placeholder = Field choices
+
+formbuilder.field.default = Default value
+formbuilder.field.default.placeholder =
+
+formbuilder.field.add = Add a new field
+formbuilder.field.insert = Insert new field
+formbuilder.field.remove = Remove this field
+formbuilder.field.up = Move field up
+formbuilder.field.down = Move field down
+
+field.type.text = Text
+field.type.number = Number
+field.type.date = Date
+field.type.time = Time
+field.type.datetime = Date and Time
+field.type.email = E-Mail
+field.type.url = URL
+field.type.textarea = Textarea
+field.type.markdown = Markdown
+field.type.boolean = Boolean
+field.type.checkbox = Checkbox
+field.type.select = Select one
+field.type.selects = Select multiple
+field.type.file = File
+field.type.asset = Asset
+field.type.service = Service
+field.type.publicservice = Public Service
+field.type.system = System
+field.type.institution = Institution
+
+view.header.view = View definition
+view.header.edit = Edit view definition
+view.list.title = Views
+view.new = New View
+view.edit = Edit View
+view.institutions.index = Institutions Index
+view.institution.subordinates = Institution - Subordinates
+view.institution.systems = Institution - Systems
+view.institution.assets = Institution - Assets
+view.institution.publicservices = Institution - Public Services
+view.systems.index = Systems Index
+view.system.services = System - Services
+view.system.subsystems = System - Subsystems
+view.system.joinedystems = System - Joined Systems
+view.services.index = Services Index
+view.publicservices.index = Public Services Index
+view.assets.index = Assets Index
+view.registrations.index = Registrations Index
+
+viewbuilder.header.view = {0}
+viewbuilder.header.active = (active)
+viewbuilder.view.properties = View properties
+viewbuilder.view.add = Add a new view
+viewbuilder.view.edit = Edit View
+viewbuilder.view.create = Create this view
+viewbuilder.view.created = View definition has been created
+viewbuilder.view.update = Update
+viewbuilder.view.updated = View definition has been updated
+viewbuilder.view.delete = Delete this view
+viewbuilder.view.delete.confirm = Really delete this view?
+viewbuilder.view.deleted = View definition has been deleted
+viewbuilder.view.type = View Type
+viewbuilder.view.key = Link key
+viewbuilder.view.presentation = Presentation
+viewbuilder.view.presentation.table = Table
+viewbuilder.view.presentation.summary = Summary
+viewbuilder.view.title = View Title
+viewbuilder.view.comment = Comment
+viewbuilder.view.info = View Info
+viewbuilder.columns = Columns
+viewbuilder.categorycolumns = Category columns
+viewbuilder.sidenavcolumns = Side navigation
+viewbuilder.topfiltercolumns = Top filter
+viewbuilder.column.source = Source Field
+viewbuilder.column.title = Column Title
+viewbuilder.column.title.placeholder = Column Title / Name
+viewbuilder.column.link = Link
+viewbuilder.column.add = Add a new column
+viewbuilder.column.insert = Insert new column
+viewbuilder.column.up = Move column up (left)
+viewbuilder.column.down = Move column down (right)
+viewbuilder.column.remove = Remove column
+
+form.title = Form definition
+form.header.view = Form definition
+form.header.active = (active)
+form.list.title = Forms
+form.new = New form
+form.edit = Edit form
+form.save = Save form definition
+form.updated = Form updated
+form.create = Create this form
+form.created = Form created
+form.delete = Delete this form
+form.delete.confirm = Are you sure you want to delete this form?
+form.deleted = Form deleted
+
+form.add = Add a new form
+form.search = Search form
+form.type = Form type
+form.active = Active
+form.info = Form info (help, description, etc)
+form.comment = Comment (internal)
+form.type.institution = Institution
+form.type.system = System
+form.type.service = Service
+form.type.publicservice = Public Service
+form.type.asset = Asset
+form.type.registration = Registration request
+
+form.access.read.everyone = Everyone
+form.access.read.authenticated = Authenticated
+form.access.read.organization = Same Organization
+form.access.read.owner = Owner
+form.access.read.admin = Admin Only
+form.access.edit.owner = Owner
+form.access.edit.admin = Admin Only
+form.access.edit.everyone = Everyone
+
+registration.search = Search requests
+registration.add = Register a new institution
+registration.edit = Edit registration request
+registration.header.new = Register new institution
+registration.header.edit = Edit registration request
+registration.header.status = Status
+registration.title = Registration request for "{0}"
+registration.create = Submit this registration request
+registration.resolution = Resolution
+registration.accept = Accept and create new institution
+registration.reject = Deny request
+registration.reject.confirm = Sure you want to deny this registration request?
+registration.save = Save registration request
+registration.delete = Delete request
+registration.flash.created = Registration request has been created
+registration.flash.created.process.started = Registration request has been created and process "{1}" has been started
+registration.flash.updated = The registration request has been updated
+registration.flash.deleted = The registration request has been deleted
+
+registration.name = Institution name
+registration.name.info = Official name of the institution to be registered
+registration.ident = Reg. code
+registration.ident.info = Registration code of the institution
+registration.email = Contact e-mail
+registration.email.info = Contact e-mail address for registration notifications
+
+registration.submitted = Thank you, the request to register a new institution "{0}" has been sent to the application managers. You will get an e-mail at the address "{1}" when they have made their decision.
+registration.new.subject = New registration request for {0}
+registration.new.body = A new registration request has been created for institution {0}
+registration.submitted.subject = Registration request for {0}
+registration.submitted.body = Registration request has been submitted for institution {0}. You will be notified when the request is accepted.
+registration.processes = Workflows
+
+registration.registered.subject = CatIS: {0} has been registered
+registration.registered.body = Your request to register {0} in CatIS has been accepted and the institution has been registered.
+
+registration.rejected.subject = Request rejected
+registration.rejected.body = Sorry, your request to register {0} in CatIS has been rejected.
+
+registrations.index.title = Registration requests
+registrations.index.empty = There are no registration requests
+
+institution = Institution
+institution.name = Name
+institution.name.info = Institution name
+institution.ident = Identifier
+institution.ident.info = Institution registration code or short name
+institution.parentinstitution = Parent Institution
+institution.parentinstitution.info = If this institution is a subordinate of another institution, indicate the parent institution
+institution.title = Institution - {0}
+institution.header.edit = Edit institution
+institution.header.new = Create new institution
+
+institution.add = Add a new institution
+institution.edit = Edit institution
+institution.save = Save institution
+institution.create = Create this institution
+institution.delete = Delete this institution
+institution.delete.confirm = Sure you want to delete this institution?
+institution.subordinates = Subordinates
+institution.subordinates.empty = No subordinates were found
+institution.subordinates.search = Search subordinates
+institution.systems = Systems
+institution.systems.empty = No systems were found
+institution.systems.search = Search systems
+institution.assets = Assets
+institution.assets.empty = No assets were found
+institution.assets.search = Search assets
+institution.publicservices = Public Services
+institution.publicservices.search = Search public services
+institution.publicservices.empty = No public services were found
+institution.users = User Accounts
+institution.users.empty = No registered users were found
+institution.users.manage = Manage users
+institution.users.add = Add users
+institution.users.add.new = Create a new user
+institution.users.add.existing = Add an existing user
+institution.users.update = Add users
+institution.users.updated = Users added
+institution.users.remove = Remove users
+institution.users.remove.update = Remove selected users
+institution.users.removed = Users removed
+institution.owner = Institution Admin
+institution.owners.edit = Edit owner access
+institution.owners.update = Save changes
+institution.owners.updated = Institution owners have been updated
+institution.processes = Workflows
+institution.flash.created = Institution {0} has been created
+institution.flash.created.process.started = Institution "{0}" has been created and process "{1}" has been started
+institution.flash.updated = Institution {0} has been updated
+institution.flash.deleted = The institution has been deleted
+
+institutions.index.title = Institutions
+institutions.index.search = Search institutions
+institutions.index.empty = No institutions were found
+
+parentinstitution.users.empty = The parent institution has no registered users
+
+system.name = Name
+system.name.info = Information System name
+system.ident = Identifier
+system.ident.info = Information System identifier code or short name
+system.stdsys = Standard solution
+system.stdsys.info = Is this informatio system a standard solution
+system.isstdsys = Is standard solution
+system.parentinstitution = Institution
+system.parentsystem = Parent System
+system.parentsolution = Uses Standard Solution
+system.title = Information System - {0}
+system.header.edit = Edit information system
+system.header.new = Create new information system
+system.add = Add a system
+system.add.new = Create a new system
+system.add.join = Join a standard solution
+system.edit = Edit Information System
+system.save = Save
+system.create = Create this InfoSystem
+system.delete = Delete InfoSystem
+system.delete.confirm = Sure you want to delete this information system?
+system.services = Information Services
+system.services.empty = No registered services were found
+system.services.search = Search services
+system.owners = Owners
+system.owners.edit = Edit owner access
+system.owners.update = Save changes
+system.owners.updated = Information system owners have been updated
+system.owners.empty = Information system has no owners
+system.processes = Workflows
+system.role.owner = InfoSystem Admin
+system.flash.created = Information system {0} has been created
+system.flash.created.process.started = Information system "{0}" has been created and process "{1}" has been started
+system.flash.updated = Information system {0} has been updated
+system.flash.deleted = The information system has been deleted
+
+system.subsystems = Subsystems
+system.subsystems.search = Search subsystems
+system.subsystems.empty = No registered subsystems were found
+
+systems.index.title = Information Systems
+systems.index.search = Search systems
+systems.index.empty = No registered information systems were found
+
+system.joined = Joined systems
+system.joinedsystems.empty = No joined systems were found
+system.joining.header.new = New information system
+
+subsystem.title = Information Subsystem - {0}
+subsystem.header.edit = Edit subsystem
+subsystem.header.new = Create new subsystem
+subsystem.add = Add a new subsystem
+
+solutions.list.title = Standard Solutions
+solutions.list.info = Choose a Solution
+
+service.name = Name
+service.name.info = Service name
+service.ident = Identifier
+service.ident.info = Service identifier code or short name
+service.parentinstitution = Institution
+service.parentsystem = Parent System
+service.title = Service - {0}
+service.header.edit = Edit Service
+service.header.new = Create new Service
+service.add = Add a service
+service.add.new = Create a new service
+service.edit = Edit Service
+service.save = Save Service
+service.create = Create this Service
+service.delete = Delete Service
+service.delete.confirm = Sure you want to delete this service?
+service.owners = Owners
+service.owners.edit = Edit owner access
+service.owners.update = Save changes
+service.owners.updated = Information system owners have been updated
+service.owners.empty = Information Service has no owners
+service.processes = Workflows
+service.role.owner = Service Admin
+service.flash.created = Service {0} has been created
+service.flash.created.process.started = Service "{0}" has been created and process "{1}" has been started
+service.flash.updated = Service {0} has been updated
+service.flash.deleted = The service has been deleted
+
+service.xroad.wsdl.download.label = Service WSDL
+service.xroad.wsdl.download.error = An error occured downloading service WSDL from X-Road server
+
+services.index.title = Services
+services.index.search = Search services
+services.index.empty = No services were found
+
+xroad.services.list.error = An error occured getting service list from X-Road server
+
+publicservice.name = Service Name
+publicservice.name.info =
+publicservice.ident = Service Identifier
+publicservice.ident.info =
+publicservice.parentinstitution = Belongs to Institution
+publicservice.title = Public Service - {0}
+publicservice.header.edit = Edit Service
+publicservice.header.new = New Public Service
+publicservice.add = Add a new Public Service
+publicservice.edit = Edit Service
+publicservice.save = Save Service
+publicservice.create = Create this Public Service
+publicservice.delete = Delete Service
+publicservice.delete.confirm = Sure you want to delete this service?
+publicservice.owners = Owners
+publicservice.owners.edit = Edit owner access
+publicservice.owners.update = Save changes
+publicservice.owners.updated = The Public Service owners have been updated
+publicservice.owners.empty = This Public Service has no owners
+publicservice.processes = Workflows
+publicservice.role.owner = Public Service Owner
+publicservice.flash.created = Public Service {0} has been created
+publicservice.flash.created.process.started = Public Service "{0}" has been created and process "{1}" has been started
+publicservice.flash.updated = Service {0} has been updated
+publicservice.flash.deleted = Public Service has been deleted
+
+publicservices.index.title = Public Services
+publicservices.index.search = Search public services
+publicservices.index.empty = No public services were found
+
+asset.name = Name
+asset.name.info = Asset name
+asset.ident = Identifier
+asset.ident.info = Asset identifier code or short name
+asset.parentinstitution = Institution
+asset.title = Asset - {0}
+asset.header.edit = Edit Asset
+asset.header.new = Create new Asset
+asset.add = Add a new Asset
+asset.edit = Edit Asset
+asset.save = Save Asset
+asset.create = Create this Asset
+asset.delete = Delete Asset
+asset.delete.confirm = Sure you want to delete this asset?
+asset.owners = Owners
+asset.owners.edit = Edit owner access
+asset.owners.update = Save changes
+asset.owners.updated = Asset owners have been updated
+asset.owners.empty = Asset has no owners
+asset.processes = Workflows
+asset.role.owner = Asset Admin
+asset.flash.created = Asset {0} has been created
+asset.flash.created.process.started = Asset "{0}" has been created and process "{1}" has been started
+asset.flash.updated = Asset {0} has been updated
+asset.flash.deleted = The asset has been deleted
+
+assets.index.title = Assets
+assets.index.search = Search assets
+assets.index.empty = No assets were found
+
+file.delete.confirm = Sure you want to delete this file?
+
+emailtemplate.list.title = Email Templates
+emailtemplate.header.view = Email Template "{0}"
+emailtemplate.header.active = (active)
+emailtemplate.properties = Template properties
+emailtemplate.add = Add an Email Template
+emailtemplate.edit = Edit Template
+emailtemplate.create = Create this Template
+
+emailtemplate.update = Save changes
+emailtemplate.delete = Delete Template
+emailtemplate.delete.confirm = Sure you want to delete this template?
+emailtemplate.active = Active
+emailtemplate.name = Template name
+emailtemplate.comment = Template comment
+emailtemplate.subject = Message Subject
+emailtemplate.body = Message Body
+
+emailtemplate.flash.created = Email template has been created
+emailtemplate.flash.updated = Email template has been updated
+emailtemplate.flash.deleted = Email template has been deleted
+
+workflow.header.view = Workflow Definition "{0}"
+workflow.header.active = (active)
+workflow.properties = Workflow properties
+workflow.list.title = Workflow Definitions
+workflow.add = Add a new Workflow Definition
+workflow.create = Create this Workflow Definition
+workflow.edit = Edit Workflow Definition
+workflow.update = Save changes
+workflow.delete = Delete Workflow Definition
+workflow.delete.confirm = Sure you want to delete this workflow definition?
+workflow.new = New Workflow Definition
+workflow.name = Workflow Name
+workflow.active = Active
+workflow.comment = Comment
+workflow.info = Info / Help
+workflow.trigger = Start workflow
+workflow.trigger.manual = Manually
+workflow.trigger.oncreate = On Create
+workflow.target = Related object type
+workflow.filters = Filters
+workflow.filter.field = Field
+workflow.filter.value = Value
+workflow.filter.add = Add a new filter
+workflow.filter.remove = Remove this filter
+workflow.filter.comparison=
+workflow.created = Workflow Definition "{0}" has been created
+workflow.updated = Workflow Definition "{0}" has been updated
+workflow.process.start = Start a new process
+workflow.process.start.description = Process description
+workflow.process.start.comment = Add comments
+workflow.process.start.submit = Start this process
+workflow.start.new = {0}
+workflow.processes.empty =
+workflow.process.started = The process "{0}" has been started. You will receive an email notification when the process is completed.
+workflow.process.startedat = started
+workflow.process.completedat = completed
+workflow.message.onstart = Email template on start
+workflow.message.oncomplete = Email template on complete
+workflow.message.onactionrequired = Email template on next step
+workflow.process.action = Action
+workflow.process.actions = Actions
+workflow.process.search = Search processes
+workflow.process.list = Workflow Processes
+workflow.process.title = Process "{0}"
+workflow.process.delete = Delete
+workflow.process.delete.confirm = Sure you want to delete this process?
+workflow.process.flash.deleted = The process was deleted
+workflow.action.comment = Comments
+workflow.action.submit = Submit
+workflow.action.taken = Action performed
+workflow.steps = Steps
+workflow.step.id = Step id
+workflow.step.title = Step title
+workflow.step.title.placeholder = Step title / name
+workflow.step.timelimit = Time limit
+workflow.step.timelimit.placeholder = Time limit in days
+workflow.step.info = Help / info
+workflow.step.terminate = Terminate on negative decision
+
+workflow.step.duedate = Due {0}
+workflow.step.name = Step name / id
+workflow.step.insert = Insert new step
+workflow.step.up = Move this step up
+workflow.step.down = Move this step down
+workflow.step.remove = Remove step
+workflow.step.add = Add a new step
+
+workflow.step.actors.heading = Responsible users / roles
+workflow.step.actors = Users / roles
+workflow.step.actors.requireall = Require all
+
+workflow.step.actions.heading = Actions
+workflow.step.action.id = Id
+workflow.step.action.id.placeholder = Action id / name
+workflow.step.action.title = Title
+workflow.step.action.title.placeholder = Action title / label
+workflow.step.action.type = Effect
+
+workflow.step.action.type.positive = Positive
+workflow.step.action.type.negative = Negative
+workflow.step.action.type.neutral = Neutral
+workflow.step.action.type.skip = Skip
+
+workflow.step.action.insert = Insern new action
+workflow.step.action.up = Move action up
+workflow.step.action.down = Move action down
+workflow.step.action.remove = Remove action
+workflow.step.action.add = Add a new action
+
+user.list.title = Users
+user.add = Add a user
+user.add.title = Add a new user
+user.edit = Edit
+user.edit.title = Edit User
+user.create = Create this User
+user.save = Save user
+user.profile.title = User profile for {0}
+user.delete = Delete User
+user.flash.created = User "{0}" has been created
+user.flash.updated = User "{0}" has been updated
+user.delete.confirm = Are you sure you want to delete this user?
+user.flash.deleted = The user account has been deleted
+user.search = Search users
+user.roles.admin = System Admin
+views.users.empty = No users were found
+views.users.notfound = No users found matching the query "{0}"
+
+role.title = Role "{0}"
+role.add = Add a new Role
+role.new = New Role
+role.create = Create this Role
+role.created = Role created
+role.edit = Edit Role
+role.update = Save changes
+role.delete = Delete Role
+role.flash.deleted = Role deleted
+role.delete.confirm = Sure you want to delete this role?
+role.updated = Role "{0}" has been updated
+role.list.title = Roles
+role.search = Search roles
+role.header.view = Role "{0}"
+role.properties = Role properties
+role.name = Role name
+role.responsible = Member(s)
+translation.edit = Edit translation
+
+accesslog.list.header.datetime = Date / time
+accesslog.list.header.target = Object
+accesslog.list.header.user = User
+accesslog.list.header.event = Action
+accesslog.list.target.type.institution = Institution
+accesslog.list.target.type.system = System
+accesslog.list.target.type.service = Service
+accesslog.list.target.type.publicservice = Public Service
+accesslog.list.target.type.asset = Asset
+accesslog.list.target.type.registration = Registration request
+accesslog.header.view = Log entry
+accesslog.actions.create = Create
+accesslog.actions.read = Read
+accesslog.actions.update = Modify
+accesslog.actions.delete = Delete
+accesslog.entry.details = Details
+accesslog.entry.target.name = Object name
+accesslog.entry.user.name = User name
+
+accesslogs.index.title = Access logs
+accesslogs.index.empty = Acces log is empty
+
+download.all = Download all in this view
+download.asjson = Download as JSON
+download.asxml = Download as XML
+download.asrdf = Download as CPSV-AP RDF
+
+upload.list = Upload multiple objects
+upload.single = Upload JSON file
+
+field.help.reveal = more...
+
+alert.success =
+alert.info=
+alert.error = Oops!
+
+error.institution.notfound = The Institution with this ID was not found
+error.infosystem.notfound = The Information System with this ID was not found
+error.infoservice.notfound = The Information Service with this ID was not found
+error.publicservice.notfound = The Public Service with this ID was not found
+error.asset.notfound = The Asset with this ID was not found
+error.registration.notfound = The Registration Request with this ID was not found
+error.generalerror = Something went wrong with this request :(
+
+cancel = Cancel
+or = or
+delete.confirm.title = Really delete?
+
+back.to.list = Back to list
+
+error.email = Valid email required
+error.required = This field is required
+error.date = Valid date required
+error.number = Valid number required
+error.form.validation.failed = The form failed validation. Please correct the errors and try submitting again.
+
+invalid.credentials = Invalid credentials!
+user.not.found = The user account does not exist!
+access.denied = Access denied!
+not.logged.in = Please log in!
+user.exists = There already exists a user with this email!
+
+sign.up.title = Sign Up
+sign.up.disabled = Self-registration is not enabled. Contact application owners to request a new account.
+sign.in.title = Sign In
+
+forgot.password.title = Forgot Password
+reset.password.title = Reset Password
+change.password.title = Change Password
+set.password.title = Set password
+activate.account.title = Activate Account
+
+toggle.navigation = Toggle navigation
+welcome.signed.in = Welcome, {0}
+
+sign.up.account = Sign up for a new account
+sign.up.certificate = Sign up with ID card
+sign.in.credentials = Sign in with your credentials
+sign.in.certificate = Sign in with ID card
+certificate.dn = Connected Certificate
+certificate.add = Connect a certificate
+certificate.add.successful = Certificate connected successfully
+certificate.add.failed = Failed to connect certificate
+certificate.remove = Disconnect certificate
+certificate.remove.successful = Certificate disconnected
+certificate.remove.failed = Failed to disconnect certificate
+
+# See alert.xxx above
+# error = Error!
+# info = Info!
+# success = Success!
+
+user.anonymous = Anonymous
+home = Home
+first.name = First name
+last.name = Last name
+full.name = Full name
+email = Email
+phone = Phone
+password = Password
+send = Send
+change = Change
+reset = Reset
+sign.up = Sign up
+sign.in = Sign in
+sign.out = Sign out
+sign.in.now = Sign in now
+sign.up.now = Sign up now
+already.a.member = Already a member?
+not.a.member = Not a member?
+forgot.your.password = Forgot your password?
+forgot.password = Forgot password
+reset.password = Reset password
+change.password = Change password
+set.password = Set password
+password.set.failed = Setting password failed
+activate.account = Activate Account
+current.password = Current password
+new.password = New password
+
+remember.me = Remember my login on this computer
+
+forgot.password.info = Please enter your email address and we will send you an email with further instructions to reset your password.
+strong.password.info = Strong passwords include numbers, letters and punctuation marks.
+current.password.invalid = The entered password is invalid. Please enter the correct password!
+activate.account.text1 = You can''t log in yet. We previously sent an activation email to you at:
+activate.account.text2 = Please follow the instructions in that email to activate your account.
+activate.account.text3 = Click <a href="{0}">here</a> to send the activation email again.
+
+sign.up.email.sent = You''re almost done! We sent an activation mail to {0}. Please follow the instructions in the email to activate your account. If it doesn''t arrive, check your spam folder, or try to log in again to send another activation mail.
+activation.email.sent = We sent another activation email to you at {0}. It might take a few minutes for it to arrive; be sure to check your spam folder.
+reset.email.sent = We have sent you an email with further instructions to reset your password, on condition that the address was found in our system. If you do not receive an email within the next 5 minutes, then please recheck your entered email address and try it again.
+
+invalid.activation.link = The link isn't valid anymore! Please sign in to send the activation email again.
+invalid.reset.link = The link isn't valid anymore! Please request a new link to reset your password.
+
+password.reset = We have reset your password. You can now sign in with your credentials.
+account.activated = Your account is now activated! Please sign in to use your new account.
+password.changed = Your password has been changed.
+
+##########
+# Emails
+##########
+
+# Sign Up
+email.sign.up.subject = Welcome
+email.sign.up.hello = Hello {0},
+email.sign.up.html.text = Please follow <a href="{0}">this link</a> to confirm and activate your new account.
+email.sign.up.txt.text = Please follow the link to confirm and activate your new account: {0}
+
+# Already Signed Up
+email.already.signed.up.subject = Welcome
+email.already.signed.up.hello = Hello {0},
+email.already.signed.up.html.text = You already have an account registered. Please follow <a href="{0}">this link</a> to sign in into your account.
+email.already.signed.up.txt.text = You already have an account registered. Please follow the link to sign in into your account: {0}
+
+# Reset Password
+email.reset.password.subject = Reset password
+email.reset.password.hello = Hello {0},
+email.reset.password.html.text = Please follow <a href="{0}">this link</a> to reset your password.
+email.reset.password.txt.text = Please follow the link to reset your password: {0}
+
+# Activate Account
+email.activate.account.subject = Activate account
+email.activate.account.hello = Hello {0},
+email.activate.account.html.text = Please follow <a href="{0}">this link</a> to confirm and activate your new account.
+email.activate.account.txt.text = Please follow the link to confirm and activate your new account: {0}
+

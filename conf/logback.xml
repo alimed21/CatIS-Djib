@@ -1,0 +1,41 @@
+<configuration>
+
+  <conversionRule conversionWord="coloredLevel" converterClass="play.api.libs.logback.ColoredLevel" />
+
+  <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <pattern>%d{dd.MM.yy HH:mm:ss.SSS} %coloredLevel - %logger - %message%n%xException</pattern>
+    </encoder>
+  </appender>
+
+  <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+    <file>logs/CatIS.log</file>
+    <layout class="ch.qos.logback.classic.PatternLayout">
+      <Pattern>%d{dd.MM.yy HH:mm:ss.SSS} %-5level - %logger - %message%n%xException</Pattern>
+    </layout>
+  </appender>
+
+  <!--
+    The logger name is typically the Java/Scala package name.
+    This configures the log level to log at for a package and its children packages.
+  -->
+  <logger name="play" level="INFO" />
+  <logger name="application" level="INFO" />
+  <logger name="controllers" level="INFO"/>
+  <logger name="services" level="INFO"/>
+  <logger name="services.LogService" level="INFO"/>
+  <logger name="controllers.PublicServicesController" level="INFO"/>
+  <logger name="services.PublicServiceService" level="INFO"/>
+  <logger name="modules" level="INFO"/>
+  <logger name="models" level="INFO"/>
+  <logger name="models.ViewSection" level="INFO"/>
+  <logger name="jobs" level="INFO"/>
+  <logger name="com.typesafe.akka.extension.quartz" level="INFO"/>
+  <logger name="reactivemongo.play.json" level="INFO"/>
+
+  <root level="WARN">
+    <appender-ref ref="STDOUT" />
+    <appender-ref ref="FILE" />
+  </root>
+
+</configuration>

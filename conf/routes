@@ -1,0 +1,319 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# ~~~~
+
+# Home page
+GET     /                                       controllers.ApplicationController.index
+
+# GET     /public/images/*file                    controllers.ExtAssets.at(path="public/images", file)
+
+# GET     /views/:viewName                        controllers.ViewDispatcher.view(viewName, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+
+GET     /public/images/*file                    controllers.ExtAssets.image(file)
+GET     /public/stylesheets/*file               controllers.ExtAssets.css(file)
+GET     /public/javascripts/*file               controllers.ExtAssets.script(file)
+
+GET     /signIn                                 controllers.SignInController.view
+POST    /signIn                                 controllers.SignInController.submit
+
+GET     /signUp                                 controllers.SignUpController.view
+POST    /signUp                                 controllers.SignUpController.submit
+
+GET     /account/email/:email                   controllers.ActivateAccountController.send(email: String)
+GET     /account/activate/:token                controllers.ActivateAccountController.activate(token: String)
+
+GET     /signOut                                controllers.ApplicationController.signOut
+
+GET     /password/change                        controllers.PasswordController.viewChange
+POST    /password/change                        controllers.PasswordController.submitChange
+GET     /password/set                           controllers.PasswordController.viewSet
+POST    /password/set                           controllers.PasswordController.submitSet
+GET     /password/forgot                        controllers.ForgotPasswordController.view
+POST    /password/forgot                        controllers.ForgotPasswordController.submit
+GET     /password/reset/:token                  controllers.ResetPasswordController.view(token: String)
+POST    /password/reset/:token                  controllers.ResetPasswordController.submit(token: String)
+
+GET     /profile                                controllers.UsersController.profile
+GET		/lang/:lang		                        controllers.ApplicationController.selectLang(lang)
+
+# Map static resources from the /public folder to the /app URL path (changed from default /assets)
+GET     /app/*file                              controllers.Assets.versioned(path="/public", file: Asset)
+
+# Map the webjar static assets to the /webjars URL
+->      /webjars                                webjars.Routes
+
+# Form assembly routes
+GET     /configuration/forms                    controllers.FormsController.index(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /configuration/forms/new                controllers.FormsController.create()
+GET     /configuration/forms/download           controllers.FormsController.downloadAll(format: String ?= "json")
+GET     /configuration/forms/fields.json        controllers.FormsController.fieldListJson(t ?= "")
+GET     /configuration/forms/:id                controllers.FormsController.show(id)
+GET     /configuration/forms/:id/download       controllers.FormsController.download(id: String, format: String ?= "json")
+GET     /configuration/forms/:id/edit           controllers.FormsController.edit(id)
+POST    /configuration/forms/upload             controllers.FormsController.bulkUpload
+POST    /configuration/forms                    controllers.FormsController.save
+POST    /configuration/forms/:id                controllers.FormsController.update(id: String)
+POST    /configuration/forms/:id/delete         controllers.FormsController.delete(id)
+
+# Form assembly language versions
+GET     /configuration/forms/:id/:lang          controllers.FormsController.showTranslation(id, lang)
+GET     /configuration/forms/:id/:lang/edit     controllers.FormsController.editTranslation(id, lang)
+POST    /configuration/forms/:id/:lang          controllers.FormsController.saveTranslation(id, lang)
+
+#View design routes
+GET     /configuration/views                    controllers.ViewsController.index(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /configuration/views/new                controllers.ViewsController.create
+GET     /configuration/views/download           controllers.ViewsController.downloadAll(format: String ?= "json")
+GET     /configuration/views/:id                controllers.ViewsController.show(id)
+GET     /configuration/views/:id/download       controllers.ViewsController.download(id: String, format: String ?= "json")
+GET     /configuration/views/:id/edit           controllers.ViewsController.edit(id)
+POST    /configuration/views                    controllers.ViewsController.save
+POST    /configuration/views/upload             controllers.ViewsController.bulkUpload
+POST    /configuration/views/:id                controllers.ViewsController.update(id)
+POST    /configuration/views/:id/delete         controllers.ViewsController.delete(id)
+
+GET     /configuration/views/:id/:lang          controllers.ViewsController.showLang(id, lang)
+GET     /configuration/views/:id/:lang/edit     controllers.ViewsController.editLang(id, lang)
+POST    /configuration/views/:id/:lang          controllers.ViewsController.updateLang(id, lang)
+
+
+# Registration requests
+GET     /registrations                          controllers.RegistrationsController.index(view ?= "", expand: Int ?= 0, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /registrations/new                      controllers.RegistrationsController.create
+POST    /registrations                          controllers.RegistrationsController.save
+GET     /registrations/:id                      controllers.RegistrationsController.show(id)
+GET     /registrations/:id/download             controllers.RegistrationsController.download(id: String, format: String ?= "json")
+GET     /registrations/:id/edit                 controllers.RegistrationsController.edit(id)
+GET     /registrations/:id/processes            controllers.RegistrationsController.processes(id: String)
+GET     /registrations/:id/:section             controllers.RegistrationsController.showSection(id: String, section: String)
+
+POST    /registrations/:id                      controllers.RegistrationsController.update(id)
+POST    /registrations/:id/delete               controllers.RegistrationsController.delete(id)
+POST    /registrations/:id/reject               controllers.RegistrationsController.reject(id)
+POST    /registrations/:id/accept               controllers.InstitutionsController.createFromRegistration(id)
+POST    /registrations/:id/register             controllers.InstitutionsController.register(id)
+
+# Institutions
+GET     /institutions                           controllers.InstitutionsController.index(view ?= "", expand: Int ?= 0, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /institutions.json                      controllers.InstitutionsController.jsonIndex(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+
+GET     /institutions/json                      controllers.InstitutionsController.jsonIndexWithData(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+
+GET     /institutions/new                       controllers.InstitutionsController.create
+POST    /institutions/new                       controllers.InstitutionsController.jsonUpload
+POST    /institutions                           controllers.InstitutionsController.save
+GET     /institutions/:id                       controllers.InstitutionsController.show(id:String)
+GET     /institutions/:id/download              controllers.InstitutionsController.download(id: String, format: String ?= "json")
+GET     /institutions/:id/edit                  controllers.InstitutionsController.edit(id:String)
+POST    /institutions/:id                       controllers.InstitutionsController.update(id:String)
+POST    /institutions/:id/delete                controllers.InstitutionsController.delete(id: String)
+GET     /institutions/:id/subordinates          controllers.InstitutionsController.subordinates(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /institutions/:id/systems               controllers.InstitutionsController.systems(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /institutions/:id/assets                controllers.InstitutionsController.assets(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /institutions/:id/publicservices        controllers.InstitutionsController.publicServices(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /institutions/:id/processes             controllers.InstitutionsController.processes(id: String)
+
+GET     /institutions/:id/join                  controllers.InfoSystemsController.listSolutions(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /institutions/:id/join/:solId           controllers.InfoSystemsController.createJoined(id: String, solId: String)
+POST    /institutions/:id/join/:solId           controllers.InfoSystemsController.saveJoined(id: String, solId: String)
+
+GET     /institutions/:id/xroadsystems          controllers.InfoSystemsController.listXRoadSystems(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /institutions/:id/xroadsystems/register/:sys controllers.InfoSystemsController.createXRoadSystem(id: String, sys: String)
+POST    /institutions/:id/xroadsystems          controllers.InfoSystemsController.saveXRoadSystem(id: String)
+
+GET     /institutions/:id/users                 controllers.InstitutionsController.users(id: String)
+GET     /institutions/:id/users/new             controllers.UsersController.create(id: String)
+POST    /institutions/:id/users                 controllers.UsersController.saveInstitutionUser(id: String)
+
+GET     /institutions/:id/users/add             controllers.InstitutionsController.addUsers(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+POST    /institutions/:id/users/add             controllers.InstitutionsController.saveAddedUsers(id: String)
+
+GET     /institutions/:id/users/remove          controllers.InstitutionsController.removeUsers(id: String)
+POST    /institutions/:id/users/remove          controllers.InstitutionsController.updateRemovedUsers(id: String)
+
+GET     /institutions/:id/roles/edit            controllers.InstitutionsController.editOwners(id: String)
+POST    /institutions/:id/roles                 controllers.InstitutionsController.updateOwners(id: String)
+
+GET     /institutions/:id/files/:fileId         controllers.InstitutionsController.getAttachment(id: String, fileId: String)
+
+# Create new Information System for this Institution
+GET     /institutions/:id/systems/new           controllers.InfoSystemsController.create(id: String)
+POST    /institutions/:id/systems/new           controllers.InfoSystemsController.jsonUpload(id: String)
+POST    /institutions/:id/systems               controllers.InfoSystemsController.save(id: String)
+
+# Create new Asset for this Institution
+GET     /institutions/:id/assets/new            controllers.InfoAssetsController.create(id: String)
+POST    /institutions/:id/assets/new            controllers.InfoAssetsController.jsonUpload(id: String)
+POST    /institutions/:id/assets                controllers.InfoAssetsController.save(id: String)
+
+# Create new PublicService for this Institution
+GET     /institutions/:id/publicservices/new    controllers.PublicServicesController.create(id: String)
+POST    /institutions/:id/publicservices/new    controllers.PublicServicesController.jsonUpload(id: String)
+POST    /institutions/:id/publicservices        controllers.PublicServicesController.save(id: String)
+
+# Custom sections come last
+GET     /institutions/:id/:section              controllers.InstitutionsController.showSection(id: String, section: String)
+
+# Information Systems
+GET     /systems                                controllers.InfoSystemsController.index(view ?= "", expand: Int ?= 0, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /systems.json                           controllers.InfoSystemsController.jsonIndex(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /systems/:id                            controllers.InfoSystemsController.show(id: String)
+GET     /systems/:id/download                   controllers.InfoSystemsController.download(id: String, format: String ?= "json")
+GET     /systems/:id/edit                       controllers.InfoSystemsController.edit(id:String)
+POST    /systems/:id                            controllers.InfoSystemsController.update(id:String)
+POST    /systems/:id/delete                     controllers.InfoSystemsController.delete(id: String)
+GET     /systems/:id/subsystems                 controllers.InfoSystemsController.subSystems(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /systems/:id/joined                     controllers.InfoSystemsController.joinedSystems(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /systems/:id/services                   controllers.InfoSystemsController.services(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /systems/:id/owners                     controllers.InfoSystemsController.owners(id: String)
+GET     /systems/:id/owners/edit                controllers.InfoSystemsController.editOwners(id: String)
+GET     /systems/:id/processes                  controllers.InfoSystemsController.processes(id: String)
+POST    /systems/:id/owners                     controllers.InfoSystemsController.updateOwners(id: String)
+GET     /systems/:id/files/:fileId              controllers.InfoSystemsController.getAttachment(id: String, fileId: String)
+
+# Subsystems
+GET     /systems/:id/subsystems/new             controllers.InfoSystemsController.createSubSystem(id: String)
+POST    /systems/:id/subsystems                 controllers.InfoSystemsController.saveSubSystem(id: String)
+
+# Create new InfoService for this InfoSystem
+GET     /systems/:id/services/new               controllers.InfoServicesController.create(id: String)
+POST    /systems/:id/services/new               controllers.InfoServicesController.jsonUpload(id: String)
+POST    /systems/:id/services                   controllers.InfoServicesController.save(id: String)
+
+# TODO Remove the xroad routes?
+GET     /systems/:id/xroadservices              controllers.InfoServicesController.listXRoadServices(id: String, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /systems/:id/xroadservices/register/:service     controllers.InfoServicesController.createXRoadService(id: String, service: String)
+
+# Custom sections come last
+GET     /systems/:id/:section                   controllers.InfoSystemsController.showSection(id: String, section: String)
+
+
+# Information Services provided by Information Systems
+GET     /services                               controllers.InfoServicesController.index(view ?= "", expand: Int ?= 0, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /services.json                          controllers.InfoServicesController.jsonIndex(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /services/:id                           controllers.InfoServicesController.show(id: String)
+GET     /services/:id/download                  controllers.InfoServicesController.download(id: String, format: String ?= "json")
+GET     /services/:id/edit                      controllers.InfoServicesController.edit(id:String)
+POST    /services/:id                           controllers.InfoServicesController.update(id:String)
+POST    /services/:id/delete                    controllers.InfoServicesController.delete(id: String)
+GET     /services/:id/wsdl                      controllers.InfoServicesController.getWsdl(id: String)
+GET     /services/:id/owners                    controllers.InfoServicesController.owners(id: String)
+GET     /services/:id/owners/edit               controllers.InfoServicesController.editOwners(id: String)
+POST    /services/:id/owners                    controllers.InfoServicesController.updateOwners(id: String)
+GET     /services/:id/processes                 controllers.InfoServicesController.processes(id: String)
+GET     /services/:id/:section                  controllers.InfoServicesController.showSection(id: String, section: String)
+GET     /services/:id/files/:fileId             controllers.InfoServicesController.getAttachment(id: String, fileId: String)
+
+# Public Services provided by Information Systems
+GET     /publicservices                         controllers.PublicServicesController.index(view ?= "", expand: Int ?= 0, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /publicservices.json                    controllers.PublicServicesController.jsonIndex(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /publicservices/json                    controllers.PublicServicesController.jsonIndexWithData(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /publicservices/:id                     controllers.PublicServicesController.show(id: String)
+GET     /publicservices/:id/download            controllers.PublicServicesController.download(id: String, format: String ?= "json")
+GET     /publicservices/:id/edit                controllers.PublicServicesController.edit(id:String)
+POST    /publicservices/:id                     controllers.PublicServicesController.update(id:String)
+POST    /publicservices/:id/delete              controllers.PublicServicesController.delete(id: String)
+GET     /publicservices/:id/owners              controllers.PublicServicesController.owners(id: String)
+GET     /publicservices/:id/owners/edit         controllers.PublicServicesController.editOwners(id: String)
+POST    /publicservices/:id/owners              controllers.PublicServicesController.updateOwners(id: String)
+GET     /publicservices/:id/processes           controllers.PublicServicesController.processes(id: String)
+GET     /publicservices/:id/:section            controllers.PublicServicesController.showSection(id: String, section: String)
+GET     /publicservices/:id/files/:fileId       controllers.PublicServicesController.getAttachment(id: String, fileId: String)
+
+
+# IT Assets maintained by institutions
+GET     /assets                                 controllers.InfoAssetsController.index(view ?= "", expand: Int ?= 0, start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /assets.json                            controllers.InfoAssetsController.jsonIndex(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /assets/:id                             controllers.InfoAssetsController.show(id: String)
+GET     /assets/:id/download                    controllers.InfoAssetsController.download(id: String, format: String ?= "json")
+GET     /assets/:id/edit                        controllers.InfoAssetsController.edit(id:String)
+POST    /assets/:id                             controllers.InfoAssetsController.update(id:String)
+POST    /assets/:id/delete                      controllers.InfoAssetsController.delete(id: String)
+GET     /assets/:id/owners                      controllers.InfoAssetsController.owners(id: String)
+GET     /assets/:id/owners/edit                 controllers.InfoAssetsController.editOwners(id: String)
+POST    /assets/:id/owners                      controllers.InfoAssetsController.updateOwners(id: String)
+GET     /assets/:id/processes                   controllers.InfoAssetsController.processes(id: String)
+GET     /assets/:id/:section                    controllers.InfoAssetsController.showSection(id: String, section: String)
+GET     /assets/:id/files/:fileId               controllers.InfoAssetsController.getAttachment(id: String, fileId: String)
+
+# Users
+GET     /users                                  controllers.UsersController.index(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /users.json                             controllers.UsersController.refList(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /users/new                              controllers.UsersController.createUser
+GET     /users/:id                              controllers.UsersController.show(id: String)
+GET     /users/:id/edit                         controllers.UsersController.edit(id: String)
+POST    /users                                  controllers.UsersController.saveUser
+POST    /users/:id/delete                       controllers.UsersController.delete(id: String)
+POST    /users/:id                              controllers.UsersController.update(id: String)
+
+# Roles
+GET     /roles                                  controllers.RolesController.index(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /roles/new                              controllers.RolesController.create
+GET     /roles/download                         controllers.RolesController.downloadAll(format: String ?= "json")
+POST    /roles                                  controllers.RolesController.save
+POST    /roles/upload                           controllers.RolesController.bulkUpload
+POST    /roles/:id/delete                       controllers.RolesController.delete(id: String)
+GET     /roles/:id                              controllers.RolesController.show(id: String, lang: Option[String] ?= None)
+GET     /roles/:id/edit                         controllers.RolesController.edit(id: String, lang: Option[String] ?= None)
+POST    /roles/:id                              controllers.RolesController.update(id: String, lang: Option[String] ?= None)
+
+# Access logs
+GET     /accesslogs                             controllers.AccessLogsController.index(start: Int ?= 1, sort: Int ?= -1, search ?= "")
+GET     /accesslogs/:id/target                  controllers.AccessLogsController.showTarget(id: String)
+GET     /accesslogs/:id                         controllers.AccessLogsController.show(id: String)
+
+# Workflows (definitions)
+GET     /workflows/actors.json                  controllers.WorkflowsController.actorsJson(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /workflows                              controllers.WorkflowsController.index(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /workflows/new                          controllers.WorkflowsController.create
+GET     /workflows/download                     controllers.WorkflowsController.downloadAll(format: String ?= "json")
+GET     /workflows/:id                          controllers.WorkflowsController.show(id)
+GET     /workflows/:id/edit                     controllers.WorkflowsController.edit(id)
+POST    /workflows                              controllers.WorkflowsController.save
+POST    /workflows/upload                       controllers.WorkflowsController.bulkUpload
+POST    /workflows/:id/delete                   controllers.WorkflowsController.delete(id: String)
+POST    /workflows/:id                          controllers.WorkflowsController.update(id)
+
+GET     /workflows/:id/:lang                    controllers.WorkflowsController.showLang(id, lang)
+GET     /workflows/:id/:lang/edit               controllers.WorkflowsController.editLang(id, lang)
+POST    /workflows/:id/:lang                    controllers.WorkflowsController.updateLang(id, lang)
+
+GET     /processes                              controllers.WorkflowProcessController.index(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /processes/:id/target                   controllers.WorkflowProcessController.showTarget(id: String)
+GET     /processes/:id                          controllers.WorkflowProcessController.show(id)
+GET     /processes/:id/download                 controllers.WorkflowProcessController.download(id: String, format: String ?= "json")
+POST    /processes/:id/delete                   controllers.WorkflowProcessController.delete(id: String)
+
+POST    /process/action/:processId              controllers.WorkflowProcessController.workflowAction(processId: String)
+POST    /process/:targetType/:targetId          controllers.WorkflowProcessController.createWorkflowProcess(targetType: String, targetId: String)
+
+# Email templates
+GET     /templates/send                         controllers.EmailTemplatesController.testSend
+
+GET     /configuration/templates                controllers.EmailTemplatesController.index(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /configuration/templates/new            controllers.EmailTemplatesController.create
+GET     /configuration/templates/download       controllers.EmailTemplatesController.downloadAll(format: String ?= "json")
+GET     /configuration/templates/:id            controllers.EmailTemplatesController.show(id, lang: Option[String] ?= None)
+GET     /configuration/templates/:id/edit       controllers.EmailTemplatesController.edit(id, lang: Option[String] ?= None)
+POST    /configuration/templates                controllers.EmailTemplatesController.save
+POST    /configuration/templates/upload         controllers.EmailTemplatesController.bulkUpload
+POST    /configuration/templates/:id/delete     controllers.EmailTemplatesController.delete(id: String)
+POST    /configuration/templates/:id            controllers.EmailTemplatesController.update(id, lang: Option[String] ?= None)
+
+GET     /certificate/login                      controllers.SignInController.certLogin
+GET     /certificate/add                        controllers.UsersController.addCertificate
+GET     /profile/removecert                     controllers.UsersController.removeCertificate
+GET     /certificate/signup                     controllers.SignUpController.certSignUp
+POST    /certificate/signup                     controllers.SignUpController.certSubmit
+
+GET     /configuration/classifiers.json          controllers.ClassifiersController.jsonIndex(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /configuration/classifiers               controllers.ClassifiersController.index(start: Int ?= 1, sort: Int ?= 1, search ?= "")
+GET     /configuration/classifiers/new           controllers.ClassifiersController.create
+GET     /configuration/classifiers/download      controllers.ClassifiersController.downloadAll(format: String ?= "json")
+GET     /configuration/classifiers/:id           controllers.ClassifiersController.show(id, lang: Option[String] ?= None)
+GET     /configuration/classifiers/:id/download  controllers.ClassifiersController.download(id: String, format: String ?= "json")
+GET     /configuration/classifiers/:id/edit      controllers.ClassifiersController.edit(id, lang: Option[String] ?= None)
+POST    /configuration/classifiers               controllers.ClassifiersController.save
+POST    /configuration/classifiers/upload        controllers.ClassifiersController.bulkUpload
+POST    /configuration/classifiers/:id/delete    controllers.ClassifiersController.delete(id: String)
+POST    /configuration/classifiers/:id           controllers.ClassifiersController.update(id, lang: Option[String] ?= None)

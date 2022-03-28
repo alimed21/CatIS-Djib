@@ -1,0 +1,18 @@
+.[Unit]
+Description=CatIS
+After=network.target
+
+[Service]
+# EnvironmentFile=/home/catis/env
+PIDFile=/home/test/catis/RUNNING_PID
+WorkingDirectory=/home/test/catis
+ExecStart=/home/test/catis/bin/catis -Dconfig.resource=prod.conf
+Restart=on-failure
+User=test
+Group=test
+
+# See http://serverfault.com/a/695863
+SuccessExitStatus=143
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,847 @@
+application.name = CatIS
+home.title = Avaleht
+home.header = Koosvõime lahenduste kataloog
+
+home.stat.institutions = Asutusi
+home.stat.systems = Infosüsteeme
+home.stat.services = Teenuseid
+home.stat.publicservices = Avalikke teenuseid
+home.stat.assets = Varasid
+home.intro.p1 = Koosvõime lahenduste kataloog CatIS on usaldusväärne abimees ja töövahend riigi infosüsteemide arendajatele, administraatoritele ja kasutajatele. Kataloogi võib kasutada ka organisatsioonisiseselt oma infotehnoloogia varade haldamiseks.
+home.intro.p2 = CatIS on täiendav instrument riigi infosüsteemide koordineerimiseks, tugisüsteem infosüsteemide ja teenuste arendamiseks, vahend koosvõime varade haldamiseks.
+home.footer.html = <small>Catalogue of interoperable solutions<br/>Contact: <a href="http://ega.ee">http://ega.ee</a> e-mail: <a href="mailto:info@ega.ee">info@ega.ee</a></small>
+
+history.created = {1} loodud {0} poolt
+history.modified = {1} muudetud {0} poolt
+
+language = Keel
+languages = Keeled
+languages.default = Vaikimisi
+languages.show = Kuva {0}
+
+boolean.true = Yes
+boolean.false = No
+
+navbar.profile = Profiil
+navbar.institutions = Asutused
+navbar.systems = Infosüsteemid
+navbar.services = Teenused
+navbar.publicservices = Avalikud teenused
+navbar.assets = Varad
+navbar.admin = Administreerimine
+navbar.admin.forms = Vormid
+navbar.admin.views = Vaated
+navbar.admin.users = Kasutajad
+navbar.admin.registrations = Registreerimise taotlused
+navbar.admin.roles = Kasutajarollid
+navbar.admin.workflows = Töövoogude definitsioonid
+navbar.admin.processes = Töövooprotsessid
+navbar.admin.emailtemplates = Teadete mallid
+navbar.admin.accesslog = Pöördumiste logi
+navbar.admin.classifiers = Klassifikaatorid
+
+classifiers.list.title = Klassifikaatorid
+classifier.add = Lisa uus klassifikaator
+classifier.create = Salvesta
+classifier.edit = Muuda
+classifier.delete = Kustuta
+classifier.delete.confirm = Kindel, et soovid selle klassifikaatori kustutada?
+classifier.update = Uuenda
+classifier.new = Uus klassifikaatori
+classifier.properties = Klassifikaatorid andmed
+classifier.name = Nimi
+classifier.comment = Kommentaar
+classifier.active = Aktiivne
+classifier.key = Otsinguvõti
+classifier.categories = Kategooriad
+
+classifier.categories.expandall = Ava kõik
+classifier.categories.collapseall = Sulge kõik
+classifier.categories.untitled = Uus kategooria
+classifier.categories.add = Lisa kategooria
+
+classifier.header.view = {0}
+classifier.header.active = (aktiivne)
+
+forms.fieldgroup.add = Lisa uus väljagrupp
+forms.fieldgroup.remove = Kustuta see väljagrupp
+
+views.filters.filter = Filtreeri
+views.filters.byname = Filtreeri nime järgi...
+views.search = Otsi
+views.buttons.search = Otsi
+views.search.empty = Päringule "{0}" ei leitud vasteid
+
+views.header.name = Nimi
+views.header.title = Nimetus
+views.header.type = Liik
+views.header.ident = Identifikaator
+views.header.status = Staatus
+views.header.active = Aktiivne
+views.header.startedat = Alustatud
+views.header.completedat = Lõpetatud
+views.header.target = Seotud objekt
+views.header.stepactors = Järgmised rollid
+views.header.stepdue = Järgmine tähtaeg
+views.header.comment = Kommentaar
+views.header.responsible = Vastutaja
+views.header.email = E-post
+views.header.phone = Telefon
+views.header.roles = Rollid
+views.header.institution = Asutus
+views.header.system = Infosüsteem
+views.empty = Kirjed puuduvad
+
+views.pager.previous = Eelmine
+views.pager.next = Järgmine
+views.pager.total = {0} - {1} / {2}
+
+views.sidenav.showall = All
+views.topfilter.showall = All
+
+status.submitted = Sisestatud
+status.accepted = Vastuvõetav
+status.rejected = Keeldutud
+
+formbuilder.form.properties = Vormi andmed
+formbuilder.form.fixedfields = Fixed fields
+formbuilder.section.header = Sektsioon
+formbuilder.section.id = Sektsiooni id
+formbuilder.section.id.placeholder = Sektsiooni id / nimi
+formbuilder.section.title = Sektsiooni pealkiri
+formbuilder.section.title.placeholder = Sektsiooni pealkiri / nimetus
+formbuilder.section.info = Abi / info
+formbuilder.section.info.placeholder = Sektsiooni abi / info
+
+formbuilder.section.add = Lisa uus sektsioon
+formbuilder.section.insert = Lisa uus sektsioon
+formbuilder.section.remove = Kustuta see sektsioon
+formbuilder.section.up = Liiguta sektsioon ülespoole
+formbuilder.section.down = Liiguta sektsioon allapoole
+
+formbuilder.fieldgroup.header = Väljagrupp
+formbuilder.fieldgroup.id = Väljagrupi id
+formbuilder.fieldgroup.id.placeholder = Väljagrupi id / nimi
+formbuilder.fieldgroup.title = Väljagrupi pealkiri
+formbuilder.fieldgroup.title.placeholder = Väljagrupi pealkiri / nimetus
+formbuilder.fieldgroup.repeat = Korduste limiit
+formbuilder.fieldgroup.repeat.placeholder = Korduste limiit
+formbuilder.fieldgroup.layout = Paigutus
+formbuilder.fieldgroup.info = Abi / info
+formbuilder.fieldgroup.info.placeholder = Väljagrupi abi / info
+formbuilder.fieldgroup.access.read = Lugemisõigus
+formbuilder.fieldgroup.access.edit = Muutmisõigus
+formbuilder.fieldgroup.layout.horizontal = Horisontaalne
+formbuilder.fieldgroup.layout.vertical = Vertikaalne
+formbuilder.fieldgroup.layout.inline = Samal real
+formbuilder.fieldgroup.add = Lisa uus väljagrupp
+formbuilder.fieldgroup.insert = Lisa uus väljagrupp
+formbuilder.fieldgroup.remove = Kustuta see väljagrupp
+formbuilder.fieldgroup.up = Liiguta väljagrupp ülespoole
+formbuilder.fieldgroup.down = Liiguta väljagrupp allapoole
+
+formbuilder.fields.header = Väljad
+formbuilder.field.id = Välja id
+formbuilder.field.id.placeholder = Välja id / nimi
+formbuilder.field.title = Välja pealkiri
+formbuilder.field.title.placeholder = Välja pealkiri / nimetus
+formbuilder.field.info = Abi / info
+formbuilder.field.info.placeholder = Välja abi / info
+formbuilder.field.type = Tüüp
+formbuilder.field.options = Seaded
+formbuilder.field.required = Kohustuslik
+formbuilder.field.access.read = Lugemisõigus
+formbuilder.field.access.edit = Muutmisõigus
+
+formbuilder.field.choices.type = Valikute tüüp
+formbuilder.field.choices.type.entervalues = Sisesta valikud (eraldi ridadel)
+formbuilder.field.choices.type.classifier = Klassifikaator (otsinguvõti)
+formbuilder.field.choices = Valikud
+formbuilder.field.choices.placeholder = Välja valikud
+
+formbuilder.field.default = Vaikeväärtus
+formbuilder.field.default.placeholder = 
+
+formbuilder.field.add = Lisa uus väli
+formbuilder.field.insert = Lisa uus väli
+formbuilder.field.remove = Kustuta see väli
+formbuilder.field.up = Liiguta väli ülespoole
+formbuilder.field.down = Liiguta väli allapoole
+
+field.type.text = Tekst
+field.type.number = Number
+field.type.date = Kuupäev
+field.type.time = Time
+field.type.datetime = Date and Time
+field.type.email = E-Mail
+field.type.url = URL
+field.type.textarea = Mitmerealine tekst
+field.type.markdown = Markdown
+field.type.boolean = Loogiline
+field.type.checkbox = Märkeruudud
+field.type.select = Vali üks
+field.type.selects = Vali mitu
+field.type.file = Fail
+field.type.asset = Vara
+field.type.service = Teenus
+field.type.publicservice = Avalik teenus
+field.type.system = Infosüsteem
+field.type.institution = Asutus
+
+view.header.view = Vaate definitsioon
+view.header.edit = Muuda vaate definitsiooni
+view.list.title = Vaated
+view.new = Uus vaade
+view.edit = Muuda vaadet
+view.institutions.index = Asutuste loend
+view.institution.subordinates = Institution - Subordinates
+view.institution.systems = Asutus - infosüsteemid
+view.institution.assets = Asutus - varad
+view.institution.publicservices = Asutus - avalikud teenused
+view.systems.index = Infosüsteemide loend
+view.system.services = Infosüsteem - teenused
+view.system.subsystems = Infosüsteem - alamsüsteemid
+view.system.joinedystems = Infosüsteem - liitunud süsteemid
+view.services.index = Teenuste loend
+view.publicservices.index = Avalike teenuste loend
+view.assets.index = Varade loend
+view.registrations.index = Registreerimistaotluste loend
+
+viewbuilder.header.view = {0}
+viewbuilder.header.active = (aktiivne)
+viewbuilder.view.properties = Vaate andmed
+viewbuilder.view.add = Lisa uus vaade
+viewbuilder.view.edit = Muuda vaadet
+viewbuilder.view.create = Loo
+viewbuilder.view.created = Vaate definitsioon loodud
+viewbuilder.view.update = Uuenda
+viewbuilder.view.updated = Vaate definitsioon uuendatud
+viewbuilder.view.delete = Kustuta see vaade
+viewbuilder.view.delete.confirm = Kindel, et soovid selle vaate kustutada?
+viewbuilder.view.deleted = Vaate definitsioon kustutatud
+viewbuilder.view.type = Vaate liik
+viewbuilder.view.key = Otsinguvõti
+viewbuilder.view.presentation = Esitlus
+viewbuilder.view.presentation.table = Tabel
+viewbuilder.view.presentation.summary = Kokkuvõte
+viewbuilder.view.title = Vaate pealkiri
+viewbuilder.view.comment = Kommentaar
+viewbuilder.view.info = Vaate info
+viewbuilder.columns = Veerud
+viewbuilder.categorycolumns = Kategoriseeritud veerg
+viewbuilder.sidenavcolumns = Side navigation
+viewbuilder.topfiltercolumns = Top filter
+viewbuilder.column.source = Andmeväli
+viewbuilder.column.title = Veeru pealkiri
+viewbuilder.column.title.placeholder = Veeru nimetus / pealkiri
+viewbuilder.column.link = Link
+viewbuilder.column.add = Lisa uus veerg
+viewbuilder.column.insert = Lisa uus veerg
+viewbuilder.column.up = Liiguta veergu üles (vasemale)
+viewbuilder.column.down = Liiguta veergu alla (paremale)
+viewbuilder.column.remove = Kustuta veerg
+
+form.title = Vormi definitsioon
+form.header.view = Vormi definitsioon
+form.header.active = (aktiivne)
+form.list.title = Vormid
+form.new = Uus vorm
+form.edit = Muuda vormi
+form.save = Salvesta vorm
+form.updated = Vorm uuendatud
+form.create = Loo vorm
+form.created = Vorm loodud
+form.delete = Kustuta see vorm
+form.delete.confirm = Kindel, et soovid selle vormi kustutada?
+form.deleted = Vorm kustutatud
+
+form.add = Lisa uus vorm
+form.search = Otsi vormi
+form.type = Vormi liik
+form.active = Aktiivne
+form.info = Vormi info (abitekst, kirjeldus, vms)
+form.comment = Kommentaar (sisemine)
+form.type.institution = Asutus
+form.type.system = Infosüsteem
+form.type.service = Teenus
+form.type.publicservice = Avalik teenus
+form.type.asset = Vara
+form.type.registration = Registreerimise taotlus
+
+form.access.read.everyone = Igaüks
+form.access.read.authenticated = Autenditud
+form.access.read.organization = Sama asutus
+form.access.read.owner = Omanik
+form.access.read.admin = Ainult administraator
+form.access.edit.owner = Omanik
+form.access.edit.admin = Ainult administraator
+form.access.edit.everyone = Igaüks
+
+registration.search = Otsi taotlusi
+registration.add = Uue asutuse registreerimine
+registration.edit = Muuda taotlust
+registration.header.new = Uue asutuse registreerimine
+registration.header.edit = Muuda taotlus
+registration.header.status = Staatus
+registration.title = Registration request for "{0}"
+registration.create = Sisesta registreerimise taotlus
+registration.resolution = Otsus
+registration.accept = Nõustu ja loo uus asutus
+registration.reject = Jäta taotlus rahuldamata
+registration.reject.confirm = Kas te tõepoolest soovite jätta taotluse rahuldamata?
+registration.save = Salvesta taotlus
+registration.delete = Kustuta taotlus
+registration.flash.created = Registreeerimise taotlus on loodud
+registration.flash.created.process.started = Registreerimise taotlus on loodud ja alustatud töövoogu "{1}"
+registration.flash.updated = Registreeerimise taotlus on uuendatud
+registration.flash.deleted = Registreeerimise taotlus on kustutatud
+
+registration.name = Asutuse nimetus
+registration.name.info = Registreeritava asutuse ametlik nimetus
+registration.ident = Registreerimisnumber
+registration.ident.info = Asutuse registreerimisnumber
+registration.email = Kontaktmeili aaddress
+registration.email.info = Kontaktmeil registreerimisteadete saamiseks
+
+registration.submitted = Aitäh. Asutuse {0} registreerimistaotlus on saadetud CatIS haldurile. Otsus saadetakse aadressile "{1}".
+registration.new.subject = {0} uus registreerimistaotlus
+registration.new.body = Loodi asutuse {0} registreerimistaotlus
+registration.submitted.subject = {0} registreerimistaotlus
+registration.submitted.body = Taotlus asutuse {0} registreerimiseks on saadetud. Taotluse vastu võtmisest või tagasi lükkamisest saadetakse sulle teade.
+registration.processes = Töövood
+
+registration.registered.subject = CatIS: {0} on registreeritud
+registration.registered.body = Asutuse {0} registreerimistaotlus on rahuldatud ja asutus on CatIS-s registreeritud
+
+registration.rejected.subject = Taotlus on jäetud rahuldamata
+registration.rejected.body = Kahjuks on {0} registreerimistaotlus CatISes jäetud rahuldamata.
+
+registrations.index.title = Registreerimistaotlused
+registrations.index.empty = Registreerimistaotlused puuduvad
+
+institution = Asutus
+institution.name = Nimi
+institution.name.info = Asutuse nimi
+institution.ident = Identifikaator
+institution.ident.info = Asutuse registrikood või lühinimi
+institution.parentinstitution = Parent Institution
+institution.parentinstitution.info = If this institution is a subordinate of another institution, indicate the parent institution
+institution.title = Asutus - {0}
+institution.header.edit = Muuda asutust
+institution.header.new = Uus asutus
+
+institution.add = Lisa uus asutus
+institution.edit = Muuda
+institution.save = Salvesta
+institution.create = Loo asutus
+institution.delete = Kustuta asutus
+institution.delete.confirm = Kindel, et soovid selle asutuse kustutada?
+institution.subordinates = Subordinates
+institution.subordinates.empty = No subordinates were found
+institution.subordinates.search = Search subordinates
+institution.systems = Infosüsteemid
+institution.systems.empty = Asutusel ei ole registreeritud infosüsteeme
+institution.systems.search = Otsi infosüsteeme
+institution.assets = Varad
+institution.assets.empty = Asutusel ei ole registreeritud varasid
+institution.assets.search = Otsi varased
+institution.publicservices = Avalikud teenused
+institution.publicservices.search = Otsi avalikke teenuseid
+institution.publicservices.empty = Avalikke teenuseid ei leitud
+institution.users = Kasutajad
+institution.users.empty = Asutusel ei ole registreeritud kasutajaid
+institution.users.manage = Halda kasutajaid
+institution.users.add = Lisa kasutajaid
+institution.users.add.new = Loo uus kasutaja
+institution.users.add.existing = Lisa olemasolev kasutaja
+institution.users.update = Lisa kasutajad
+institution.users.updated = Kasutajad lisatud
+institution.users.remove = Eemalda kasutajaid
+institution.users.remove.update = Eemalda valitud kasutajad
+institution.users.removed = Kasutajad eemaldatud
+institution.owner = Asutuse haldur
+institution.owners.edit = Muuda õigusi
+institution.owners.update = Salvesta muudatused
+institution.owners.updated = Asutuse haldurid uuendatud
+institution.processes = Töövood
+institution.flash.created = Asutus {0} on loodud
+institution.flash.created.process.started = Asutus "{0}" on loodud ja alustatud töövoog "{1}"
+institution.flash.updated = Asutus {0} on uuendatud
+institution.flash.deleted = Asutus on kustutatud
+
+institutions.index.title = Asutused
+institutions.index.search = Otsi asutusi
+institutions.index.empty = Asutusi ei leitud
+
+parentinstitution.users.empty = Asutusel ei ole registreeritud kasutajaid
+
+system.name = Nimi
+system.name.info = Infosüüsteemi nimi
+system.ident = Identifikaator
+system.ident.info = Infosüsteemi identifikaator või lühinimi
+system.stdsys = Standardlahendus
+system.stdsys.info = Kas see infosüsteem on standardlahendus
+system.isstdsys = On standardlahendus
+system.parentinstitution = Asutus
+system.parentsystem = Kuulub ülemsüsteemi
+system.parentsolution = Kasutab standardlahendust
+system.title = Infosüsteem - {0}
+system.header.edit = Muuda infosüsteemi
+system.header.new = Uus infosüsteem
+system.add = Lisa infosüsteem
+system.add.new = Lisa uus infosüsteem
+system.add.join = Liitu standardlahendusega
+system.edit = Muuda
+system.save = Salvesta
+system.create = Loo infosüsteem
+system.delete = Kustuta infosüsteem
+system.delete.confirm = Kindel, et soovid selle infosüsteemi kustutada?
+system.services = Teenused
+system.services.empty = Infosüsteemil ei ole registreeritud teenuseid
+system.services.search = Otsi teenuseid
+system.owners = Haldajad
+system.owners.edit = Muuda õigusi
+system.owners.update = Salvesta muudatused
+system.owners.updated = Infosüsteemi haldajad on uuendatud
+system.owners.empty = Infosüsteemile ei ole määratud haldajaid
+system.processes = Töövood
+system.role.owner = Infosüsteemi haldur
+system.flash.created = infosüsteem {0} on loodud
+system.flash.created.process.started = Infosüsteem "{0}" on loodud ja töövoog "{1}" alustatud
+system.flash.updated = Infosüsteem {0} on uuendatud
+system.flash.deleted = Infosüsteem on kustutatud
+
+system.subsystems = Alamsüsteemid
+system.subsystems.search = Otsi alamsüsteeme
+system.subsystems.empty = Infosüsteemil ei ole registreeritud alamsüsteeme
+
+systems.index.title = Infosüsteemid
+systems.index.search = Otsi infosüsteemi
+systems.index.empty = Registreeritud infosüsteeme ei leitud
+
+system.joined = Liitunud süsteemid
+system.joinedsystems.empty = Infosüsteemil ei ole liitunud süsteeme
+system.joining.header.new = Uus infosüsteem
+
+subsystem.title = Alamsüsteem - {0}
+subsystem.header.edit = Muuda
+subsystem.header.new = Loo infosüsteem
+subsystem.add = Lisa alamsüsteem
+
+solutions.list.title = Standardlahendused
+solutions.list.info = Vali standardlahendus
+
+service.name = Nimi
+service.name.info = Teenuse nimi
+service.ident = Identifikaator
+service.ident.info = Teenuse identifikaatori või lühinimi
+service.parentinstitution = Asutus
+service.parentsystem = Kuulub süsteemi
+service.title = Teenus - {0}
+service.header.edit = Muuda teenust
+service.header.new = Loo uus teenus
+service.add = Lisa uus teenus
+service.add.new = Loo uus teenus
+service.edit = Muuda teenust
+service.save = Salvesta teenus
+service.create = Loo teenus
+service.delete = Kustuta teenus
+service.delete.confirm = Kindel, et soovid selle infosüsteemi kustutada?
+service.owners = Haldajad
+service.owners.edit = Muuda õigusi
+service.owners.update = Salvesta muudatused
+service.owners.updated = Teenuse haldajad uuendatud
+service.owners.empty = Teenusel ei ole määratud haldajaid
+service.processes = Töövood
+service.role.owner = Teenuse haldaja
+service.flash.created = Teenus {0} on loodud
+service.flash.created.process.started = Teenus "{0}" on loodud ja töövoog "{1}" alustatud
+service.flash.updated = Teenus {0} on uuendatud
+service.flash.deleted = Teenus on kustutatud
+
+service.xroad.wsdl.download.label = Teenuse WSDL
+service.xroad.wsdl.download.error = Teenuse WSDL-i laadimisel X-Tee serverist tekkis tõrge
+
+services.index.title = Teenused
+services.index.search = Otsi teenust
+services.index.empty = Teenuseid ei leitud
+
+xroad.services.list.error = Teenuste loetelu laadimisel X-Tee serverist tekkis tõrge
+
+publicservice.name = Teenuse nimi
+publicservice.name.info = 
+publicservice.ident = Teenuse identifikaator
+publicservice.ident.info = 
+publicservice.parentinstitution = Kuulub asutusele
+publicservice.title = Avalik teenus - {0}
+publicservice.header.edit = Muuda teenust
+publicservice.header.new = Uus avalik teenus
+publicservice.add = Lisa uus avalik teenus
+publicservice.edit = Muuda teenust
+publicservice.save = Salvesta
+publicservice.create = Salvesta
+publicservice.delete = Kustuta
+publicservice.delete.confirm = Kindel, et soovid selle teenuse kustutada?
+publicservice.owners = Haldajad
+publicservice.owners.edit = Muuda õigusi
+publicservice.owners.update = Salvesta muudatused
+publicservice.owners.updated = Teenuse haldajad uuendatud
+publicservice.owners.empty = Teenusel ei ole määratud haldajaid
+publicservice.processes = Töövood
+publicservice.role.owner = Teenuse haldaja
+publicservice.flash.created = Avalik teenus {0} on loodud
+publicservice.flash.created.process.started = Avalik teenus "{0}" on loodud ja töövoog "{1}" alustatud
+publicservice.flash.updated = Teenus {0} on uuendatud
+publicservice.flash.deleted = Teenus on kustutatud
+
+publicservices.index.title = Avalikud teenused
+publicservices.index.search = Otsi teenuseid
+publicservices.index.empty = Avalikke teenuseid ei leitud
+
+asset.name = Nimi
+asset.name.info = Vara nimi
+asset.ident = Identifikaator
+asset.ident.info = Vara identifikaator või lühinimi
+asset.parentinstitution = Asutus
+asset.title = Vara - {0}
+asset.header.edit = Muuda vara
+asset.header.new = Loo uus vara
+asset.add = Lisa uus vara
+asset.edit = Muuda vara
+asset.save = Salvesta vara
+asset.create = Loo vara
+asset.delete = Kustuta vara
+asset.delete.confirm = Kindel, et soovid selle vara kustutada?
+asset.owners = Haldajad
+asset.owners.edit = Muuda õigusi
+asset.owners.update = Salvesta muudatused
+asset.owners.updated = Asset owners have been updated
+asset.owners.empty = Varale ei ole määratud haldajaid
+asset.processes = Töövood
+asset.role.owner = Vara haldur
+asset.flash.created = Vara {0} on loodud
+asset.flash.created.process.started = Vara "{0}" on loodud ja töövoog "{1}" alustatud
+asset.flash.updated = Vara {0} on uuendatud
+asset.flash.deleted = Vara on kustutatud
+
+assets.index.title = Varad
+assets.index.search = Otsi vara
+assets.index.empty = Varasid ei leitud
+
+file.delete.confirm = Soovid kindlasti selle faili kustutada?
+
+emailtemplate.list.title = Teadete mallid
+emailtemplate.header.view = Teate mall "{0}"
+emailtemplate.header.active = (aktiivne)
+emailtemplate.properties = Malli andmed
+emailtemplate.add = Lisa teate mall
+emailtemplate.edit = Muuda malli
+emailtemplate.create = Salvesta
+
+emailtemplate.update = Salvesta
+emailtemplate.delete = Kustuta
+emailtemplate.delete.confirm = Kindel, et soovid selle malli kustutada?
+emailtemplate.active = Aktiivne
+emailtemplate.name = Malli nimi
+emailtemplate.comment = Kommentaar
+emailtemplate.subject = Teate teema
+emailtemplate.body = Teate sisu
+
+emailtemplate.flash.created = Email template has been created
+emailtemplate.flash.updated = Email template has been updated
+emailtemplate.flash.deleted = Email template has been deleted
+
+workflow.header.view = Töövoo definitsioon "{0}"
+workflow.header.active = (aktiivne)
+workflow.properties = Töövoo anded
+workflow.list.title = Töövoogude definitsioonid
+workflow.add = Lisa uus töövoo definitsioon
+workflow.create = Salvesta
+workflow.edit = Muuda
+workflow.update = Salvesta
+workflow.delete = Kusutua
+workflow.delete.confirm = Kindel, et soovid selle töövoo definitsiooni kustutada?
+workflow.new = Uus töövoo definitsioon
+workflow.name = Töövoo nimi
+workflow.active = Aktiivne
+workflow.comment = Kommentaar
+workflow.info = Info / abi
+workflow.trigger = Alusta töövoogu
+workflow.trigger.manual = Manually
+workflow.trigger.oncreate = On Create
+workflow.target = Seotud objekti liik
+workflow.filters = Filtrid
+workflow.filter.field = Väli
+workflow.filter.value = Väärtus
+workflow.filter.add = Lisa uus filter
+workflow.filter.remove = Eemalda see filter
+workflow.filter.comparison = 
+workflow.created = Töövoo definitsioon {0} on loodud
+workflow.updated = Workflow Definition {0} has been updated
+workflow.process.start = Alusta uut protsessi
+workflow.process.start.description = Protsessi kirjeldus
+workflow.process.start.comment = Lisa kommentaar
+workflow.process.start.submit = Alusta protsessi
+workflow.start.new = {0}
+workflow.processes.empty = 
+workflow.process.started = Protsess "{0}" on alustatud. Protsessi tulemusest antakse teile e-kirjaga teada.
+workflow.process.startedat = alustatud
+workflow.process.completedat = lõpetatud
+workflow.message.onstart = Teate mall alustamisel
+workflow.message.oncomplete = Teate mall lõppemisel
+workflow.message.onactionrequired = Teate mall järgmise sammu alustamisel
+workflow.process.action = Tegevus
+workflow.process.actions = Tegevused
+workflow.process.search = Otsi protsesse
+workflow.process.list = Töövoo protsessid
+workflow.process.title = Protsess "{0}"
+workflow.process.delete = Kustuta
+workflow.process.delete.confirm = Kindel, et soovid selle protsessi kustutada?
+workflow.process.flash.deleted = Protsess on kustutatud
+workflow.action.comment = Kommentaar
+workflow.action.submit = Salvesta
+workflow.action.taken = Tegevus sooritatud
+workflow.steps = Sammud
+workflow.step.id = Sammu id
+workflow.step.title = Sammu nimetus
+workflow.step.title.placeholder = Sammu nimetus / pealkiri
+workflow.step.timelimit = Ajalimiit
+workflow.step.timelimit.placeholder = Ajalimiit päevades
+workflow.step.info = Abi / info
+workflow.step.terminate = Negatiivne otsus lõpetab töövoo
+
+workflow.step.duedate = Tähtaeg {0}
+workflow.step.name = Sammu nimi / id
+workflow.step.insert = Lisa uus samm vahele
+workflow.step.up = Liiguta üles
+workflow.step.down = Liiguta alla
+workflow.step.remove = Eemalda samm
+workflow.step.add = Lisa uus samm lõppu
+
+workflow.step.actors.heading = Vastutavad kasutajad / rollid
+workflow.step.actors = Kasutajad / rollid
+workflow.step.actors.requireall = Kõik on vajalikud
+
+workflow.step.actions.heading = Tegevused
+workflow.step.action.id = Id
+workflow.step.action.id.placeholder = Tegevuse id
+workflow.step.action.title = Nimetus
+workflow.step.action.title.placeholder = Tegevuse nimetus
+workflow.step.action.type = Liik
+
+workflow.step.action.type.positive = Positive
+workflow.step.action.type.negative = Negative
+workflow.step.action.type.neutral = Neutral
+workflow.step.action.type.skip = Skip
+
+workflow.step.action.insert = Lisa uus tegevus vahele
+workflow.step.action.up = Liiguta üles
+workflow.step.action.down = Liiguta alla
+workflow.step.action.remove = Eemalda tegevus
+workflow.step.action.add = Lisa uus tegevus lõppu
+
+user.list.title = Kasutajad
+user.add = Lisa kasutaja
+user.add.title = Lisa uus kasutaja
+user.edit = Muuda
+user.edit.title = Muuda kasutajat
+user.create = Lisa kasutaja
+user.save = Salvesta
+user.profile.title = User profile for {0}
+user.delete = Kustuta kasutaja
+user.flash.created = User "{0}" has been created
+user.flash.updated = User "{0}" has been updated
+user.delete.confirm = Oled kindel, et soovid selle kasutaja kustutada?
+user.flash.deleted = Kasutajakonto on kustutatud
+user.search = Otsi kasutajat
+user.roles.admin = Süsteemihaldur
+views.users.empty = Ühtegi registreeritud kasutajat veel ei ole
+views.users.notfound = Päringule "{0}" ei leitud ühtegi kasutajat
+
+role.title = Role "{0}"
+role.add = Lisa uus roll
+role.new = Uus roll
+role.create = Salvesta
+role.created = Role created
+role.edit = Muuda
+role.update = Salvesta
+role.delete = Kustuta
+role.flash.deleted = Role deleted
+role.delete.confirm = Kindel, et soovid selle rolli kustutada?
+role.updated = Roll {0} on uuendatud
+role.list.title = Rollid
+role.search = Otsi rolle
+role.header.view = Roll "{0}"
+role.properties = Rolli andmed
+role.name = Rolli nimi
+role.responsible = Vastutav(ad) kasutaja(d)
+translation.edit = Muuda tõlget
+
+accesslog.list.header.datetime = Kuupäev / kell
+accesslog.list.header.target = Objekt
+accesslog.list.header.user = Kasutaja
+accesslog.list.header.event = Tegevus
+accesslog.list.target.type.institution = Asutus
+accesslog.list.target.type.system = Infosüsteem
+accesslog.list.target.type.service = Teenus
+accesslog.list.target.type.publicservice = Avalik teenus
+accesslog.list.target.type.asset = Vara
+accesslog.list.target.type.registration = Registration request
+accesslog.header.view = Logikirje
+accesslog.actions.create = Loomine
+accesslog.actions.read = Lugemine
+accesslog.actions.update = Muutmine
+accesslog.actions.delete = Kustutamine
+accesslog.entry.details = Detailid
+accesslog.entry.target.name = Objekti nimi
+accesslog.entry.user.name = Kasutaja nimi
+
+accesslogs.index.title = Pöördumiste logid
+accesslogs.index.empty = Pöördumiste logid puuduvad
+
+download.all = Lae alla kõik sellest vaatest
+download.asjson = JSON
+download.asxml = XML
+download.asrdf = Lae alla CPSV-AP RDF
+
+upload.list = Lae üles mitu objekti
+upload.single = Lae JSON fail
+
+field.help.reveal = more...
+
+alert.success = Edu!
+alert.info = 
+alert.error = Oops!
+
+error.institution.notfound = The Institution with this ID was not found
+error.infosystem.notfound = The Information System with this ID was not found
+error.infoservice.notfound = The Information Service with this ID was not found
+error.publicservice.notfound = The Public Service with this ID was not found
+error.asset.notfound = The Asset with this ID was not found
+error.registration.notfound = The Registration Request with this ID was not found
+error.generalerror = Päringu teostamisel tekkis ettenägematu tõrge :(
+
+cancel = Loobu
+or = või
+delete.confirm.title = Kindlasti kustutada?
+
+back.to.list = Tagasi loetellu
+
+error.email = Korrektne e-posti aadress oleks hea
+error.required = See väli on vajalik
+error.date = Korrektne kuupäev oleks hea
+error.number = Korrektne number oleks hea
+error.form.validation.failed = Vormi valideerimine ei õnnestunud. Palun täida puuduvad andmed ja paranda võimalikud vead ning salvesta uuesti.
+
+invalid.credentials = Kasutajanimi või parool kahjuks ei sobi!
+user.not.found = Kasutajakonto puudub!
+access.denied = Siia ei ole lubatud!
+not.logged.in = Palun logi sisse!
+user.exists = Selle e-posti aadressiga kasutaja on juba olemas!
+
+sign.up.title = Registreeri
+sign.up.disabled = Iseregistreerumine ei ole võimalik. Kasutajakonto taotlemiseks võta ühendust süsteemi haldajatega.
+sign.in.title = Logi sisse
+
+forgot.password.title = Parool ununenud
+reset.password.title = Lähtesta parool
+change.password.title = Muuda parooli
+set.password.title = Määra parool
+activate.account.title = Aktiveeri konto
+
+toggle.navigation = Lülita navigatsioon ümber
+welcome.signed.in = Tervitus, {0}
+
+sign.up.account = Registreeri uus konto
+sign.up.certificate = Registreeru ID-kaardiga
+sign.in.credentials = Logi sisse
+sign.in.certificate = Logi sisse ID-kaardiga
+certificate.dn = Sertifikaadi DN
+certificate.add = Lisa sertifikaat
+certificate.add.successful = Sertifikaat edukalt lisatud
+certificate.add.failed = Sertifikaadi lisamine ebaõnnestus
+certificate.remove = Eemalda sertifikaat
+certificate.remove.successful = Sertifikaat eemaldatud
+certificate.remove.failed = Sertifikaadi eemaldamine ebaõnnestus
+
+# See alert.xxx above
+# error = Error!
+# info = Info!
+# success = Success!
+
+user.anonymous = Tundmatu
+home = Esileht
+first.name = Eesnimi
+last.name = Perenimi
+full.name = Nimi
+email = E-posti aadress
+phone = Telefon
+password = Parool
+send = Saada
+change = Muuda
+reset = Lähtesta
+sign.up = Registreeri
+sign.in = Logi sisse
+sign.out = Logi välja
+sign.in.now = Logi sisse
+sign.up.now = Registreeri kasutajaks
+already.a.member = Oled juba kasutaja?
+not.a.member = Ei ole veel kasutaja?
+forgot.your.password = Unustasid parooli?
+forgot.password = Parool ununenud
+reset.password = Lähtesta parool
+change.password = Muuda parooli
+set.password = Määra parool
+password.set.failed = Parooli määramine ebaõnnestus
+activate.account = Aktiveeri konto
+current.password = Kehtiv parool
+new.password = Uus parool
+
+remember.me = Jäta mind meelde
+
+forgot.password.info = Palun sisesta oma e-posti aadress ja saadame sulle e-kirja parooli lähtestamiseks täiendava infoga.
+strong.password.info = Tugevad paroolid sisaldavad numbreid, tähti ja sümboleid.
+current.password.invalid = Sisesdtatud parool ei ole õige. Palun sisesta õige parool!
+activate.account.text1 = Sa ei saa veel sisse logida. Saatsime sulle eelnevalt e-kirja aktiveerimise infoga aadressile:
+activate.account.text2 = Konto aktiveerimiseks palun järgi selles kirjas toodud juhiseid.
+activate.account.text3 = Aktiveerimiskirja uuesti saatmiseks palun klõpsa <a href="{0}">siia</a>.
+
+sign.up.email.sent = Peaaegu valmis! Saatsime aktiveerimise e-kirja aadressile {0}. Konto aktiveerimiseks palun järgi seal kirjas toodud juhiseid. Kui kiri ei saabu, kontrolli rämpsposti kausta või püüa uuesti sisse logida, et saata aktiveerimise kiri uuesti.
+activation.email.sent = Saatsime uue aktiveerimise kirja aadressile {0}. Võib kuluda mõni minut, enne kui see kohale jõuab. Kontrolli ka oma rämpsposti kausta.
+reset.email.sent = Saatsime sulle e-kirja parooli lähtestamise juhistega, tingimusel et su e-posti aadress süsteemist leiti. Kui kiri ei saabu järgneva 5 minuti jooksul, palun kontrolli sisestatud aadressi õigsust ja proovi uuesti.
+
+invalid.activation.link = See link ei kehti enam! Aktiveerimise e-kirja uuesti saatmiseks palun logi sisse.
+invalid.reset.link = See link ei kehti enam! Parooli lähtestamiseks taotle uut e-kirja.
+
+password.reset = Parool on lähtestatud. Võid nüüd sisse logida.
+account.activated = Konto on aktiveeritud! Võid nüüd sisse logida.
+password.changed = Parool on muudetud.
+
+##########
+# Emails
+##########
+
+# Sign Up
+email.sign.up.subject = Tervitus
+email.sign.up.hello = Tere {0},
+email.sign.up.html.text = Oma konto kinnitamiseks ja aktiveerimiseks palun järgi <a href="{0}">seda linki</a>.
+email.sign.up.txt.text = Konto kinnitamiseks ja aktiveerimiseks palun järgi seda linki: {0}
+
+# Already Signed Up
+email.already.signed.up.subject = Tervitus
+email.already.signed.up.hello = Tere {0},
+email.already.signed.up.html.text = Sul on juba registreeritud konto. Sisse logimiseks palun järgi <a href="{0}">seda linki</a>.
+email.already.signed.up.txt.text = Sul on juba registreeritud konto. Sisse logimiseks palun järgi seda linki: {0}
+
+# Reset Password
+email.reset.password.subject = Lähtesta parool
+email.reset.password.hello = Tere {0},
+email.reset.password.html.text = Parooli lähtestamiseks palun järgi <a href="{0}">seda linki</a>.
+email.reset.password.txt.text = Parooli lähtestamiseks palun järgi seda linki: {0}
+
+# Activate Account
+email.activate.account.subject = Aktiveeri konto
+email.activate.account.hello = Tere {0},
+email.activate.account.html.text = Konto kinnitamiseks ja aktiveerimiseks palju järgi <a href="{0}">seda linki</a>.
+email.activate.account.txt.text = Konto kinnitamiseks ja aktiveerimiseks palju järgi seda linki: {0}
+

@@ -1,0 +1,42 @@
+Changes in 3.4.2
+- Modules can be enabled/disabled and top-level navigation reordered via configuration file
+- Most of the CSS has now been moved to default-theme.css for easy modifications
+
+Changes in 3.4.1
+- New institution registrations can now be enabled/disabled via config switches
+
+Changes in 3.4
+- Custom style overrides can be defined in the /public/theme.css file
+- Institutions can now be related to another (parent) institution
+- Labels and info texts of fixed fields can now be changed on the form assemblies
+- Section, fieldgroup and field help texts are now displayed shorter and with more... link to reveal further info
+
+Changes in 3.3.2
+- Fix date/time format in JSON API and downloaded JSON files
+
+Changes in 3.3.1
+- Add translations to error messages
+- Add translation to "Link: true/false" in view definitions
+- Fix registration status not displayed in registrations view and registration header
+- Display translated anonymous user name
+- Display translated Yes/No for boolean data in views (lists)
+- Fix JSON download URL-s
+
+Changes in 3.3
+- Added top filter to view definitions
+- Columns in view definition can be individually set to link to the target object
+- Reference fields are now updated when referenced object name changes
+- Remove sing-up link from login page, when self-registration is disabled
+- Reveal password button now behaves consistently among browsers
+- Show translated Yes/No for Boolean fields instead of english true/false
+- Fix workflows failing to start and actions not taking effect, when workflow names or action names contain apostrophes
+- Fix error downloading files when file name contains characters outside ISO-8859-1 set
+- Fix Next button in design views not being active, if the view has 11 entries
+- Fix Boolean checkbox help text displaying as Some(text)
+- Fix potential error when query for distinct references may include empty results
+- Add build info in generated pages
+- Fix errors in access logs not finding right target
+- Add access logging to registration requests
+- Fix wrong message when updating Asset owners
+- Upgrade ReactiveMongo to 1.0.0 release
+- Drop support for IE8

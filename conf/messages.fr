@@ -1,0 +1,847 @@
+application.name = CatIS
+home.title = Accueil
+home.header = Le Catalogue des Solutions Interopérables
+
+home.stat.institutions = Membres
+home.stat.systems = Sous-systèmes
+home.stat.services = Services
+home.stat.publicservices = Services Publics
+home.stat.assets = Actifs
+home.intro.p1 = Le catalogue des solutions d’interopérabilité (CatIS) fournit une assistance et un outil fiables aux développeurs, administrateurs et utilisateurs des systèmes d’information de l’État. Il peut également être utilisé pour gérer les actifs informatiques d’une entreprise.
+home.intro.p2 = CatIS est un instrument complémentaire pour la coordination des systèmes d’information de l’État, pour les systèmes d’aide au développement des systèmes et des services d’information, et pour l’outil des actifs d’interopérabilité de l’entretien.
+home.footer.html = <small>Le Catalogue des Solutions Interopérables<br/>Contact: <a href="https://www.ansie.dj/">https://www.ansie.dj/</a> e-mail: <a href="mailto:contact@ansie.dj">contact@ansie.dj</a></small>
+
+history.created = Créé par {0} à {1}
+history.modified = Modifié par {0} à {1}
+
+language = Langue
+languages = Langues
+languages.default = Par défaut
+languages.show = Afficher {0}
+
+boolean.true = Oui
+boolean.false = Non
+
+navbar.profile = Profil
+navbar.institutions = Institutions
+navbar.systems = Systèmes
+navbar.services = Services
+navbar.publicservices = Services publics
+navbar.assets = Actifs
+navbar.admin = Administration
+navbar.admin.forms = Formulaires
+navbar.admin.views = Vues
+navbar.admin.users = Utilisateurs
+navbar.admin.registrations = Demandes d’inscription
+navbar.admin.roles = Rôles d’utilisateur
+navbar.admin.workflows = Définitions du flux de travaux
+navbar.admin.processes = Processus du flux de travaux
+navbar.admin.emailtemplates = Modèles de courriel
+navbar.admin.accesslog = Journal d’accès
+navbar.admin.classifiers = Classificateur
+
+classifiers.list.title = Classificateur
+classifier.add = Ajouter un nouveau classificateur
+classifier.create = Sauver
+classifier.edit = Modifier
+classifier.delete = Supprimer
+classifier.delete.confirm = Vraiment supprimer ce classificateur?
+classifier.update = Mettre à jour
+classifier.new = Nouveau classificateur
+classifier.properties = Propriétés du classificateur
+classifier.name = Nom
+classifier.comment = Commentaire
+classifier.active = Actif
+classifier.key = Clé de recherche
+classifier.categories = Catégories
+
+classifier.categories.expandall = Afficher tout
+classifier.categories.collapseall = Réduire tout
+classifier.categories.untitled = Nouvelle catégorie
+classifier.categories.add = Ajouter une catégorie
+
+classifier.header.view = {0}
+classifier.header.active = (active)
+
+forms.fieldgroup.add = Ajouter un nouveau groupe de champs
+forms.fieldgroup.remove = Supprimer ce groupe de champs
+
+views.filters.filter = Filtrer
+views.filters.byname = Filtrer par nom...
+views.search = Recherche
+views.buttons.search = Recherche
+views.search.empty = Aucun résultat pour la requête "{0}"
+
+views.header.name = Nom
+views.header.title = Title
+views.header.type = Type
+views.header.ident = Identifiant
+views.header.status = Statut
+views.header.active = Actif
+views.header.startedat = Démarré
+views.header.completedat = Terminé
+views.header.target = Objet associé
+views.header.stepactors = Rôle(s) suivant(s)
+views.header.stepdue = Prochaine échéance
+views.header.comment = Commentaire
+views.header.responsible = Responsable
+views.header.email = Email
+views.header.phone = Téléphone
+views.header.roles = Rôles
+views.header.institution = Institution
+views.header.system = Système d’information
+views.empty = Rien à afficher
+
+views.pager.previous = Précédent
+views.pager.next = Suivant
+views.pager.total = Affichage de {0} à {1} de {2}
+
+views.sidenav.showall = Tout
+views.topfilter.showall = All
+
+status.submitted = Soumis
+status.accepted = Accepté
+status.rejected = Rejeté
+
+formbuilder.form.properties = Propriétés du formulaire
+formbuilder.form.fixedfields = Fixed fields
+formbuilder.section.header = Section
+formbuilder.section.id = Identifiant de la section
+formbuilder.section.id.placeholder = Identifiant / nom de la section
+formbuilder.section.title = Titre de la section
+formbuilder.section.title.placeholder = Titre / label de la section
+formbuilder.section.info = Aide / information
+formbuilder.section.info.placeholder = Aide / information de la section
+
+formbuilder.section.add = Ajouter une nouvelle section
+formbuilder.section.insert = Insérer une nouvelle section
+formbuilder.section.remove = Supprimer cette section
+formbuilder.section.up = Déplacer la section vers le haut
+formbuilder.section.down = Déplacer la section vers le bas
+
+formbuilder.fieldgroup.header = Groupe de champs
+formbuilder.fieldgroup.id = Identifiant du groupe de champs
+formbuilder.fieldgroup.id.placeholder = Identifiant / Nom du groupe de champs
+formbuilder.fieldgroup.title = Titre du groupe de champs
+formbuilder.fieldgroup.title.placeholder = Titre / label du groupe de champs
+formbuilder.fieldgroup.repeat = Répétez la limite
+formbuilder.fieldgroup.repeat.placeholder = Répétez la limite
+formbuilder.fieldgroup.layout = Mise en page
+formbuilder.fieldgroup.info = Aide / information
+formbuilder.fieldgroup.info.placeholder = Aide / information du groupe de champs
+formbuilder.fieldgroup.access.read = Lire
+formbuilder.fieldgroup.access.edit = Modifier
+formbuilder.fieldgroup.layout.horizontal = Horizontal
+formbuilder.fieldgroup.layout.vertical = Verticale
+formbuilder.fieldgroup.layout.inline = En ligne
+formbuilder.fieldgroup.add = Ajouter un nouveau groupe de champs
+formbuilder.fieldgroup.insert = Insérer un nouveau groupe de champs
+formbuilder.fieldgroup.remove = Supprimer ce groupe de champs
+formbuilder.fieldgroup.up = Déplacer le groupe de champs vers le haut
+formbuilder.fieldgroup.down = Déplacer la section du groupe de champs
+
+formbuilder.fields.header = Champs
+formbuilder.field.id = Identifiant du champ
+formbuilder.field.id.placeholder = Identifiant / Nom du champ
+formbuilder.field.title = Titre du champ
+formbuilder.field.title.placeholder = Titre / label du champ
+formbuilder.field.info = Information / aide
+formbuilder.field.info.placeholder = Information / aide du champ
+formbuilder.field.type = Type
+formbuilder.field.options = Options
+formbuilder.field.required = Requis
+formbuilder.field.access.read = Lire
+formbuilder.field.access.edit = Modifier
+
+formbuilder.field.choices.type = Type de choix
+formbuilder.field.choices.type.entervalues = Insérer des valeurs (une par ligne)
+formbuilder.field.choices.type.classifier = Classificateur (clé de classificateur)
+formbuilder.field.choices = Choix
+formbuilder.field.choices.placeholder = Choix de champ
+
+formbuilder.field.default = Valeur par défaut
+formbuilder.field.default.placeholder = 
+
+formbuilder.field.add = Ajouter un nouveau champ
+formbuilder.field.insert = Insérer un nouveau champ
+formbuilder.field.remove = Supprimer ce champ
+formbuilder.field.up = Déplacer le champ vers le haut
+formbuilder.field.down = Déplacer le champ de section
+
+field.type.text = Texte
+field.type.number = Nom
+field.type.date = Date
+field.type.time = Time
+field.type.datetime = Date and Time
+field.type.email = E-Mail
+field.type.url = URL
+field.type.textarea = Zone de texte
+field.type.markdown = Markdown
+field.type.boolean = Booléen
+field.type.checkbox = Case à cocher
+field.type.select = Sélectionnez un
+field.type.selects = Sélectionnez plusieurs
+field.type.file = Fichier
+field.type.asset = Actif
+field.type.service = Service
+field.type.publicservice = Service public
+field.type.system = Système
+field.type.institution = Institution
+
+view.header.view = Définition de la vue
+view.header.edit = Modifier la définition de la vue
+view.list.title = Vues
+view.new = Nouvelle vue
+view.edit = Modifier vue
+view.institutions.index = Index des institutions
+view.institution.subordinates = Institution - Subordinates
+view.institution.systems = Institution - Systèmes
+view.institution.assets = Institution - Actifs
+view.institution.publicservices = Institution - Services publics
+view.systems.index = Index des systèmes
+view.system.services = System - Services
+view.system.subsystems = System - Sous-systèmes
+view.system.joinedystems = System - Systèmes joints
+view.services.index = Index des services
+view.publicservices.index = Index des services publics
+view.assets.index = Index d’actifs
+view.registrations.index = Index des inscriptions
+
+viewbuilder.header.view = {0}
+viewbuilder.header.active = (active)
+viewbuilder.view.properties = Propriétés de la vue
+viewbuilder.view.add = Ajouter une nouvelle vue
+viewbuilder.view.edit = Modifier la vue
+viewbuilder.view.create = Créer cette vue
+viewbuilder.view.created = La définition de la vue a été créée
+viewbuilder.view.update = Mettre à jour
+viewbuilder.view.updated = La définition de la vue a été mise à jour
+viewbuilder.view.delete = Supprimer cette vue
+viewbuilder.view.delete.confirm = Vraiment supprimer cette vue?
+viewbuilder.view.deleted = La définition de la vue a été supprimée
+viewbuilder.view.type = Type de vue
+viewbuilder.view.key = Clé de lien
+viewbuilder.view.presentation = Présentation
+viewbuilder.view.presentation.table = Table
+viewbuilder.view.presentation.summary = Résumé
+viewbuilder.view.title = Titre de la vue
+viewbuilder.view.comment = Commentaire
+viewbuilder.view.info = Information de la vue
+viewbuilder.columns = Colonnes
+viewbuilder.categorycolumns = Colonnes de catégories
+viewbuilder.sidenavcolumns = Barre latérale
+viewbuilder.topfiltercolumns = Top filter
+viewbuilder.column.source = Source du champ
+viewbuilder.column.title = Titre de la colonne
+viewbuilder.column.title.placeholder = Titre / nom de la colonne
+viewbuilder.column.link = Lien
+viewbuilder.column.add = Ajouter une nouvelle colonne
+viewbuilder.column.insert = Insérer une nouvelle colonne
+viewbuilder.column.up = Déplacer la colonne vers le haut (gauche)
+viewbuilder.column.down = Déplacer la colonne vers le bas (droite)
+viewbuilder.column.remove = Supprimer la colonne
+
+form.title = Définition du formulaire
+form.header.view = Définition du formulaire
+form.header.active = (actif)
+form.list.title = Formulaires
+form.new = Nouveau formulaire
+form.edit = Modifier le formulaire
+form.save = Enregistrer la définition du formulaire
+form.updated = Mettre à jour le formulaire
+form.create = Créer ce formulaire
+form.created = Formulaire créé
+form.delete = Supprimer ce formulaire
+form.delete.confirm = Êtes-vous sûr de vouloir supprimer ce formulaire?
+form.deleted = Formulaire supprimé
+
+form.add = Ajouter un nouveau formulaire
+form.search = Recherche des formulaires
+form.type = Type de formulaire
+form.active = Actif
+form.info = Informations du formulaire (aide, description, etc.)
+form.comment = Commentaire (interne)
+form.type.institution = Institution
+form.type.system = Système
+form.type.service = Service
+form.type.publicservice = Service public
+form.type.asset = Actif
+form.type.registration = Demande d’inscription
+
+form.access.read.everyone = Tous
+form.access.read.authenticated = Authentifié
+form.access.read.organization = Même organisation
+form.access.read.owner = Propriétaire
+form.access.read.admin = Admin seulement
+form.access.edit.owner = Propriétaire
+form.access.edit.admin = Admin seulement
+form.access.edit.everyone = Tous
+
+registration.search = Recherche des demandes
+registration.add = Enregistrer une nouvelle institution
+registration.edit = Modifier la demande d’inscription
+registration.header.new = Enregistrer une nouvelle institution
+registration.header.edit = Modifier la demande d’inscription
+registration.header.status = Statut
+registration.title = Registration request for "{0}"
+registration.create = Soumettre cette demande d’inscription
+registration.resolution = Résolution
+registration.accept = Accepter et créer une nouvelle institution
+registration.reject = Refuser la demande
+registration.reject.confirm = Êtes-vous sûr de vouloir refuser cette demande d’inscription?
+registration.save = Enregistrer la demande d’inscription
+registration.delete = Supprimer la demande
+registration.flash.created = La demande d’enregistrement a été créée
+registration.flash.created.process.started = La demande d’enregistrement a été créée et le processus "{1}" a été lancé
+registration.flash.updated = La demande d’enregistrement a été mise à jour
+registration.flash.deleted = La demande d’enregistrement a été supprimée
+
+registration.name = Nom de l’institution
+registration.name.info = Nom officiel de l’institution à enregistrer
+registration.ident = Code d’enregistrement
+registration.ident.info = Code d’enregistrement de l’institution
+registration.email = Email du contact
+registration.email.info = Adresse e-mail de contact pour les notifications d’inscription
+
+registration.submitted = Merci, la demande d’enregistrement d’une nouvelle institution "{0}" a été envoyée aux responsables de l’application. Vous recevrez un e-mail à l’adresse "{1}" une fois la décision est prise.
+registration.new.subject = Nouvelle demande d’inscription pour "{0}"
+registration.new.body = Une nouvelle demande d’inscription a été créée pour l’institution "{0}"
+registration.submitted.subject = Demande d’inscription pour "{0}"
+registration.submitted.body = La demande d’inscription a été soumise pour l’institution "{0}". Vous serez averti lorsque la demande sera acceptée.
+registration.processes = Flux de travaux
+
+registration.registered.subject = CatIS: "{0}" a été enregistré
+registration.registered.body = Votre demande d’enregistrement "{0}" dans CatIS a été acceptée et l’institution a été enregistrée.
+
+registration.rejected.subject = Demande rejetée
+registration.rejected.body = Nous sommes désolés, votre demande d’enregistrement "{0}" dans CatIS a été rejetée.
+
+registrations.index.title = Demandes d’inscription
+registrations.index.empty = Il n’y a pas encore de demande d’inscription.
+
+institution = Institution
+institution.name = Nom
+institution.name.info = Nom de l’institution
+institution.ident = Identifiant
+institution.ident.info = Code d’enregistrement ou nom abrégé de l’établissement
+institution.parentinstitution = Parent Institution
+institution.parentinstitution.info = If this institution is a subordinate of another institution, indicate the parent institution
+institution.title = Institution - {0}
+institution.header.edit = Modifier l’institution
+institution.header.new = Créer une nouvelle institution
+
+institution.add = Ajouter une nouvelle institution
+institution.edit = Modifier l’institution
+institution.save = Enregistrer l’institution
+institution.create = Créer cette institution
+institution.delete = Supprimer cette institution
+institution.delete.confirm = Êtes-vous sûr de vouloir supprimer cette institution?
+institution.subordinates = Subordinates
+institution.subordinates.empty = No subordinates were found
+institution.subordinates.search = Search subordinates
+institution.systems = Systèmes
+institution.systems.empty = Cette institution n’a pas encore de système enregistré
+institution.systems.search = Rechercher des Systèmes
+institution.assets = Actifs
+institution.assets.empty = Cette institution n’a pas encore d’actif enregistré
+institution.assets.search = Rechercher des actifs
+institution.publicservices = Services publics
+institution.publicservices.search = Rechercher des services publics
+institution.publicservices.empty = Cette institution n’a pas encore de service public enregistré
+institution.users = Comptes des utilisateurs
+institution.users.empty = Cette institution n’a pas encore d’utilisateur enregistré
+institution.users.manage = Gérer les utilisateurs
+institution.users.add = Ajouter des utilisateurs
+institution.users.add.new = Créer un nouvel utilisateur
+institution.users.add.existing = Ajouter un utilisateur existant
+institution.users.update = Ajouter des utilisateurs
+institution.users.updated = Utilisateurs ajoutés
+institution.users.remove = Supprimer des utilisateurs
+institution.users.remove.update = Supprimer les utilisateurs sélectionnés
+institution.users.removed = Utilisateurs supprimés
+institution.owner = Administrateur de l’institution
+institution.owners.edit = Modifier l’accès du propriétaire
+institution.owners.update = Sauvegarder les modifications
+institution.owners.updated = Les propriétaires de l’institution ont été mis à jour
+institution.processes = Flux de travaux
+institution.flash.created = L’institution "{0}" a été créée
+institution.flash.created.process.started = L’institution "{0}" a été créée et le processus "{1}" a été lancé
+institution.flash.updated = L’institution "{0}" a été mise à jour
+institution.flash.deleted = L’institution a été supprimée
+
+institutions.index.title = Institutions
+institutions.index.search = Rechercher des institutions
+institutions.index.empty = Il n’y a pas encore d’institution
+
+parentinstitution.users.empty = L’institution mère n’a pas encore d’utilisateurs enregistrés
+
+system.name = Nom
+system.name.info = Nom du système d’information
+system.ident = Identifiant
+system.ident.info = Code d’identification ou nom abrégé du système d’information
+system.stdsys = Solution standard
+system.stdsys.info = Ce système d’information, est-il une solution standard?
+system.isstdsys = Est une solution standard
+system.parentinstitution = Institution
+system.parentsystem = Système parent
+system.parentsolution = Utilise une solution standard
+system.title = Système d’information - {0}
+system.header.edit = Modifier le système d’information
+system.header.new = Créer un nouveau système d’information
+system.add = Ajouter un système
+system.add.new = Créer un nouveau système
+system.add.join = Rejoindre une solution standard
+system.edit = Modifier
+system.save = Sauvegarder
+system.create = Créer ce système d’information
+system.delete = Supprimer le système d’information
+system.delete.confirm = Êtes-vous sûr de vouloir supprimer ce système d’information?
+system.services = Services d’information
+system.services.empty = Ce système n’a pas encore de service enregistré
+system.services.search = Rechercher des services
+system.owners = Propriétaires
+system.owners.edit = Modifier l’accès du propriétaire
+system.owners.update = Sauvegarder les modifications
+system.owners.updated = Les propriétaires du système d’information ont été mis à jour
+system.owners.empty = Le système d’information n’a pas de propriétaire
+system.processes = Flux de travaux
+system.role.owner = Administrateur du système d’information
+system.flash.created = Le système d’information "{0}" a été créé
+system.flash.created.process.started = Le système d’information "{0}" a été créé et le processus "{1}" a été lancé
+system.flash.updated = Le système d’information "{0}" a été mis à jour
+system.flash.deleted = Le service a été supprimé
+
+system.subsystems = Sous-systèmes
+system.subsystems.search = Rechercher des Sous-systèmes
+system.subsystems.empty = Ce système n’a pas encore de sous-système enregistré
+
+systems.index.title = Systèmes d’information
+systems.index.search = Rechercher des Systèmes
+systems.index.empty = Il n’y a pas encore de système d’information enregistré
+
+system.joined = Systèmes joints
+system.joinedsystems.empty = Ce système n’a pas encore de systèmes joints enregistrés
+system.joining.header.new = Nouveau système d’information
+
+subsystem.title = Sous-système d’information - {0}
+subsystem.header.edit = Modifier le sous-système
+subsystem.header.new = Créer un nouveau sous-système
+subsystem.add = Ajouter un nouveau sous-système
+
+solutions.list.title = Solutions standard
+solutions.list.info = Choisissez une solution
+
+service.name = Nom
+service.name.info = Nom du service
+service.ident = Identifiant
+service.ident.info = Code d’identification du service ou nom abrégé
+service.parentinstitution = Institution
+service.parentsystem = Système parent
+service.title = Service - {0}
+service.header.edit = Modifier le service
+service.header.new = Créer un nouveau service
+service.add = Ajouter un nouveau service
+service.add.new = Créer un nouveau service
+service.edit = Modifier le service
+service.save = Enregistrer le service
+service.create = Créer ce service
+service.delete = Supprimer ce service
+service.delete.confirm = Êtes-vous sûr de vouloir supprimer ce service?
+service.owners = Propriétaires
+service.owners.edit = Modifier l’accès du propriétaire
+service.owners.update = Sauvegarder les modifications
+service.owners.updated = Les propriétaires du système d’information ont été mis à jour
+service.owners.empty = Le service d’information n’a pas de propriétaire
+service.processes = Flux de travaux
+service.role.owner = Administrateur de service
+service.flash.created = Le service "{0}" a été créé
+service.flash.created.process.started = Le service "{0}" a été créé et le processus "{1}" a été lancé
+service.flash.updated = Le service "{0}" a été mis à jour
+service.flash.deleted = Le service a été supprimé
+
+service.xroad.wsdl.download.label = Service WSDL
+service.xroad.wsdl.download.error = Une erreur s’est produite lors du téléchargement du service WSDL à partir du serveur X-Road.
+
+services.index.title = Services
+services.index.search = Rechercher des services
+services.index.empty = Il n’y a pas encore de service enregistré
+
+xroad.services.list.error = Une erreur s’est produite lors de l’obtention de la liste de services à partir du serveur X-Road
+
+publicservice.name = Nom du service
+publicservice.name.info = 
+publicservice.ident = Identifiant de service
+publicservice.ident.info = 
+publicservice.parentinstitution = Appartient à l’institution
+publicservice.title = Service public - {0}
+publicservice.header.edit = Modifier le service
+publicservice.header.new = Nouveau service public
+publicservice.add = Ajouter un nouveau service public
+publicservice.edit = Modifier le service
+publicservice.save = Enregistrer le service
+publicservice.create = Créer ce service public
+publicservice.delete = Supprimer ce service
+publicservice.delete.confirm = Êtes-vous sûr de vouloir supprimer ce service?
+publicservice.owners = Propriétaires
+publicservice.owners.edit = Modifier l’accès du propriétaire
+publicservice.owners.update = Sauvegarder les modifications
+publicservice.owners.updated = Les propriétaires des services publics ont été mis à jour
+publicservice.owners.empty = Ce service public  n’a pas de propriétaire
+publicservice.processes = Flux de travaux
+publicservice.role.owner = Propriétaire du service public
+publicservice.flash.created = Le service public "{0}" a été créé
+publicservice.flash.created.process.started = Le service public "{0}" a été créée et le processus "{1}" a été lancé
+publicservice.flash.updated = Le service "{0}" a été mis à jour
+publicservice.flash.deleted = Le service public a été supprimée
+
+publicservices.index.title = Services publics
+publicservices.index.search = Rechercher des services publics
+publicservices.index.empty = Il n’y a pas encore de service public enregistré
+
+asset.name = Nom
+asset.name.info = Nom de l’actif
+asset.ident = Identifiant
+asset.ident.info = Code d’identification de l’actif ou nom abrégé
+asset.parentinstitution = Institution
+asset.title = Actif - {0}
+asset.header.edit = Modifier un actif
+asset.header.new = Créer un nouvel actif
+asset.add = Ajouter un nouvel actif
+asset.edit = Modifier un actif
+asset.save = Enregistrer l’actif
+asset.create = Créer cet actif
+asset.delete = Supprimer cet actif
+asset.delete.confirm = Êtes-vous sûr de vouloir supprimer cet actif?
+asset.owners = Propriétaires
+asset.owners.edit = Modifier l’accès du propriétaire
+asset.owners.update = Sauvegarder les modifications
+asset.owners.updated = Asset owners have been updated
+asset.owners.empty = Actif n’a pas de propriétaire
+asset.processes = Flux de travaux
+asset.role.owner = Administrateur de l’actif
+asset.flash.created = L’actif "{0}" a été créé
+asset.flash.created.process.started = L’actif "{0}" a été créée et le processus "{1}" a été lancé.
+asset.flash.updated = L’actif "{0}" a été mis à jour
+asset.flash.deleted = L’actif a été supprimé
+
+assets.index.title = Actifs
+assets.index.search = Rechercher des actifs
+assets.index.empty = Il n’y a pas encore d’actif enregistré.
+
+file.delete.confirm = Êtes-vous sûr de vouloir supprimer ce fichier?
+
+emailtemplate.list.title = Modèles de courriels
+emailtemplate.header.view = Modèle de courriel "{0}"
+emailtemplate.header.active = (active)
+emailtemplate.properties = Propriétés du modèle
+emailtemplate.add = Ajouter un modèle de courriel
+emailtemplate.edit = Modifier le modèle
+emailtemplate.create = Créer ce modèle
+
+emailtemplate.update = Sauvegarder les modifications
+emailtemplate.delete = Supprimer ce modèle
+emailtemplate.delete.confirm = Êtes-vous sûr de vouloir supprimer ce modèle?
+emailtemplate.active = Actif
+emailtemplate.name = Nom du modèle
+emailtemplate.comment = Commentaire du modèle
+emailtemplate.subject = Objet du message
+emailtemplate.body = Texte du message
+
+emailtemplate.flash.created = Le modèle de courriel a été créé
+emailtemplate.flash.updated = Le modèle de courriel a été mis à jour
+emailtemplate.flash.deleted = Le modèle de courriel a été supprimé
+
+workflow.header.view = Définition du flux de travaux "{0}"
+workflow.header.active = (active)
+workflow.properties = Propriétés du flux de travaux
+workflow.list.title = Définitions du flux de travaux
+workflow.add = Ajouter une nouvelle définition du flux de travaux
+workflow.create = Créer cette définition du flux de travaux
+workflow.edit = Modifier cette définition du flux de travaux
+workflow.update = Sauvegarder les modifications
+workflow.delete = Supprimer cette définition du flux de travaux
+workflow.delete.confirm = Êtes-vous sûr de vouloir supprimer cette définition du flux de travaux?
+workflow.new = Nouvelle définition du flux de travaux
+workflow.name = Nom du flux de travaux
+workflow.active = Actif
+workflow.comment = Commentaire
+workflow.info = Informations / Aide
+workflow.trigger = Démarrer le flux de travaux
+workflow.trigger.manual = Manuel
+workflow.trigger.oncreate = Automatique
+workflow.target = Type d’objet associé
+workflow.filters = Filtres
+workflow.filter.field = Champ
+workflow.filter.value = Valeur
+workflow.filter.add = Ajouter un nouveau filtre
+workflow.filter.remove = Supprimer ce filtre
+workflow.filter.comparison = 
+workflow.created = La définition de flux de travaux "{0}" a été créée
+workflow.updated = La définition de flux de travaux "{0}" a été mise à jour
+workflow.process.start = Démarrer un nouveau processus
+workflow.process.start.description = Description du processus
+workflow.process.start.comment = Ajoutez des commentaires
+workflow.process.start.submit = Démarrer ce processus
+workflow.start.new = {0}
+workflow.processes.empty = 
+workflow.process.started = Le processus "{0}" a été lancé. Vous recevrez une notification par courriel une fois le processus est terminé.
+workflow.process.startedat = commencé
+workflow.process.completedat = terminé
+workflow.message.onstart = Modèle de courriel au démarrage
+workflow.message.oncomplete = Modèle de courriel à la fin
+workflow.message.onactionrequired = Modèle de courriel sur l’étape
+workflow.process.action = Action
+workflow.process.actions = Actions
+workflow.process.search = Rechercher des Processus
+workflow.process.list = Processus de flux de travaux
+workflow.process.title = Processus "{0}"
+workflow.process.delete = Supprimer
+workflow.process.delete.confirm = Êtes-vous sûr de vouloir supprimer ce processus?
+workflow.process.flash.deleted = Le processus a été supprimé
+workflow.action.comment = Commentaires
+workflow.action.submit = Soumettre
+workflow.action.taken = Action effectuée
+workflow.steps = Étapes
+workflow.step.id = Identification de l’étape
+workflow.step.title = Titre de l’étape
+workflow.step.title.placeholder = Titre / nom de l’étape
+workflow.step.timelimit = Limite de temps
+workflow.step.timelimit.placeholder = Limite de temps en jours
+workflow.step.info = Aide / informations
+workflow.step.terminate = Résilier sur décision négative
+
+workflow.step.duedate = Prévu pour {0}
+workflow.step.name = Nom / identification de l’étape
+workflow.step.insert = Insérer nouvelle étape
+workflow.step.up = Déplacer cette étape vers le haut
+workflow.step.down = Déplacer cette étape vers le bas
+workflow.step.remove = Supprimer l’étape
+workflow.step.add = Ajouter une nouvelle étape
+
+workflow.step.actors.heading = Utilisateurs / rôles responsables
+workflow.step.actors = Utilisateurs / rôles
+workflow.step.actors.requireall = Exiger à tous
+
+workflow.step.actions.heading = Actions
+workflow.step.action.id = Identification
+workflow.step.action.id.placeholder = Identification / nom de l’action
+workflow.step.action.title = Titre
+workflow.step.action.title.placeholder = Titre / label de l’action
+workflow.step.action.type = Effet
+
+workflow.step.action.type.positive = Positif
+workflow.step.action.type.negative = Négatif
+workflow.step.action.type.neutral = Neutre
+workflow.step.action.type.skip = Passer
+
+workflow.step.action.insert = Insérer une nouvelle action
+workflow.step.action.up = Déplacer l’action vers le haut
+workflow.step.action.down = Déplacer l’action vers le bas
+workflow.step.action.remove = Supprimer l’action
+workflow.step.action.add = Ajouter une nouvelle action
+
+user.list.title = Utilisateurs
+user.add = Ajouter un utilisateur
+user.add.title = Ajouter un nouvel utilisateur
+user.edit = Modifier
+user.edit.title = Modifier l’utilisateur
+user.create = Créer cet utilisateur
+user.save = Enregistrer l’utilisateur
+user.profile.title = User profile for {0}
+user.delete = Supprimer l’utilisateur
+user.flash.created = L’utilisateur {0} a été créé
+user.flash.updated = L’utilisateur {0} a été mis à jour
+user.delete.confirm = Êtes-vous sûr de vouloir supprimer cet utilisateur?
+user.flash.deleted = Le compte utilisateur a été supprimé
+user.search = Rechercher des utilisateurs
+user.roles.admin = Administrateur du système
+views.users.empty = Il n’y a pas encore d’utilisateur enregistré
+views.users.notfound = Aucun utilisateur ne correspond à la requête "{0}"
+
+role.title = Role "{0}"
+role.add = Ajouter un nouveau Rôle
+role.new = Nouveau Rôle
+role.create = Créer ce Rôle
+role.created = Role created
+role.edit = Modifier ce Rôle
+role.update = Sauvegarder les modifications
+role.delete = Supprimer ce Rôle
+role.flash.deleted = Role deleted
+role.delete.confirm = Êtes-vous sûr de vouloir supprimer ce rôle?
+role.updated = Le rôle "{0}" a été mis à jour
+role.list.title = Rôles
+role.search = Rechercher des Rôles
+role.header.view = Rôle "{0}"
+role.properties = Propriétés du rôle
+role.name = Nom de rôle
+role.responsible = Utilisateur(s) responsable
+translation.edit = Modifier la traduction
+
+accesslog.list.header.datetime = Date / heure
+accesslog.list.header.target = Objet
+accesslog.list.header.user = Nom d’utilisateur
+accesslog.list.header.event = Action
+accesslog.list.target.type.institution = Institution
+accesslog.list.target.type.system = Système
+accesslog.list.target.type.service = Service
+accesslog.list.target.type.publicservice = Service Public
+accesslog.list.target.type.asset = Atout
+accesslog.list.target.type.registration = Registration request
+accesslog.header.view = Entrée du journal
+accesslog.actions.create = Créer
+accesslog.actions.read = Lire
+accesslog.actions.update = Modifier
+accesslog.actions.delete = Supprimer
+accesslog.entry.details = Détails
+accesslog.entry.target.name = Nom d’objet
+accesslog.entry.user.name = Nom d’utilisateur
+
+accesslogs.index.title = Journal des accès
+accesslogs.index.empty = Le journal des accès est vide
+
+download.all = Télécharger tout dans cette vue
+download.asjson = JSON
+download.asxml = XML
+download.asrdf = Télécharger en tant que CPSV-AP RDF
+
+upload.list = Télécharger plusieurs objets
+upload.single = Télécharger un fichier JSON
+
+field.help.reveal = more...
+
+alert.success = Succès
+alert.info = 
+alert.error = Oops!
+
+error.institution.notfound = L'institution avec cet identifiant n'a pas été trouvée
+error.infosystem.notfound = Le système d'information avec cet identifiant n'a pas été trouvé
+error.infoservice.notfound = Le service d'information avec cet identifiant n'a pas été trouvé
+error.publicservice.notfound = Le service public avec cette identification n’a pas été trouvé
+error.asset.notfound = L'actif avec cet identifiant n'a pas été trouvé
+error.registration.notfound = La demande d'enregistrement avec cet identifiant n'a pas été trouvée
+error.generalerror = Quelque chose s’est mal passé avec cette requête :(
+
+cancel = Annuler
+or = ou
+delete.confirm.title = Vraiment supprimer?
+
+back.to.list = Retour à la liste
+
+error.email = Email valide requis
+error.required = Ce champ est requis
+error.date = Date valide requise
+error.number = Nombre valide requis
+error.form.validation.failed = La validation du formulaire a échoué. Veuillez corriger les erreurs et essayez de soumettre à nouveau.
+
+invalid.credentials = Identifiants invalides!
+user.not.found = Le compte utilisateur n’existe pas!
+access.denied = Accès refusé!
+not.logged.in = Veuillez vous connecter!
+user.exists = Il existe déjà un utilisateur avec cet email!
+
+sign.up.title = S’inscrire
+sign.up.disabled = L’auto-inscription n’est pas activée. Contacter les propriétaires de l’application pour demander un nouveau compte.
+sign.in.title = Se connecter
+
+forgot.password.title = Mot de passe oublié
+reset.password.title = Réinitialiser le mot de passe
+change.password.title = Changer le mot de passe
+set.password.title = Définir le mot de passe
+activate.account.title = Activer le compte
+
+toggle.navigation = Activer la navigation
+welcome.signed.in = Bienvenue, {0}
+
+sign.up.account = S’inscrire pour un nouveau compte
+sign.up.certificate = S’inscrire avec la carte d’identité
+sign.in.credentials = Se connecter avec vos identifiants
+sign.in.certificate = Se connecter avec la carte d’identité
+certificate.dn = Certificat Connecté
+certificate.add = Connecter le certificat
+certificate.add.successful = Certificat connecté avec succès
+certificate.add.failed = Impossible de connecter le certificat
+certificate.remove = Déconnecter le certificat
+certificate.remove.successful = Certificat déconnecté
+certificate.remove.failed = Impossible de déconnecter le certificat
+
+# See alert.xxx above
+# error = Erreur!
+# info = Info!
+# success = Succès!
+
+user.anonymous = Anonyme
+home = Accueil
+first.name = Prénom
+last.name = Nom de famille
+full.name = Nom complet
+email = Email
+phone = Téléphone
+password = Mot de passe
+send = Envoyer
+change = Changer
+reset = Réinitialiser
+sign.up = S’inscrire
+sign.in = Se connecter
+sign.out = Déconnexion
+sign.in.now = Connectez-vous maintenant
+sign.up.now = Inscrivez-vous maintenant
+already.a.member = Déjà membre?
+not.a.member = Pas un membre?
+forgot.your.password = Mot de passe oublié?
+forgot.password = Mot de passe oublié
+reset.password = Réinitialiser le mot de passe
+change.password = Changer le mot de passe
+set.password = Définir le mot de passe
+password.set.failed = La définition du mot de passe a échoué
+activate.account = Activer le Compte
+current.password = Mot de passe actuel
+new.password = Nouveau mot de passe
+
+remember.me = Mémoriser mon identifiant sur cet ordinateur
+
+forgot.password.info = Veuillez entrer votre adresse email et nous vous enverrons un courriel avec des instructions supplémentaires pour réinitialiser votre mot de passe.
+strong.password.info = Les mots de passe forts incluent des chiffres, des lettres et des signes de ponctuation.
+current.password.invalid = Le mot de passe entré est invalide. S’il vous plaît entrer le mot de passe correct!
+activate.account.text1 = Vous ne pouvez pas encore vous connecter. Nous vous avons déjà envoyé un courriel d’activation à:
+activate.account.text2 = Veuillez suivre les instructions de cet courriel pour activer votre compte..
+activate.account.text3 = Cliquez <a href="{0}">ici</a> pour envoyer à nouveau le courriel d’activation..
+
+sign.up.email.sent = Vous avez presque fini! Nous avons envoyé un courriel d’activation à "{0}". Veuillez suivre les instructions dans l’email pour activer votre compte. S’il n’arrive pas, vérifiez votre dossier spam ou essayez de vous reconnecter pour envoyer un autre courriel d’activation.
+activation.email.sent = Nous vous avons envoyé un autre courriel d’activation à "{0}". Cela pourrait prendre quelques minutes pour arriver; assurez-vous de vérifier votre dossier spam.
+reset.email.sent = Nous vous avons envoyé un courriel avec des instructions supplémentaires pour réinitialiser votre mot de passe, à condition que l’adresse ait été trouvée dans notre système. Si vous ne recevez pas de courriel dans les 5 prochaines minutes, vérifiez à nouveau l’adresse e-mail que vous avez entrée et essayez à nouveau.
+
+invalid.activation.link = Le lien n’est plus valide! Veuillez vous connecter pour envoyer à nouveau le courriel d’activation.
+invalid.reset.link = Le lien n’est plus valide! Veuillez demander un nouveau lien pour réinitialiser votre mot de passe.
+
+password.reset = Nous avons réinitialisé votre mot de passe. Vous pouvez maintenant vous connecter avec vos identifiants.
+account.activated = Votre compte est maintenant activé! Veuillez vous connecter pour utiliser votre nouveau compte.
+password.changed = Votre mot de passe a été changé.
+
+##########
+# Emails
+##########
+
+# Sign Up
+email.sign.up.subject = Bienvenue
+email.sign.up.hello = Bonjour {0},
+email.sign.up.html.text = Veuillez suivre <a href="{0}">ce lien</a> pour confirmer et activer votre nouveau compte.
+email.sign.up.txt.text = Veuillez suivre le lien pour confirmer et activer votre nouveau compte: {0}
+
+# Already Signed Up
+email.already.signed.up.subject = Bienvenue
+email.already.signed.up.hello = Bonjour {0},
+email.already.signed.up.html.text = Vous avez déjà un compte enregistré. Veuillez suivre <a href="{0}">ce lien</a> pour vous connecter à votre compte.
+email.already.signed.up.txt.text = Vous avez déjà un compte enregistré. Veuillez suivre le lien pour vous connecter à votre compte: {0}
+
+# Reset Password
+email.reset.password.subject = Réinitialiser le mot de passe
+email.reset.password.hello = Bonjour {0},
+email.reset.password.html.text = Veuillez suivre <a href="{0}">ce lien</a> pour réinitialiser votre mot de passe.
+email.reset.password.txt.text = Veuillez suivre le lien pour réinitialiser votre mot de passe: {0}
+
+# Activate Account
+email.activate.account.subject = Activer le compte
+email.activate.account.hello = Bonjour {0},
+email.activate.account.html.text = Veuillez suivre <a href="{0}">ce lien</a> pour confirmer et activer votre nouveau compte.
+email.activate.account.txt.text = Veuillez suivre le lien pour confirmer et activer votre nouveau compte: {0}
+

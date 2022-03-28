@@ -1,0 +1,396 @@
+/**********
+    MISC
+***********/
+html, body {
+    height: 100%;
+}
+a, a:before, a:after, a:hover, a:focus, a:active { outline:none; cursor: pointer; }
+
+body {
+    background: white;
+}
+
+.content {
+    margin-top: 2%;
+}
+
+body > .page-header {
+    border: 0;
+}
+
+.content .container {
+    padding-bottom: 70px;
+    background: white;
+    border-radius: 10px;
+}
+
+#home .page-header {
+    color: #333;
+    margin: 0;
+    padding: 25px;
+    padding-top: 60px;
+    letter-spacing: 0.0625em;
+}
+#home p {
+    font-size:1.1em;
+}
+.alert {
+    margin-top: 20px;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+/********
+    NAV
+*********/
+.nav a {
+    font-size:1em;
+}
+.nav > li > a {
+    font-weight: 600;
+}
+.navbar-default .navbar-nav>li>a {
+    color:white;
+}
+.navbar-default {
+    background-color: #639bda;
+    border-bottom: 6px solid green;
+}
+.navbar-brand {
+    white-space: nowrap;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.navbar-brand > .helper {
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+.navbar-brand-text {
+    display: none;
+}
+
+.navbar-brand-image {
+    content: url(../../public/images/logoANSIE.png);
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 50px;
+}
+
+.nav-tabs {
+    padding-top: 10px;
+}
+.nav-tabs>li>a {
+    border: none;
+    border-bottom: 5px solid white;
+    margin-bottom: 1px;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    border: none;
+    border-bottom: 5px solid rgba(77, 117, 175, 1);
+}
+.nav-tabs>li>a:focus, .nav-tabs>li>a:hover {
+    border: none;
+    background-color: #fff;
+    border-bottom: 5px solid rgba(77, 117, 175, 1);
+}
+
+/***********
+    STATS
+************/
+.home-stats {
+    margin: 20px 20% 50px;
+}
+
+.home-stats li {
+    min-width: 45%;
+    margin-top: 10px;
+    font-size:0.9em;
+    letter-spacing: 0.0625em;
+}
+
+.home-stats .text-info {
+    display: block;
+    border-radius: 10px;
+    padding: 8px;
+    color: white;
+    text-transform: uppercase;
+    background: #639bda;
+}
+.home-stats a:hover{
+    text-decoration: none;
+    color: white;
+}
+.stat-text {
+    display: inline-block;
+    text-align: center;
+    padding-right: 10px;
+    white-space: nowrap;
+    line-height: 2em;
+}
+.stat-number {
+    display: inline-block;
+    line-height: 1.5em;
+    padding: 5px 15px;
+    border-radius: 10px;
+    background: #f4f4f5;
+    color: #333;
+    float: right;
+}
+
+/************
+    FOOTER
+*************/
+.footer {
+    /* Collapse rounded corners */
+    margin-top: -20px;
+}
+footer .container {
+    padding-top:75px;
+    padding-bottom:15px;
+    background: white;
+    border-radius: 10px;
+}
+.footer-image {
+    content: url(../../public/images/logo-footer.png);
+    max-height: 80px;
+}
+.footer-left {
+}
+.footer-right {
+    text-align: right;
+}
+.footer-contact {
+}
+
+@media(max-width:768px) {
+    .navbar, .dropdown-menu {
+        text-align: center;
+    }
+}
+
+/***********
+ VIEWS, FORMS
+***********/
+.actionbar {
+    min-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    background-color: white;
+}
+
+.searchbar {
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.searchbar form {
+    width: 100%;
+}
+
+form .actionbar {
+    position: sticky;
+    top: 50px;
+    z-index: 100;
+}
+
+.form-content {
+    margin-top: 30px;
+}
+
+.form-validation-errors > ul.field-validation-errors {
+    padding-left: 15px;
+}
+
+.help-block p {
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+
+.history {
+    margin: 50px 0;
+}
+
+fieldset {
+    margin-top: 20px;
+}
+
+legend {
+    margin-bottom: 10px;
+}
+
+fieldset.login legend {
+    text-align: center;
+    padding: 15px;
+}
+
+fieldset.workflow-process legend {
+    font-size: 16px;
+}
+
+.has-feedback .form-control-feedback {
+    top: 0;
+    left: 0;
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    color: #555;
+}
+
+.has-feedback .form-control {
+    padding-left: 42.5px;
+}
+
+.form-horizontal .form-group {
+    margin-bottom: 5px;
+}
+
+.form-horizontal .form-inline .form-group {
+    margin: 0;
+}
+
+.form-horizontal.fg-content-row.repeating,
+.form-vertical.fg-content-row.repeating {
+    margin-bottom: 10px;
+}
+
+.form-horizontal.fg-content-row.repeating:not(:first-of-type),
+.form-vertical.fg-content-row.repeating:not(:first-of-type) {
+    border-top: 1px solid #e5e5e5;
+    padding-top: 10px;
+}
+
+.form-horizontal.fg-content-row .form-group {
+    margin-right: 20px;
+}
+
+.form-vertical.fg-content-row .form-group {
+    margin-right: 35px;
+}
+
+.summary-view th.extra {
+    font-weight: normal;
+    white-space: nowrap;
+}
+.summary-view td.title {
+    font-weight: bold;
+    padding-bottom: 0;
+}
+.summary-view td.extra {
+    color: #777;
+    white-space: nowrap;
+    padding-bottom: 0;
+    text-align: right;
+    width: 1%;
+}
+.summary-view tr.summary-row td {
+    border-top: 0;
+    padding-top: 0;
+}
+
+th.header a:hover {
+    text-decoration: none;
+}
+
+.view-category a:hover {
+    text-decoration: none;
+}
+
+table th.category-header {
+    width: 1%;
+    white-space: nowrap;
+}
+
+.view-filter {
+    margin-top: 10px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ddd;
+}
+
+.view-filter ul {
+    margin-bottom: 5px;
+}
+
+.view-filter .nav li {
+    padding: 0;
+    display: inline-block;
+    float: none;
+}
+
+.view-filter .nav li.active a {
+    color: #007bff;
+    background-color: #eee;
+}
+
+.view-filter .nav li a {
+    display: block;
+    padding: 3px 5px;
+    border-radius: 0;
+    color: #333;
+    font-weight: inherit;
+}
+
+.view-filter .filter-label {
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.view-filter .filter-label::after {
+    content: ":";
+}
+
+.view-filter .filter-label .glyphicon {
+    display: none;
+}
+
+.view-filter .active a {
+    color: #007bff;
+}
+
+.view-filter li > a:focus,
+.view-filter li > a:hover {
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.sidebar-heading {
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 18px;
+}
+
+.sidebar .nav li a {
+    padding: 5px 15px;
+    font-weight: 500;
+    border-radius: 0;
+    color: #333;
+}
+
+.sidebar .nav .active a {
+    color: #007bff;
+    background-color: #eee;
+}
+
+/**********
+ MISC
+ *********/
+.sign-in-now,
+.already-member,
+.not-a-member {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.user {
+    margin-top: 50px;
+}
+.user .data {
+    margin-top: 10px;
+}

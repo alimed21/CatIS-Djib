@@ -1,0 +1,1014 @@
+27.03.22 13:22:52.905 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'AuthTokenCleaner', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@7945b206'
+27.03.22 13:22:52.925 INFO  - jobs.Scheduler - Scheduled authentication token cleaner, next sweep at Sun Mar 27 14:00:00 UTC 2022
+27.03.22 13:22:52.926 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'WorkflowReminder', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@5a90265a'
+27.03.22 13:22:52.927 INFO  - jobs.Scheduler - Scheduled workflow reminder, next check at Mon Mar 28 06:00:00 UTC 2022
+27.03.22 13:22:52.931 INFO  - modules.StartupTasks - Checking indexes
+27.03.22 13:22:53.020 INFO  - play.api.Play - Application started (Prod)
+27.03.22 13:22:53.660 INFO  - play.core.server.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+27.03.22 13:23:01.220 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1190941229?
+27.03.22 13:31:36.458 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:38:01.392 INFO  - play.core.server.AkkaHttpServer - Stopping server...
+27.03.22 13:38:01.403 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi stopping...
+27.03.22 13:38:03.438 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi connections are stopped
+27.03.22 13:38:17.429 INFO  - modules.StartupTasks - Checking indexes
+27.03.22 13:38:17.584 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'AuthTokenCleaner', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@590765c4'
+27.03.22 13:38:17.606 INFO  - jobs.Scheduler - Scheduled authentication token cleaner, next sweep at Sun Mar 27 14:00:00 UTC 2022
+27.03.22 13:38:17.607 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'WorkflowReminder', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@422ad5e2'
+27.03.22 13:38:17.609 INFO  - jobs.Scheduler - Scheduled workflow reminder, next check at Mon Mar 28 06:00:00 UTC 2022
+27.03.22 13:38:17.616 INFO  - play.api.Play - Application started (Prod)
+27.03.22 13:38:18.155 INFO  - play.core.server.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+27.03.22 13:38:25.723 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1568507411?
+27.03.22 13:38:27.739 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:38:30.841 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:39:13.736 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:39:31.017 INFO  - play.core.server.AkkaHttpServer - Stopping server...
+27.03.22 13:39:31.024 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi stopping...
+27.03.22 13:39:33.067 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi connections are stopped
+27.03.22 13:41:00.954 INFO  - modules.StartupTasks - Checking indexes
+27.03.22 13:41:01.114 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'AuthTokenCleaner', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@4aeb0e2b'
+27.03.22 13:41:01.129 INFO  - jobs.Scheduler - Scheduled authentication token cleaner, next sweep at Sun Mar 27 14:00:00 UTC 2022
+27.03.22 13:41:01.129 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'WorkflowReminder', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@7b5cc918'
+27.03.22 13:41:01.136 INFO  - jobs.Scheduler - Scheduled workflow reminder, next check at Mon Mar 28 06:00:00 UTC 2022
+27.03.22 13:41:01.143 INFO  - play.api.Play - Application started (Prod)
+27.03.22 13:41:01.729 INFO  - play.core.server.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+27.03.22 13:41:03.934 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:41:09.258 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#2040008077?
+27.03.22 13:41:10.949 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:41:33.870 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:41:41.115 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:41:48.529 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:27.828 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:32.082 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:35.659 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:36.010 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:36.206 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:36.415 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:36.652 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:36.900 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:37.143 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:37.375 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:42:37.560 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:45:13.197 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 13:45:14.320 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+27.03.22 14:00:08.287 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1567929317?
+27.03.22 14:00:08.299 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(40844184, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093250464620>)
+	at reactivemongo.ChannelDisconnected(cb5ce30e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093250326220>)
+	at reactivemongo.ChannelReconnecting(9d8d5fac, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093249560837>)
+	at reactivemongo.ChannelReconnecting(ddd3e55e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093249443603>)
+	at reactivemongo.ChannelDisconnected(dc0a8870, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093209594819>)
+	at reactivemongo.ChannelReconnecting(33db5adc, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093208906469>)
+	at reactivemongo.ChannelDisconnected(8b1c30bb, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093201021722>)
+	at reactivemongo.ChannelDisconnected(dedeebf4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093200900802>)
+	at reactivemongo.ChannelReconnecting(7e3984fb, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093199523711>)
+	at reactivemongo.ChannelReconnecting(93ccc7b2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093199096058>)
+	at reactivemongo.ChannelDisconnected(f3c37f30, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093189636868>)
+	at reactivemongo.ChannelReconnecting(37c6cc40, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093188953862>)
+	at reactivemongo.ChannelDisconnected(47f7febb, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093181097708>)
+	at reactivemongo.ChannelDisconnected(50169559, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093180668668>)
+	at reactivemongo.ChannelReconnecting(0e907063, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093180520697>)
+	at reactivemongo.ChannelDisconnected(eb4a15fe, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093180335935>)
+	at reactivemongo.ChannelReconnecting(106c6df4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093179685976>)
+	at reactivemongo.ChannelReconnecting(e98ed3f0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093179529085>)
+	at reactivemongo.ChannelDisconnected(4f4e809a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093171095079>)
+	at reactivemongo.ChannelDisconnected(ae2d18de, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093170982447>)
+	at reactivemongo.ChannelReconnecting(8c2ee39b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093169678898>)
+	at reactivemongo.ChannelReconnecting(b94a4e4d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493093169477424>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493090969875136>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493090969325407>)
+	at reactivemongo.ChannelDisconnected(9d8d5fac, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1493083230490271>)
+27.03.22 15:00:08.228 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1553862992?
+27.03.22 15:00:08.239 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496690969014209>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496690968946899>)
+	at reactivemongo.ChannelDisconnected(2d235fb0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496690109667163>)
+	at reactivemongo.ChannelReconnecting(2d00cd11, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496690108958688>)
+	at reactivemongo.ChannelDisconnected(cb3030e4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496690031585075>)
+	at reactivemongo.ChannelDisconnected(19cc3513, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496690031281203>)
+	at reactivemongo.ChannelReconnecting(719fde73, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496690031201264>)
+	at reactivemongo.ChannelReconnecting(ca894629, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496690031166381>)
+	at reactivemongo.ChannelDisconnected(c8964aa5, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496690019702768>)
+	at reactivemongo.ChannelReconnecting(aa22e14d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496690019242612>)
+	at reactivemongo.ChannelDisconnected(f2a535be, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689999490728>)
+	at reactivemongo.ChannelReconnecting(67964803, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689998986584>)
+	at reactivemongo.ChannelDisconnected(dbe5969b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689992180615>)
+	at reactivemongo.ChannelDisconnected(71e4880c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689992154409>)
+	at reactivemongo.ChannelReconnecting(6a661b13, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689990646189>)
+	at reactivemongo.ChannelReconnecting(ae2de11a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689990609407>)
+	at reactivemongo.ChannelDisconnected(6546b38d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689950614057>)
+	at reactivemongo.ChannelReconnecting(85d78c3e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689949860851>)
+	at reactivemongo.ChannelDisconnected(c9d808a4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689940461972>)
+	at reactivemongo.ChannelDisconnected(e670f72b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689940440352>)
+	at reactivemongo.ChannelDisconnected(fda3b77c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689940393081>)
+	at reactivemongo.ChannelReconnecting(38f0d5af, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689939798826>)
+	at reactivemongo.ChannelReconnecting(bbe07826, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689939635791>)
+	at reactivemongo.ChannelReconnecting(11741159, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496689939274475>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1496680969256171>)
+27.03.22 16:00:08.227 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#919439140?
+27.03.22 16:00:08.232 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(22793dfa, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296959707008>)
+	at reactivemongo.ChannelReconnecting(1f9a0c12, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296959330246>)
+	at reactivemongo.ChannelDisconnected(1aed2334, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296909812448>)
+	at reactivemongo.ChannelReconnecting(3d59d59b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296909444763>)
+	at reactivemongo.ChannelDisconnected(5d79409e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296889359900>)
+	at reactivemongo.ChannelReconnecting(5578c369, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296888980988>)
+	at reactivemongo.ChannelDisconnected(5723067d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296839434390>)
+	at reactivemongo.ChannelReconnecting(239e4e26, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296839041779>)
+	at reactivemongo.ChannelDisconnected(06304548, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296789784451>)
+	at reactivemongo.ChannelDisconnected(ce415480, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296789760976>)
+	at reactivemongo.ChannelReconnecting(688d5985, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296789315868>)
+	at reactivemongo.ChannelReconnecting(7402d524, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296789224922>)
+	at reactivemongo.ChannelDisconnected(ae4b2a8d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296769183459>)
+	at reactivemongo.ChannelReconnecting(1d220aa5, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296768791850>)
+	at reactivemongo.ChannelDisconnected(ccde4b01, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296759128823>)
+	at reactivemongo.ChannelReconnecting(5ba2cb5d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296758749944>)
+	at reactivemongo.ChannelDisconnected(832321d4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296729602514>)
+	at reactivemongo.ChannelReconnecting(da3d1a61, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296729269856>)
+	at reactivemongo.ChannelDisconnected(99c5825d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296719498860>)
+	at reactivemongo.ChannelReconnecting(38a0936b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296719126873>)
+	at reactivemongo.ChannelDisconnected(14b58b5c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296709522725>)
+	at reactivemongo.ChannelReconnecting(bed06e61, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500296708998982>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500290968710190>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500290968575765>)
+	at reactivemongo.ChannelDisconnected(1f9a0c12, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1500286939529346>)
+27.03.22 17:00:08.227 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#343097222?
+27.03.22 17:00:08.233 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(4bb48295, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893849608197>)
+	at reactivemongo.ChannelReconnecting(5518aef9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893849279645>)
+	at reactivemongo.ChannelDisconnected(844ad4b4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893779683009>)
+	at reactivemongo.ChannelReconnecting(9bf8b541, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893779309447>)
+	at reactivemongo.ChannelDisconnected(7cd95147, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893769600146>)
+	at reactivemongo.ChannelReconnecting(1c9a7fbb, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893769251636>)
+	at reactivemongo.ChannelReconnecting(4b673662, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893759805888>)
+	at reactivemongo.ChannelDisconnected(44ede68c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893759789899>)
+	at reactivemongo.ChannelDisconnected(ca745b99, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893739212690>)
+	at reactivemongo.ChannelReconnecting(b34b7feb, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893738823593>)
+	at reactivemongo.ChannelDisconnected(bd887ca9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893718931521>)
+	at reactivemongo.ChannelReconnecting(e3c90369, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893718491949>)
+	at reactivemongo.ChannelDisconnected(c14f35cf, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893709723459>)
+	at reactivemongo.ChannelReconnecting(ff5317da, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893709357473>)
+	at reactivemongo.ChannelDisconnected(00546a23, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893699739280>)
+	at reactivemongo.ChannelDisconnected(6d04daef, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893699519373>)
+	at reactivemongo.ChannelReconnecting(90960de7, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893699241676>)
+	at reactivemongo.ChannelReconnecting(ed0507d3, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893699161127>)
+	at reactivemongo.ChannelDisconnected(815bb1d1, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893659010748>)
+	at reactivemongo.ChannelReconnecting(245013de, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893658596206>)
+	at reactivemongo.ChannelDisconnected(bdea677e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893650043392>)
+	at reactivemongo.ChannelReconnecting(faf255da, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503893649542360>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503890969474092>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503890969430077>)
+	at reactivemongo.ChannelDisconnected(5518aef9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1503883829238032>)
+27.03.22 18:00:08.227 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1930247016?
+27.03.22 18:00:08.234 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490969315273>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490969238545>)
+	at reactivemongo.ChannelReconnecting(e4cfd950, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490719455051>)
+	at reactivemongo.ChannelDisconnected(ca329b7a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490719436432>)
+	at reactivemongo.ChannelReconnecting(b83b8bd2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490699173182>)
+	at reactivemongo.ChannelDisconnected(784814be, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490699155752>)
+	at reactivemongo.ChannelDisconnected(e8e59ace, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490679514933>)
+	at reactivemongo.ChannelReconnecting(92f99ee7, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490679147974>)
+	at reactivemongo.ChannelReconnecting(5db6a4cb, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490639216595>)
+	at reactivemongo.ChannelDisconnected(a5176408, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490639199759>)
+	at reactivemongo.ChannelReconnecting(e8dcb052, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490609767204>)
+	at reactivemongo.ChannelDisconnected(d629079e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490609751514>)
+	at reactivemongo.ChannelReconnecting(32080194, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490589509949>)
+	at reactivemongo.ChannelDisconnected(e5b34f6d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490589494070>)
+	at reactivemongo.ChannelDisconnected(b39fce15, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490568777556>)
+	at reactivemongo.ChannelReconnecting(d0310c7b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490568446764>)
+	at reactivemongo.ChannelReconnecting(5005dc75, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490560435224>)
+	at reactivemongo.ChannelDisconnected(52672485, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490560418584>)
+	at reactivemongo.ChannelDisconnected(6914abca, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490519601643>)
+	at reactivemongo.ChannelDisconnected(82d5e8b0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490519298076>)
+	at reactivemongo.ChannelReconnecting(eaa45637, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490518804892>)
+	at reactivemongo.ChannelReconnecting(54869e35, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490518732843>)
+	at reactivemongo.ChannelDisconnected(b58ba719, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490500478603>)
+	at reactivemongo.ChannelReconnecting(8a0c4e71, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507490499534206>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1507480969357019>)
+27.03.22 19:00:08.227 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1605742792?
+27.03.22 19:00:08.235 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(792d9a5a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097629576459>)
+	at reactivemongo.ChannelReconnecting(f879e326, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097629204463>)
+	at reactivemongo.ChannelDisconnected(7b2a9528, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097579558899>)
+	at reactivemongo.ChannelReconnecting(7e6f667c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097579220550>)
+	at reactivemongo.ChannelDisconnected(1707079a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097569362192>)
+	at reactivemongo.ChannelReconnecting(e9a01f04, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097568983254>)
+	at reactivemongo.ChannelDisconnected(0a32b9d0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097549035411>)
+	at reactivemongo.ChannelReconnecting(5793ed5e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097548657318>)
+	at reactivemongo.ChannelDisconnected(129f2474, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097509214560>)
+	at reactivemongo.ChannelReconnecting(618d74a0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097508838544>)
+	at reactivemongo.ChannelDisconnected(f0cec471, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097499060845>)
+	at reactivemongo.ChannelReconnecting(a400be60, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097498732894>)
+	at reactivemongo.ChannelDisconnected(5d6546b0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097488895401>)
+	at reactivemongo.ChannelReconnecting(a4945830, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097488514531>)
+	at reactivemongo.ChannelDisconnected(37045408, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097469560335>)
+	at reactivemongo.ChannelReconnecting(002f5761, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097469200201>)
+	at reactivemongo.ChannelDisconnected(962a9b60, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097449471827>)
+	at reactivemongo.ChannelDisconnected(b85f9bb7, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097449448815>)
+	at reactivemongo.ChannelReconnecting(6833044d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097448924036>)
+	at reactivemongo.ChannelReconnecting(2e4db265, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097448819093>)
+	at reactivemongo.ChannelDisconnected(49751987, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097439677003>)
+	at reactivemongo.ChannelReconnecting(323e584b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511097438754672>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511090969380884>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511090969338816>)
+	at reactivemongo.ChannelDisconnected(f879e326, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1511087609682392>)
+27.03.22 20:00:08.227 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#94107837?
+27.03.22 20:00:08.235 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(ac663d0e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694588994366>)
+	at reactivemongo.ChannelReconnecting(6ecf3050, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694588634257>)
+	at reactivemongo.ChannelDisconnected(6cd20d2a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694559452732>)
+	at reactivemongo.ChannelReconnecting(ee1c8492, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694559088906>)
+	at reactivemongo.ChannelDisconnected(fa3a423a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694549278089>)
+	at reactivemongo.ChannelReconnecting(9aa8318c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694548896729>)
+	at reactivemongo.ChannelDisconnected(6588edbf, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694499471155>)
+	at reactivemongo.ChannelReconnecting(9c1990d3, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694499018640>)
+	at reactivemongo.ChannelDisconnected(ba7a6e5e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694479022977>)
+	at reactivemongo.ChannelReconnecting(38cc7638, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694478647825>)
+	at reactivemongo.ChannelDisconnected(aff82d2d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694449476677>)
+	at reactivemongo.ChannelReconnecting(757696f5, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694449081043>)
+	at reactivemongo.ChannelDisconnected(5ef610f1, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694439351332>)
+	at reactivemongo.ChannelReconnecting(ca04b82d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694438980268>)
+	at reactivemongo.ChannelDisconnected(5574f1f9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694429066947>)
+	at reactivemongo.ChannelReconnecting(bd52b0d0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694428679929>)
+	at reactivemongo.ChannelDisconnected(c27885f5, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694418968148>)
+	at reactivemongo.ChannelReconnecting(fbe7eedf, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694418473362>)
+	at reactivemongo.ChannelDisconnected(c9926cb7, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694399677558>)
+	at reactivemongo.ChannelReconnecting(d67082b2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694399250210>)
+	at reactivemongo.ChannelDisconnected(eb7ece0b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694390082920>)
+	at reactivemongo.ChannelReconnecting(3994db7b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514694389406426>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514690968664508>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514690968628740>)
+	at reactivemongo.ChannelDisconnected(6ecf3050, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1514684569091247>)
+27.03.22 21:00:08.228 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#144275591?
+27.03.22 21:00:08.236 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(d3490a89, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291469549414>)
+	at reactivemongo.ChannelReconnecting(458d156b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291469085957>)
+	at reactivemongo.ChannelDisconnected(71a596b7, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291349570846>)
+	at reactivemongo.ChannelReconnecting(0cdb1523, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291349225132>)
+	at reactivemongo.ChannelDisconnected(fa349c17, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291339467442>)
+	at reactivemongo.ChannelReconnecting(3aa8e5bf, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291339104851>)
+	at reactivemongo.ChannelDisconnected(31e6d57b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291329444078>)
+	at reactivemongo.ChannelReconnecting(e2ea8bc6, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291329090909>)
+	at reactivemongo.ChannelDisconnected(dd28b535, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291319255321>)
+	at reactivemongo.ChannelReconnecting(b4aca2a1, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291318914936>)
+	at reactivemongo.ChannelDisconnected(720c5960, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291288922909>)
+	at reactivemongo.ChannelReconnecting(5fc85549, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291288546928>)
+	at reactivemongo.ChannelDisconnected(ea99b73c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291269464937>)
+	at reactivemongo.ChannelReconnecting(bb226c5c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291269124379>)
+	at reactivemongo.ChannelDisconnected(5bb5cb76, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291249231775>)
+	at reactivemongo.ChannelReconnecting(50115360, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291248879549>)
+	at reactivemongo.ChannelDisconnected(c288105d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291239242527>)
+	at reactivemongo.ChannelReconnecting(81d54076, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291238880418>)
+	at reactivemongo.ChannelDisconnected(50a8f8e1, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291229053222>)
+	at reactivemongo.ChannelReconnecting(552c12d2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291228688988>)
+	at reactivemongo.ChannelDisconnected(50b2e0be, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291219141489>)
+	at reactivemongo.ChannelReconnecting(90583a09, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518291218625449>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518290969112978>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518290969073705>)
+	at reactivemongo.ChannelDisconnected(458d156b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1518281448942885>)
+27.03.22 22:00:08.227 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#307610759?
+27.03.22 22:00:08.240 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521890968719329>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521890968549487>)
+	at reactivemongo.ChannelReconnecting(05c32263, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888479892930>)
+	at reactivemongo.ChannelDisconnected(819dea4e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888479876188>)
+	at reactivemongo.ChannelDisconnected(2d8e73bd, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888248923218>)
+	at reactivemongo.ChannelReconnecting(42e511c2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888248591767>)
+	at reactivemongo.ChannelDisconnected(2af69140, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888229607803>)
+	at reactivemongo.ChannelReconnecting(6277734e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888229296095>)
+	at reactivemongo.ChannelDisconnected(9f2ff0e1, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888209349304>)
+	at reactivemongo.ChannelReconnecting(1a6c3d78, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888209020200>)
+	at reactivemongo.ChannelDisconnected(ecae862e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888199543122>)
+	at reactivemongo.ChannelDisconnected(1cb24921, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888199516977>)
+	at reactivemongo.ChannelReconnecting(e8d02b99, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888199030456>)
+	at reactivemongo.ChannelReconnecting(461f5c94, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888198959559>)
+	at reactivemongo.ChannelDisconnected(c4793f3a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888189149556>)
+	at reactivemongo.ChannelReconnecting(1188db97, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888188812536>)
+	at reactivemongo.ChannelDisconnected(00a580e6, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888168733530>)
+	at reactivemongo.ChannelReconnecting(d1436866, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888168419989>)
+	at reactivemongo.ChannelDisconnected(bd988e92, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888149629859>)
+	at reactivemongo.ChannelReconnecting(65cd29e3, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888149291621>)
+	at reactivemongo.ChannelDisconnected(967c8e8d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888139561498>)
+	at reactivemongo.ChannelReconnecting(a0c0ceda, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888139192518>)
+	at reactivemongo.ChannelDisconnected(806371ff, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888119648515>)
+	at reactivemongo.ChannelReconnecting(1e45d4ae, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521888118958510>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1521880969424420>)
+27.03.22 23:00:08.217 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1611929077?
+27.03.22 23:00:08.226 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(981314b6, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525495389524423>)
+	at reactivemongo.ChannelReconnecting(d8df4e4d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525495389011694>)
+	at reactivemongo.ChannelDisconnected(717d7d52, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525495098821508>)
+	at reactivemongo.ChannelReconnecting(095eac2b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525495098489822>)
+	at reactivemongo.ChannelDisconnected(354347f4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525495079315388>)
+	at reactivemongo.ChannelReconnecting(aba73bba, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525495078955382>)
+	at reactivemongo.ChannelDisconnected(58328d37, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525495028907780>)
+	at reactivemongo.ChannelReconnecting(447473e8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525495028572163>)
+	at reactivemongo.ChannelDisconnected(11901351, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525495019580508>)
+	at reactivemongo.ChannelReconnecting(9b421cfe, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525495019217182>)
+	at reactivemongo.ChannelDisconnected(0d6503be, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494989591178>)
+	at reactivemongo.ChannelReconnecting(5b0aea63, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494989228850>)
+	at reactivemongo.ChannelDisconnected(8468063f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494969101273>)
+	at reactivemongo.ChannelReconnecting(d1dd40b0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494968710197>)
+	at reactivemongo.ChannelDisconnected(a08f2779, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494959426605>)
+	at reactivemongo.ChannelReconnecting(f3ed71ae, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494959084905>)
+	at reactivemongo.ChannelDisconnected(4423028a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494950277139>)
+	at reactivemongo.ChannelReconnecting(d2131d75, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494949749414>)
+	at reactivemongo.ChannelDisconnected(155ed559, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494949637687>)
+	at reactivemongo.ChannelReconnecting(a3343da5, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494949236432>)
+	at reactivemongo.ChannelDisconnected(181102f2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494939770829>)
+	at reactivemongo.ChannelReconnecting(cce901c4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525494938866603>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525490959352771>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525490959253200>)
+	at reactivemongo.ChannelDisconnected(d8df4e4d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1525485379000566>)
+28.03.22 00:00:08.227 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#982533978?
+28.03.22 00:00:08.232 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(c3bbf202, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529092329469526>)
+	at reactivemongo.ChannelReconnecting(a15e5a8b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529092329102626>)
+	at reactivemongo.ChannelDisconnected(1a62e8fd, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529092018988759>)
+	at reactivemongo.ChannelReconnecting(1b784bb4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529092018641352>)
+	at reactivemongo.ChannelDisconnected(52ddb94d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091939544577>)
+	at reactivemongo.ChannelReconnecting(3a784332, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091939212632>)
+	at reactivemongo.ChannelDisconnected(e8e71786, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091889777888>)
+	at reactivemongo.ChannelReconnecting(ced8aaf4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091889416897>)
+	at reactivemongo.ChannelDisconnected(ef335e50, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091879545712>)
+	at reactivemongo.ChannelReconnecting(cbe8d963, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091879183623>)
+	at reactivemongo.ChannelDisconnected(910c9676, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091869525017>)
+	at reactivemongo.ChannelReconnecting(e2dff428, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091869086693>)
+	at reactivemongo.ChannelDisconnected(ad9e7e7c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091838992410>)
+	at reactivemongo.ChannelReconnecting(6ddf75b6, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091838633437>)
+	at reactivemongo.ChannelDisconnected(d41f0b2f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091779171624>)
+	at reactivemongo.ChannelReconnecting(37d4571a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091778612275>)
+	at reactivemongo.ChannelDisconnected(5db49869, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091768746972>)
+	at reactivemongo.ChannelReconnecting(8aa9dc5a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091768369502>)
+	at reactivemongo.ChannelDisconnected(d9234493, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091760195708>)
+	at reactivemongo.ChannelDisconnected(18cdfc57, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091760152134>)
+	at reactivemongo.ChannelReconnecting(c29951c9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091759519004>)
+	at reactivemongo.ChannelReconnecting(eb6bf6fb, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529091759345757>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529090969440616>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529090969262797>)
+	at reactivemongo.ChannelDisconnected(a15e5a8b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1529082309726259>)
+28.03.22 01:00:08.217 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#2039373263?
+28.03.22 01:00:08.224 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532690969251041>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532690969138047>)
+	at reactivemongo.ChannelDisconnected(8dc9091f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532689319416863>)
+	at reactivemongo.ChannelReconnecting(e66a35da, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532689319017045>)
+	at reactivemongo.ChannelDisconnected(d28ace31, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688989100276>)
+	at reactivemongo.ChannelReconnecting(6b72471b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688988671409>)
+	at reactivemongo.ChannelDisconnected(0e548d0c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688929459829>)
+	at reactivemongo.ChannelReconnecting(b81be45b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688928942912>)
+	at reactivemongo.ChannelDisconnected(9a898d63, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688888796838>)
+	at reactivemongo.ChannelReconnecting(291c65a2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688888423010>)
+	at reactivemongo.ChannelDisconnected(be289cce, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688869456713>)
+	at reactivemongo.ChannelReconnecting(80df720f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688869045229>)
+	at reactivemongo.ChannelDisconnected(51156fd4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688859380665>)
+	at reactivemongo.ChannelReconnecting(dc5f771d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688858914740>)
+	at reactivemongo.ChannelDisconnected(1aa649d3, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688839110105>)
+	at reactivemongo.ChannelReconnecting(c6c1c0d1, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688838679864>)
+	at reactivemongo.ChannelDisconnected(f096ac4e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688818809102>)
+	at reactivemongo.ChannelReconnecting(9f0d6009, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688818462193>)
+	at reactivemongo.ChannelDisconnected(e02c5bd4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688799659973>)
+	at reactivemongo.ChannelReconnecting(a0e46168, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688799244925>)
+	at reactivemongo.ChannelDisconnected(dbb8734d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688748831304>)
+	at reactivemongo.ChannelReconnecting(1f49c505, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688748427365>)
+	at reactivemongo.ChannelDisconnected(110ce1c8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688729794345>)
+	at reactivemongo.ChannelReconnecting(c16bb75d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532688729249486>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1532680969108877>)
+28.03.22 02:00:08.227 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1170464645?
+28.03.22 02:00:08.231 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(73c74e29, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536296189676616>)
+	at reactivemongo.ChannelReconnecting(0e8812d7, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536296189250127>)
+	at reactivemongo.ChannelDisconnected(7d0baeb9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295848828146>)
+	at reactivemongo.ChannelReconnecting(4bb71e89, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295848460007>)
+	at reactivemongo.ChannelDisconnected(c7ae1840, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295819336508>)
+	at reactivemongo.ChannelReconnecting(e041a643, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295818900795>)
+	at reactivemongo.ChannelDisconnected(0e30746e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295679312361>)
+	at reactivemongo.ChannelDisconnected(8dd43245, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295679274729>)
+	at reactivemongo.ChannelReconnecting(a30a5ad8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295678906434>)
+	at reactivemongo.ChannelReconnecting(15610dde, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295678461786>)
+	at reactivemongo.ChannelDisconnected(68718ea8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295669920312>)
+	at reactivemongo.ChannelReconnecting(f0deb8ba, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295669693324>)
+	at reactivemongo.ChannelDisconnected(0b2a0403, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295669606429>)
+	at reactivemongo.ChannelReconnecting(f34c4109, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295669270173>)
+	at reactivemongo.ChannelDisconnected(84a4f6b0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295660053537>)
+	at reactivemongo.ChannelReconnecting(4cd22c3f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295659515642>)
+	at reactivemongo.ChannelDisconnected(305933a8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295659412479>)
+	at reactivemongo.ChannelReconnecting(fdb2f89f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295659064284>)
+	at reactivemongo.ChannelDisconnected(361c9eee, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295639148272>)
+	at reactivemongo.ChannelReconnecting(e68dc191, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295638724494>)
+	at reactivemongo.ChannelDisconnected(9f7f1905, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295620092831>)
+	at reactivemongo.ChannelReconnecting(3e227b32, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536295619351578>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536290969409096>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536290969318703>)
+	at reactivemongo.ChannelDisconnected(0e8812d7, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1536286169712878>)
+28.03.22 03:00:08.218 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#87609717?
+28.03.22 03:00:08.223 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(a5c6cd29, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892949408556>)
+	at reactivemongo.ChannelReconnecting(56759e0d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892949105479>)
+	at reactivemongo.ChannelDisconnected(5795640b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892689040619>)
+	at reactivemongo.ChannelReconnecting(04c14a3c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892688690752>)
+	at reactivemongo.ChannelReconnecting(8f486fad, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892629262861>)
+	at reactivemongo.ChannelDisconnected(fa97b0db, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892629246043>)
+	at reactivemongo.ChannelDisconnected(5ea56b15, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892469035278>)
+	at reactivemongo.ChannelReconnecting(db443398, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892468699440>)
+	at reactivemongo.ChannelDisconnected(a84cf529, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892439584372>)
+	at reactivemongo.ChannelReconnecting(3e611fd9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892439212032>)
+	at reactivemongo.ChannelDisconnected(6f28e5c8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892429306651>)
+	at reactivemongo.ChannelReconnecting(a0f4b6d8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892428959052>)
+	at reactivemongo.ChannelReconnecting(289255d6, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892419588878>)
+	at reactivemongo.ChannelDisconnected(2c57ca34, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892419556317>)
+	at reactivemongo.ChannelDisconnected(63f655fd, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892389745440>)
+	at reactivemongo.ChannelReconnecting(dc9664bc, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892389369712>)
+	at reactivemongo.ChannelDisconnected(0fe4bad2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892379481126>)
+	at reactivemongo.ChannelReconnecting(1408f476, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892379153069>)
+	at reactivemongo.ChannelDisconnected(e6d93367, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892359223733>)
+	at reactivemongo.ChannelReconnecting(12d1eb78, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892358801202>)
+	at reactivemongo.ChannelReconnecting(98773482, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892340811863>)
+	at reactivemongo.ChannelDisconnected(7d2f705e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539892340792486>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539890968724619>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539890968689817>)
+	at reactivemongo.ChannelDisconnected(56759e0d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1539882929013592>)
+28.03.22 04:00:08.217 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1026223135?
+28.03.22 04:00:08.224 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543490968887337>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543490968855968>)
+	at reactivemongo.ChannelDisconnected(d7634c95, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489799005880>)
+	at reactivemongo.ChannelReconnecting(f3439e97, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489798614723>)
+	at reactivemongo.ChannelDisconnected(cd34eb00, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489509295418>)
+	at reactivemongo.ChannelReconnecting(c89207dd, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489508912499>)
+	at reactivemongo.ChannelDisconnected(d299a83d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489489108979>)
+	at reactivemongo.ChannelReconnecting(fd04c00d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489488682209>)
+	at reactivemongo.ChannelDisconnected(54f6e5d8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489299538231>)
+	at reactivemongo.ChannelReconnecting(64caa743, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489299173628>)
+	at reactivemongo.ChannelDisconnected(aeb0f33b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489289362968>)
+	at reactivemongo.ChannelReconnecting(a35d419d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489289004930>)
+	at reactivemongo.ChannelDisconnected(7904853d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489269277542>)
+	at reactivemongo.ChannelReconnecting(e834fb9f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489268813677>)
+	at reactivemongo.ChannelDisconnected(27ab2d03, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489258905464>)
+	at reactivemongo.ChannelReconnecting(10aa4c0c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489258526178>)
+	at reactivemongo.ChannelDisconnected(fb0d1899, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489229308485>)
+	at reactivemongo.ChannelReconnecting(6ceb91ae, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489228920440>)
+	at reactivemongo.ChannelDisconnected(45f7d97e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489219144953>)
+	at reactivemongo.ChannelReconnecting(62363ab8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489218771105>)
+	at reactivemongo.ChannelDisconnected(23b5af6d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489209410088>)
+	at reactivemongo.ChannelDisconnected(63d68f63, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489209167882>)
+	at reactivemongo.ChannelReconnecting(02680d31, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489208675447>)
+	at reactivemongo.ChannelReconnecting(22ccd30f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543489208593566>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1543480969566990>)
+28.03.22 05:00:08.227 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#910278224?
+28.03.22 05:00:08.240 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(31b1383f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096889223830>)
+	at reactivemongo.ChannelReconnecting(bc3d44f9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096888796239>)
+	at reactivemongo.ChannelDisconnected(33c62f78, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096579707519>)
+	at reactivemongo.ChannelReconnecting(3b2a93ec, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096579326859>)
+	at reactivemongo.ChannelDisconnected(dd203113, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096499165094>)
+	at reactivemongo.ChannelReconnecting(853168e9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096498814596>)
+	at reactivemongo.ChannelDisconnected(bd7f8139, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096449199688>)
+	at reactivemongo.ChannelReconnecting(7bc3431a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096448827203>)
+	at reactivemongo.ChannelDisconnected(48bf2f22, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096389107166>)
+	at reactivemongo.ChannelReconnecting(2093bb6d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096388762651>)
+	at reactivemongo.ChannelDisconnected(561611c0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096359802711>)
+	at reactivemongo.ChannelReconnecting(0c68bf9b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096359336133>)
+	at reactivemongo.ChannelDisconnected(cf63ec1c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096339565646>)
+	at reactivemongo.ChannelDisconnected(951b3fac, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096339543551>)
+	at reactivemongo.ChannelReconnecting(9672cbff, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096339178835>)
+	at reactivemongo.ChannelReconnecting(242198de, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096339105755>)
+	at reactivemongo.ChannelDisconnected(e085c9db, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096309096117>)
+	at reactivemongo.ChannelReconnecting(e5e68bad, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096308768293>)
+	at reactivemongo.ChannelDisconnected(76f18bb2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096249140310>)
+	at reactivemongo.ChannelReconnecting(ccaea1b9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096248811271>)
+	at reactivemongo.ChannelDisconnected(af3fec3b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096239369840>)
+	at reactivemongo.ChannelReconnecting(003b9b6b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547096238886466>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547090969208609>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547090969066759>)
+	at reactivemongo.ChannelReconnecting(3c742ed4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1547086870158090>)
+28.03.22 06:00:00.010 INFO  - jobs.WorkflowReminder - Start checking workflow process due dates
+28.03.22 06:00:08.217 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1831166186?
+28.03.22 06:00:08.224 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(ad3e9c8e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693949071342>)
+	at reactivemongo.ChannelReconnecting(fdbda382, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693948746100>)
+	at reactivemongo.ChannelDisconnected(7561c045, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693609286361>)
+	at reactivemongo.ChannelReconnecting(f73e1723, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693608896335>)
+	at reactivemongo.ChannelDisconnected(d5eef9d0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693539037991>)
+	at reactivemongo.ChannelReconnecting(91c468b0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693538706407>)
+	at reactivemongo.ChannelDisconnected(0f6128b9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693489301757>)
+	at reactivemongo.ChannelReconnecting(3a125a0e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693488965529>)
+	at reactivemongo.ChannelDisconnected(9b1d80ea, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693438896182>)
+	at reactivemongo.ChannelReconnecting(f1d8b0a4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693438571342>)
+	at reactivemongo.ChannelDisconnected(88750d7f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693389150154>)
+	at reactivemongo.ChannelReconnecting(d9c5ba01, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693388769834>)
+	at reactivemongo.ChannelDisconnected(a554e9a4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693380195268>)
+	at reactivemongo.ChannelReconnecting(dd6e9060, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693379904082>)
+	at reactivemongo.ChannelDisconnected(94ccd30f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693379822547>)
+	at reactivemongo.ChannelReconnecting(bc216213, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693379478705>)
+	at reactivemongo.ChannelDisconnected(4cdc2bc0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693359729685>)
+	at reactivemongo.ChannelReconnecting(495ba43d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693359350942>)
+	at reactivemongo.ChannelDisconnected(565c24b8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693299639007>)
+	at reactivemongo.ChannelReconnecting(2d960e48, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693299218709>)
+	at reactivemongo.ChannelDisconnected(dc519d50, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693299150842>)
+	at reactivemongo.ChannelReconnecting(f262bfd7, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693298673506>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550690958968945>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550690958900757>)
+	at reactivemongo.ChannelDisconnected(fdbda382, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550683929636878>)
+28.03.22 06:00:08.229 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#993032629?
+28.03.22 06:00:08.233 ERROR - jobs.WorkflowReminder - Unexpected error occured reminding due workflows
+
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(ad3e9c8e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693949071342>)
+	at reactivemongo.ChannelReconnecting(fdbda382, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693948746100>)
+	at reactivemongo.ChannelDisconnected(7561c045, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693609286361>)
+	at reactivemongo.ChannelReconnecting(f73e1723, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693608896335>)
+	at reactivemongo.ChannelDisconnected(d5eef9d0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693539037991>)
+	at reactivemongo.ChannelReconnecting(91c468b0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693538706407>)
+	at reactivemongo.ChannelDisconnected(0f6128b9, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693489301757>)
+	at reactivemongo.ChannelReconnecting(3a125a0e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693488965529>)
+	at reactivemongo.ChannelDisconnected(9b1d80ea, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693438896182>)
+	at reactivemongo.ChannelReconnecting(f1d8b0a4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693438571342>)
+	at reactivemongo.ChannelDisconnected(88750d7f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693389150154>)
+	at reactivemongo.ChannelReconnecting(d9c5ba01, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693388769834>)
+	at reactivemongo.ChannelDisconnected(a554e9a4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693380195268>)
+	at reactivemongo.ChannelReconnecting(dd6e9060, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693379904082>)
+	at reactivemongo.ChannelDisconnected(94ccd30f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693379822547>)
+	at reactivemongo.ChannelReconnecting(bc216213, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693379478705>)
+	at reactivemongo.ChannelDisconnected(4cdc2bc0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693359729685>)
+	at reactivemongo.ChannelReconnecting(495ba43d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693359350942>)
+	at reactivemongo.ChannelDisconnected(565c24b8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693299639007>)
+	at reactivemongo.ChannelReconnecting(2d960e48, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693299218709>)
+	at reactivemongo.ChannelDisconnected(dc519d50, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693299150842>)
+	at reactivemongo.ChannelReconnecting(f262bfd7, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550693298673506>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550690958968945>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550690958900757>)
+	at reactivemongo.ChannelDisconnected(fdbda382, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1550683929636878>)
+28.03.22 07:00:08.217 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#777369410?
+28.03.22 07:00:08.233 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(9d9482ef, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290999010766>)
+	at reactivemongo.ChannelReconnecting(ef6ce02e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290998636077>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290969185186>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290969131703>)
+	at reactivemongo.ChannelDisconnected(219f26ec, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290579268100>)
+	at reactivemongo.ChannelReconnecting(5d01b5b4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290578936672>)
+	at reactivemongo.ChannelDisconnected(e32230c5, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290509338041>)
+	at reactivemongo.ChannelReconnecting(15817b43, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290508985346>)
+	at reactivemongo.ChannelDisconnected(bad50881, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290499175131>)
+	at reactivemongo.ChannelReconnecting(c34b2c56, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290498872013>)
+	at reactivemongo.ChannelDisconnected(b133ac21, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290459556680>)
+	at reactivemongo.ChannelReconnecting(77587831, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290459242148>)
+	at reactivemongo.ChannelDisconnected(f3cb155f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290369536431>)
+	at reactivemongo.ChannelReconnecting(6be144e3, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290369228862>)
+	at reactivemongo.ChannelDisconnected(536daf3b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290359398306>)
+	at reactivemongo.ChannelReconnecting(f504b29b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290359084873>)
+	at reactivemongo.ChannelDisconnected(8343a9be, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290349220085>)
+	at reactivemongo.ChannelReconnecting(3e4e79b0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290348925752>)
+	at reactivemongo.ChannelDisconnected(f29f5083, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290339139724>)
+	at reactivemongo.ChannelReconnecting(19adb831, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290338796308>)
+	at reactivemongo.ChannelDisconnected(743d05a4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290279395662>)
+	at reactivemongo.ChannelReconnecting(0f32cc1f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290279044174>)
+	at reactivemongo.ChannelDisconnected(7711df70, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290269639545>)
+	at reactivemongo.ChannelReconnecting(cb346fe8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554290268888685>)
+	at reactivemongo.ChannelDisconnected(ef6ce02e, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1554280979209002>)
+28.03.22 07:03:24.820 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 07:03:24.941 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 07:38:15.058 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 07:38:15.157 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 07:38:19.066 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 07:38:20.341 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 07:38:20.422 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 08:00:08.217 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#2111441421?
+28.03.22 08:00:08.223 ERROR - jobs.AuthTokenCleaner - Couldn't cleanup auth tokens because of unexpected error
+reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(9acef6f5, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897519071744>)
+	at reactivemongo.ChannelReconnecting(0528c9f6, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897518735236>)
+	at reactivemongo.ChannelDisconnected(1406c5dc, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897488780760>)
+	at reactivemongo.ChannelReconnecting(bd50aeb0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897488452403>)
+	at reactivemongo.ChannelDisconnected(43a964b1, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897479735245>)
+	at reactivemongo.ChannelReconnecting(44d9772d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897479381327>)
+	at reactivemongo.ChannelDisconnected(fb1efac3, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897459418130>)
+	at reactivemongo.ChannelReconnecting(10994437, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897459078199>)
+	at reactivemongo.ChannelDisconnected(0694594a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897319581511>)
+	at reactivemongo.ChannelReconnecting(fbe8a4cb, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897319247774>)
+	at reactivemongo.ChannelDisconnected(e1da64a6, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897299384489>)
+	at reactivemongo.ChannelReconnecting(245d0ad7, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897299021098>)
+	at reactivemongo.ChannelDisconnected(de5a6154, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897279148004>)
+	at reactivemongo.ChannelDisconnected(a0a11cf4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897279028067>)
+	at reactivemongo.ChannelReconnecting(f977b052, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897278787383>)
+	at reactivemongo.ChannelReconnecting(6fd3c0d3, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897278650128>)
+	at reactivemongo.ChannelDisconnected(885110d1, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897259908516>)
+	at reactivemongo.ChannelReconnecting(d0479b8b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897259523834>)
+	at reactivemongo.ChannelDisconnected(e507665c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897239863756>)
+	at reactivemongo.ChannelReconnecting(2e935ae4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557897239114455>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557890969451512>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557890969338955>)
+	at reactivemongo.ChannelReconnecting(cf67af29, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557887980249792>)
+	at reactivemongo.ChannelDisconnected(dd12b78b, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557887980225534>)
+	at reactivemongo.ChannelDisconnected(0528c9f6, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1557887499141855>)
+28.03.22 08:06:31.073 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 08:06:31.289 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 08:07:31.802 INFO  - play.core.server.AkkaHttpServer - Stopping server...
+28.03.22 08:07:31.812 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi stopping...
+28.03.22 08:07:33.846 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi connections are stopped
+28.03.22 08:07:38.244 INFO  - modules.StartupTasks - Checking indexes
+28.03.22 08:07:38.476 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'AuthTokenCleaner', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@7126e26'
+28.03.22 08:07:38.501 INFO  - jobs.Scheduler - Scheduled authentication token cleaner, next sweep at Mon Mar 28 09:00:00 UTC 2022
+28.03.22 08:07:38.502 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'WorkflowReminder', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@317890ea'
+28.03.22 08:07:38.504 INFO  - jobs.Scheduler - Scheduled workflow reminder, next check at Tue Mar 29 06:00:00 UTC 2022
+28.03.22 08:07:38.517 INFO  - play.api.Play - Application started (Prod)
+28.03.22 08:07:39.132 INFO  - play.core.server.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+28.03.22 08:07:41.294 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 08:07:41.460 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 08:07:46.593 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1644155208?
+28.03.22 08:07:46.919 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 08:07:47.210 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 08:08:05.896 INFO  - play.core.server.AkkaHttpServer - Stopping server...
+28.03.22 08:08:05.907 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi stopping...
+28.03.22 08:08:07.938 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi connections are stopped
+28.03.22 08:08:12.350 INFO  - modules.StartupTasks - Checking indexes
+28.03.22 08:08:12.533 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'AuthTokenCleaner', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@6518fdfd'
+28.03.22 08:08:12.547 INFO  - jobs.Scheduler - Scheduled authentication token cleaner, next sweep at Mon Mar 28 09:00:00 UTC 2022
+28.03.22 08:08:12.547 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'WorkflowReminder', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@5382184b'
+28.03.22 08:08:12.560 INFO  - jobs.Scheduler - Scheduled workflow reminder, next check at Tue Mar 29 06:00:00 UTC 2022
+28.03.22 08:08:12.687 INFO  - play.api.Play - Application started (Prod)
+28.03.22 08:08:13.091 INFO  - play.core.server.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+28.03.22 08:08:20.475 INFO  - play.core.server.AkkaHttpServer - Stopping server...
+28.03.22 08:08:20.491 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi stopping...
+28.03.22 08:08:20.643 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1823354445?
+28.03.22 08:08:24.544 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi connections are stopped
+28.03.22 08:08:28.511 INFO  - modules.StartupTasks - Checking indexes
+28.03.22 08:08:28.712 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'AuthTokenCleaner', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@151ab2b9'
+28.03.22 08:08:28.722 INFO  - jobs.Scheduler - Scheduled authentication token cleaner, next sweep at Mon Mar 28 09:00:00 UTC 2022
+28.03.22 08:08:28.731 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'WorkflowReminder', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@2c719bd4'
+28.03.22 08:08:28.732 INFO  - jobs.Scheduler - Scheduled workflow reminder, next check at Tue Mar 29 06:00:00 UTC 2022
+28.03.22 08:08:28.739 INFO  - play.api.Play - Application started (Prod)
+28.03.22 08:08:29.300 INFO  - play.core.server.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+28.03.22 08:08:33.404 WARN  - play.filters.hosts.AllowedHostsFilter - Host not allowed: 10.193.116.12:9000
+28.03.22 08:08:36.806 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1756064432?
+28.03.22 08:16:15.745 INFO  - play.core.server.AkkaHttpServer - Stopping server...
+28.03.22 08:16:15.757 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi stopping...
+28.03.22 08:16:17.787 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi connections are stopped
+28.03.22 08:16:22.082 INFO  - modules.StartupTasks - Checking indexes
+28.03.22 08:16:22.237 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'AuthTokenCleaner', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@648c5fb3'
+28.03.22 08:16:22.268 INFO  - jobs.Scheduler - Scheduled authentication token cleaner, next sweep at Mon Mar 28 09:00:00 UTC 2022
+28.03.22 08:16:22.271 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'WorkflowReminder', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@62b3a2f6'
+28.03.22 08:16:22.273 INFO  - jobs.Scheduler - Scheduled workflow reminder, next check at Tue Mar 29 06:00:00 UTC 2022
+28.03.22 08:16:22.288 INFO  - play.api.Play - Application started (Prod)
+28.03.22 08:16:22.872 INFO  - play.core.server.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+28.03.22 08:16:30.369 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#663083782?
+28.03.22 08:16:35.087 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#190290633?
+28.03.22 08:16:35.090 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#791845773?
+28.03.22 08:16:35.091 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#772485457?
+28.03.22 08:16:35.093 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1646779191?
+28.03.22 08:16:35.093 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1529861309?
+28.03.22 08:16:35.109 ERROR - application - 
+
+! @7n66klpn0 - Internal server error, for (GET) [/catis] ->
+ 
+play.api.UnexpectedException: Unexpected exception[PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:277)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:204)
+	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:434)
+	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:432)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:92)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:92)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:49)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(98d1eec8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882200600683>)
+	at reactivemongo.ChannelDisconnected(99c7c927, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882199911190>)
+	at reactivemongo.ChannelReconnecting(aa27a240, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882199162552>)
+	at reactivemongo.ChannelReconnecting(1d46a708, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882193133007>)
+	at reactivemongo.ChannelDisconnected(1a9b2d03, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882155528562>)
+	at reactivemongo.ChannelDisconnected(08c572ac, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882155141041>)
+	at reactivemongo.ChannelDisconnected(ca444e52, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882154761566>)
+	at reactivemongo.ChannelDisconnected(2e225bcc, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882154356312>)
+	at reactivemongo.ChannelDisconnected(5f7cee73, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882153941777>)
+	at reactivemongo.ChannelDisconnected(11fd0b46, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882151669351>)
+	at reactivemongo.ChannelDisconnected(ce4fed2d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882151227072>)
+	at reactivemongo.ChannelDisconnected(b3485e1f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882149089283>)
+	at reactivemongo.ChannelDisconnected(0987642c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882147796817>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/1 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882140912868>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/1 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558882130833637>)
+	at reactivemongo.ChannelDisconnected(aa27a240, {{NodeSet None Node[localhost:27017: Unknown (0/0/1 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558872173102035>)
+	at reactivemongo.ChannelDisconnected(1d46a708, {{NodeSet None Node[localhost:27017: Unknown (0/0/1 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558872172301551>)
+	at reactivemongo.Start({{NodeSet None Node[localhost:27017: Unknown (0/0/1 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558872109075447>)
+28.03.22 08:17:17.907 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1372817236?
+28.03.22 08:17:17.907 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1529605156?
+28.03.22 08:17:17.907 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#506030373?
+28.03.22 08:17:17.907 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1401791635?
+28.03.22 08:17:17.907 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1595171614?
+28.03.22 08:17:17.914 ERROR - application - 
+
+! @7n66kob5c - Internal server error, for (GET) [/catis] ->
+ 
+play.api.UnexpectedException: Unexpected exception[PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:277)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:204)
+	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:434)
+	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:432)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:92)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:92)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:49)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(c27b53f0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922284774749>)
+	at reactivemongo.ChannelReconnecting(81b0f987, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922284188108>)
+	at reactivemongo.ChannelDisconnected(fd46f598, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922283894872>)
+	at reactivemongo.ChannelReconnecting(db26281f, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922283666846>)
+	at reactivemongo.ChannelDisconnected(cbf269b2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922274492303>)
+	at reactivemongo.ChannelDisconnected(b98766fe, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922274246889>)
+	at reactivemongo.ChannelDisconnected(06da8ec6, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922273264841>)
+	at reactivemongo.ChannelDisconnected(93bd7a07, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922272412366>)
+	at reactivemongo.ChannelReconnecting(04b5dfd2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922272196671>)
+	at reactivemongo.ChannelReconnecting(021ec2aa, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922271644059>)
+	at reactivemongo.ChannelReconnecting(b4c103f0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922270820384>)
+	at reactivemongo.ChannelReconnecting(c5a4fda0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922270500668>)
+	at reactivemongo.ChannelDisconnected(83215b0c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922268992937>)
+	at reactivemongo.ChannelDisconnected(85f719d8, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922268225731>)
+	at reactivemongo.ChannelDisconnected(3f503dc1, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922267456561>)
+	at reactivemongo.ChannelReconnecting(27c5a661, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922266702642>)
+	at reactivemongo.ChannelReconnecting(26b3c9e6, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922265925909>)
+	at reactivemongo.ChannelReconnecting(20837fc0, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922264457364>)
+	at reactivemongo.ChannelDisconnected(238ef704, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922242047242>)
+	at reactivemongo.ChannelReconnecting(64b10d38, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922240321737>)
+	at reactivemongo.ChannelReconnecting(3968bb9a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922222815661>)
+	at reactivemongo.ChannelDisconnected(2556a7e2, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922222621600>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922129027038>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558922121051366>)
+	at reactivemongo.ChannelDisconnected(81b0f987, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1558912266573189>)
+28.03.22 08:18:00.362 INFO  - play.core.server.AkkaHttpServer - Stopping server...
+28.03.22 08:18:00.371 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi stopping...
+28.03.22 08:18:02.404 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi connections are stopped
+28.03.22 08:18:06.582 INFO  - modules.StartupTasks - Checking indexes
+28.03.22 08:18:06.778 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'AuthTokenCleaner', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@590765c4'
+28.03.22 08:18:06.931 INFO  - jobs.Scheduler - Scheduled authentication token cleaner, next sweep at Mon Mar 28 09:00:00 UTC 2022
+28.03.22 08:18:06.934 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'WorkflowReminder', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@422ad5e2'
+28.03.22 08:18:06.936 INFO  - jobs.Scheduler - Scheduled workflow reminder, next check at Tue Mar 29 06:00:00 UTC 2022
+28.03.22 08:18:06.952 INFO  - play.api.Play - Application started (Prod)
+28.03.22 08:18:07.373 INFO  - play.core.server.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+28.03.22 08:18:14.912 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1901752553?
+28.03.22 08:18:47.591 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#727771896?
+28.03.22 08:18:47.591 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1097899941?
+28.03.22 08:18:47.591 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#2072481563?
+28.03.22 08:18:47.591 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1327126468?
+28.03.22 08:18:47.591 WARN  - reactivemongo.api.MongoConnection - [Supervisor-1/catis] Timeout after 8200 milliseconds while probing the connection monitor: IsPrimaryAvailable#1783019545?
+28.03.22 08:18:47.610 ERROR - application - 
+
+! @7n66l3dn6 - Internal server error, for (GET) [/catis] ->
+ 
+play.api.UnexpectedException: Unexpected exception[PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']]
+	at play.api.http.HttpErrorHandlerExceptions$.throwableToUsefulException(HttpErrorHandler.scala:277)
+	at play.api.http.DefaultHttpErrorHandler.onServerError(HttpErrorHandler.scala:204)
+	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:434)
+	at play.core.server.AkkaHttpServer$$anonfun$1.applyOrElse(AkkaHttpServer.scala:432)
+	at scala.concurrent.Future.$anonfun$recoverWith$1(Future.scala:417)
+	at scala.concurrent.impl.Promise.$anonfun$transformWith$1(Promise.scala:41)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at akka.dispatch.BatchingExecutor$AbstractBatch.processBatch(BatchingExecutor.scala:55)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.$anonfun$run$1(BatchingExecutor.scala:92)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)
+	at scala.concurrent.BlockContext$.withBlockContext(BlockContext.scala:85)
+	at akka.dispatch.BatchingExecutor$BlockableBatch.run(BatchingExecutor.scala:92)
+	at akka.dispatch.TaskInvocation.run(AbstractDispatcher.scala:41)
+	at akka.dispatch.ForkJoinExecutorConfigurator$AkkaForkJoinTask.exec(ForkJoinExecutorConfigurator.scala:49)
+	at akka.dispatch.forkjoin.ForkJoinTask.doExec(ForkJoinTask.java:260)
+	at akka.dispatch.forkjoin.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1339)
+	at akka.dispatch.forkjoin.ForkJoinPool.runWorker(ForkJoinPool.java:1979)
+	at akka.dispatch.forkjoin.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:107)
+Caused by: reactivemongo.core.actors.Exceptions$PrimaryUnavailableException: MongoError['No primary node is available! (Supervisor-1/catis)']
+	at play.modules.reactivemongo.DefaultReactiveMongoApi.database(DefaultReactiveMongoApi.scala:49)
+	at reactivemongo.api.MongoConnection.database(MongoConnection.scala:108)
+Caused by: reactivemongo.core.actors.Exceptions$InternalState: 
+	at reactivemongo.ChannelDisconnected(e46f04c4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016743633755>)
+	at reactivemongo.ChannelDisconnected(7e68e56d, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016743378150>)
+	at reactivemongo.ChannelDisconnected(1c7a3d71, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016743076122>)
+	at reactivemongo.ChannelDisconnected(27ecff08, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016742822362>)
+	at reactivemongo.ChannelDisconnected(08aa0d2c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016742553024>)
+	at reactivemongo.ChannelDisconnected(d8ccb6ac, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016742275766>)
+	at reactivemongo.ChannelDisconnected(ee707f81, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016741941745>)
+	at reactivemongo.ChannelDisconnected(8ae3b5e4, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016741656518>)
+	at reactivemongo.ChannelReconnecting(5e4efa63, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016741405817>)
+	at reactivemongo.ChannelReconnecting(cdeaa8e1, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016740901176>)
+	at reactivemongo.ChannelReconnecting(2ad00c45, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016740475765>)
+	at reactivemongo.ChannelDisconnected(fca1aad5, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016732755819>)
+	at reactivemongo.ChannelReconnecting(ebfc9391, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016732403912>)
+	at reactivemongo.ChannelReconnecting(0adf8b59, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016731475681>)
+	at reactivemongo.ChannelReconnecting(d2aa3487, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016730764056>)
+	at reactivemongo.ChannelReconnecting(7c861047, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016730019296>)
+	at reactivemongo.ChannelReconnecting(47294379, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016724998494>)
+	at reactivemongo.ChannelDisconnected(093e104c, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016722157900>)
+	at reactivemongo.ChannelDisconnected(ffdc646a, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016721298289>)
+	at reactivemongo.ChannelReconnecting(83b19d50, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016719020566>)
+	at reactivemongo.ChannelReconnecting(2fdbf965, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016715672167>)
+	at reactivemongo.ChannelReconnecting(425a1303, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016713947631>)
+	at reactivemongo.ConnectAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016573812886>)
+	at reactivemongo.RefreshAll({{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559016562639260>)
+	at reactivemongo.ChannelDisconnected(2ad00c45, {{NodeSet None Node[localhost:27017: Unknown (0/0/10 available connections), latency=9223372036854775807ns, authenticated={}] }})(<time:1559006702788358>)
+28.03.22 08:21:27.755 INFO  - play.core.server.AkkaHttpServer - Stopping server...
+28.03.22 08:21:27.762 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi stopping...
+28.03.22 08:21:31.602 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi connections are stopped
+28.03.22 08:25:07.456 INFO  - modules.StartupTasks - Checking indexes
+28.03.22 08:25:07.667 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'AuthTokenCleaner', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@13ed066e'
+28.03.22 08:25:07.815 INFO  - jobs.Scheduler - Scheduled authentication token cleaner, next sweep at Mon Mar 28 09:00:00 UTC 2022
+28.03.22 08:25:07.816 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'WorkflowReminder', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@53aa38be'
+28.03.22 08:25:07.818 INFO  - jobs.Scheduler - Scheduled workflow reminder, next check at Tue Mar 29 06:00:00 UTC 2022
+28.03.22 08:25:07.828 INFO  - play.api.Play - Application started (Prod)
+28.03.22 08:25:08.338 INFO  - modules.StartupTasks - Checked institutions _references.institution.id index, result is Success(true)
+28.03.22 08:25:08.358 INFO  - modules.StartupTasks - Checked institutions text index, result is Success(true)
+28.03.22 08:25:08.379 INFO  - modules.StartupTasks - Checked institutions _name index, result is Success(true)
+28.03.22 08:25:08.444 INFO  - modules.StartupTasks - Checked infosystems _name index, result is Success(true)
+28.03.22 08:25:08.469 INFO  - modules.StartupTasks - Checked infosystems _references.parentinfosystem.id index, result is Success(true)
+28.03.22 08:25:08.483 INFO  - play.core.server.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+28.03.22 08:25:08.488 INFO  - modules.StartupTasks - Checked infosystems _references.institution.id index, result is Success(true)
+28.03.22 08:25:08.513 INFO  - modules.StartupTasks - Checked infosystems _references.standardsolution.id index, result is Success(true)
+28.03.22 08:25:08.582 INFO  - modules.StartupTasks - Checked infoservices _name index, result is Success(true)
+28.03.22 08:25:08.647 INFO  - modules.StartupTasks - Checked publicservices _name index, result is Success(true)
+28.03.22 08:25:08.669 INFO  - modules.StartupTasks - Checked infoservices _references.parentinfosystem.id index, result is Success(true)
+28.03.22 08:25:08.696 INFO  - modules.StartupTasks - Checked infoservices _references.institution.id index, result is Success(true)
+28.03.22 08:25:08.759 INFO  - modules.StartupTasks - Checked publicservices _references.institution.id index, result is Success(true)
+28.03.22 08:25:08.830 INFO  - modules.StartupTasks - Checked infoassets _references.institution.id index, result is Success(true)
+28.03.22 08:25:08.893 INFO  - modules.StartupTasks - Checked registrations _name index, result is Success(true)
+28.03.22 08:25:08.965 INFO  - modules.StartupTasks - Checked user certDN index, result is Success(true)
+28.03.22 08:25:09.031 INFO  - modules.StartupTasks - Checked forms byname index, result is Success(true)
+28.03.22 08:25:09.108 INFO  - modules.StartupTasks - Checked design.views byname index, result is Success(true)
+28.03.22 08:25:09.132 INFO  - modules.StartupTasks - Checked registrations _references.institution.id index, result is Success(true)
+28.03.22 08:25:09.154 INFO  - modules.StartupTasks - Checked infoassets _name index, result is Success(true)
+28.03.22 08:25:09.181 INFO  - modules.StartupTasks - Checked user fullName index, result is Success(true)
+28.03.22 08:25:09.205 INFO  - modules.StartupTasks - Checked user email index, result is Success(true)
+28.03.22 08:25:09.230 INFO  - modules.StartupTasks - Checked infoassets text index, result is Success(true)
+28.03.22 08:25:09.253 INFO  - modules.StartupTasks - Checked registrations text index, result is Success(true)
+28.03.22 08:25:09.327 INFO  - modules.StartupTasks - Checked roles responsible.id index, result is Success(true)
+28.03.22 08:25:09.354 INFO  - modules.StartupTasks - Checked user text index, result is Success(true)
+28.03.22 08:25:09.426 INFO  - modules.StartupTasks - Checked GridFS metadata.document_id index, result is Success(true)
+28.03.22 08:25:09.452 INFO  - modules.StartupTasks - Checked roles name index, result is Success(true)
+28.03.22 08:25:09.523 INFO  - modules.StartupTasks - Checked workflow.processes by name index, result is Success(true)
+28.03.22 08:25:09.548 INFO  - modules.StartupTasks - Checked workflow.processes nextStepDue index, result is Success(true)
+28.03.22 08:25:09.571 INFO  - modules.StartupTasks - Checked workflow.processes target.id index, result is Success(true)
+28.03.22 08:25:09.646 INFO  - modules.StartupTasks - Checked accesslog by target name index, result is Success(true)
+28.03.22 08:25:09.676 INFO  - modules.StartupTasks - Checked accesslog text index, result is Success(true)
+28.03.22 08:25:09.696 INFO  - modules.StartupTasks - Checked roles text index, result is Success(true)
+28.03.22 08:25:09.722 INFO  - modules.StartupTasks - Checked workflow.processes text index, result is Success(true)
+28.03.22 08:25:09.745 INFO  - modules.StartupTasks - Checked infoservices text index, result is Success(true)
+28.03.22 08:25:09.770 INFO  - modules.StartupTasks - Checked publicservices text index, result is Success(true)
+28.03.22 08:25:09.798 INFO  - modules.StartupTasks - Checked infosystems text index, result is Success(true)
+28.03.22 08:25:09.819 INFO  - modules.StartupTasks - Checked accesslog by time TTL index, result is Success(true)
+28.03.22 08:25:09.879 INFO  - modules.StartupTasks - Checked GridFS index, result is Success(true)
+28.03.22 09:00:00.212 INFO  - jobs.AuthTokenCleaner - Cleaned 0 auth tokens(s) in 0.0 seconds
+28.03.22 09:10:55.655 ERROR - controllers.PublicServicesController - PublicService form is not defined!
+28.03.22 10:00:00.015 INFO  - jobs.AuthTokenCleaner - Cleaned 0 auth tokens(s) in 0.0 seconds
+28.03.22 10:18:59.201 ERROR - controllers.InstitutionsController - Institution form is not defined!
+28.03.22 10:19:02.181 ERROR - controllers.PublicServicesController - PublicService form is not defined!
+28.03.22 10:19:04.349 ERROR - controllers.InfoAssetsController - Asset form is not defined!
+28.03.22 10:19:05.153 ERROR - controllers.InfoServicesController - Service form is not defined!
+28.03.22 10:19:08.708 ERROR - controllers.PublicServicesController - PublicService form is not defined!
+28.03.22 10:33:26.557 INFO  - play.core.server.AkkaHttpServer - Stopping server...
+28.03.22 10:33:26.565 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi stopping...
+28.03.22 10:33:26.595 INFO  - play.modules.reactivemongo.DefaultReactiveMongoApi - ReactiveMongoApi connections are stopped
+28.03.22 10:33:30.798 INFO  - modules.StartupTasks - Checking indexes
+28.03.22 10:33:30.968 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'AuthTokenCleaner', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@626d2016'
+28.03.22 10:33:30.988 INFO  - jobs.Scheduler - Scheduled authentication token cleaner, next sweep at Mon Mar 28 11:00:00 UTC 2022
+28.03.22 10:33:30.988 INFO  - com.typesafe.akka.extension.quartz.QuartzSchedulerExtension - Setting up scheduled job 'WorkflowReminder', with 'com.typesafe.akka.extension.quartz.QuartzCronSchedule@6048e26a'
+28.03.22 10:33:30.990 INFO  - jobs.Scheduler - Scheduled workflow reminder, next check at Tue Mar 29 06:00:00 UTC 2022
+28.03.22 10:33:30.999 INFO  - play.api.Play - Application started (Prod)
+28.03.22 10:33:31.678 INFO  - modules.StartupTasks - Checked institutions _name index, result is Success(false)
+28.03.22 10:33:31.683 INFO  - modules.StartupTasks - Checked infosystems _name index, result is Success(false)
+28.03.22 10:33:31.688 INFO  - modules.StartupTasks - Checked infosystems _references.parentinfosystem.id index, result is Success(false)
+28.03.22 10:33:31.689 INFO  - modules.StartupTasks - Checked infosystems _references.institution.id index, result is Success(false)
+28.03.22 10:33:31.695 INFO  - modules.StartupTasks - Checked infoservices _name index, result is Success(false)
+28.03.22 10:33:31.696 INFO  - modules.StartupTasks - Checked infosystems _references.standardsolution.id index, result is Success(false)
+28.03.22 10:33:31.702 INFO  - modules.StartupTasks - Checked infoservices _references.institution.id index, result is Success(false)
+28.03.22 10:33:31.706 INFO  - modules.StartupTasks - Checked publicservices _name index, result is Success(false)
+28.03.22 10:33:31.706 INFO  - modules.StartupTasks - Checked institutions _references.institution.id index, result is Success(false)
+28.03.22 10:33:31.708 INFO  - modules.StartupTasks - Checked infoassets _references.institution.id index, result is Success(false)
+28.03.22 10:33:31.711 INFO  - modules.StartupTasks - Checked forms byname index, result is Success(false)
+28.03.22 10:33:31.712 INFO  - modules.StartupTasks - Checked registrations _name index, result is Success(false)
+28.03.22 10:33:31.716 INFO  - modules.StartupTasks - Checked publicservices _references.institution.id index, result is Success(false)
+28.03.22 10:33:31.717 INFO  - modules.StartupTasks - Checked registrations _references.institution.id index, result is Success(false)
+28.03.22 10:33:31.717 INFO  - modules.StartupTasks - Checked design.views byname index, result is Success(false)
+28.03.22 10:33:31.719 INFO  - modules.StartupTasks - Checked infoassets _name index, result is Success(false)
+28.03.22 10:33:31.724 INFO  - modules.StartupTasks - Checked infoservices _references.parentinfosystem.id index, result is Success(false)
+28.03.22 10:33:31.726 INFO  - modules.StartupTasks - Checked user certDN index, result is Success(false)
+28.03.22 10:33:31.727 INFO  - modules.StartupTasks - Checked user email index, result is Success(false)
+28.03.22 10:33:31.731 INFO  - modules.StartupTasks - Checked GridFS metadata.document_id index, result is Success(false)
+28.03.22 10:33:31.732 INFO  - modules.StartupTasks - Checked workflow.processes by name index, result is Success(false)
+28.03.22 10:33:31.732 INFO  - modules.StartupTasks - Checked workflow.processes nextStepDue index, result is Success(false)
+28.03.22 10:33:31.734 INFO  - modules.StartupTasks - Checked accesslog by target name index, result is Success(false)
+28.03.22 10:33:31.728 INFO  - modules.StartupTasks - Checked user fullName index, result is Success(false)
+28.03.22 10:33:31.728 INFO  - modules.StartupTasks - Checked roles responsible.id index, result is Success(false)
+28.03.22 10:33:31.734 INFO  - modules.StartupTasks - Checked roles name index, result is Success(false)
+28.03.22 10:33:31.732 INFO  - modules.StartupTasks - Checked roles text index, result is Success(false)
+28.03.22 10:33:31.735 INFO  - modules.StartupTasks - Checked workflow.processes target.id index, result is Success(false)
+28.03.22 10:33:31.737 INFO  - modules.StartupTasks - Checked accesslog text index, result is Success(false)
+28.03.22 10:33:31.740 INFO  - modules.StartupTasks - Checked institutions text index, result is Success(false)
+28.03.22 10:33:31.742 INFO  - modules.StartupTasks - Access log expiration is 604800 seconds
+28.03.22 10:33:31.742 INFO  - modules.StartupTasks - Checked accesslog by time TTL index, result is Success(false)
+28.03.22 10:33:31.745 INFO  - modules.StartupTasks - Checked infosystems text index, result is Success(false)
+28.03.22 10:33:31.747 INFO  - modules.StartupTasks - Checked infoservices text index, result is Success(false)
+28.03.22 10:33:31.750 INFO  - modules.StartupTasks - Checked infoassets text index, result is Success(false)
+28.03.22 10:33:31.751 INFO  - modules.StartupTasks - Checked publicservices text index, result is Success(false)
+28.03.22 10:33:31.756 INFO  - modules.StartupTasks - Checked registrations text index, result is Success(false)
+28.03.22 10:33:31.768 INFO  - modules.StartupTasks - Checked user text index, result is Success(false)
+28.03.22 10:33:31.769 INFO  - modules.StartupTasks - Checked workflow.processes text index, result is Success(false)
+28.03.22 10:33:31.798 INFO  - modules.StartupTasks - Checked GridFS index, result is Success(false)
+28.03.22 10:33:31.872 INFO  - play.core.server.AkkaHttpServer - Listening for HTTP on /0:0:0:0:0:0:0:0:9000
